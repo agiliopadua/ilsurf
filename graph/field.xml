@@ -1,0 +1,3426 @@
+<ForceField>
+ <!--created by fftool; mix = l-->
+ <AtomTypes>
+  <Type name="CG" class="CA" element="C" mass="12.0110" />
+ </AtomTypes>
+ <Residues>
+  <Residue name="graph">
+   <Atom name="C1" type="CG" charge="0.0" />
+   <Atom name="C2" type="CG" charge="0.0" />
+   <Atom name="C3" type="CG" charge="0.0" />
+   <Atom name="C4" type="CG" charge="0.0" />
+   <Atom name="C5" type="CG" charge="0.0" />
+   <Atom name="C6" type="CG" charge="0.0" />
+   <Atom name="C7" type="CG" charge="0.0" />
+   <Atom name="C8" type="CG" charge="0.0" />
+   <Atom name="C9" type="CG" charge="0.0" />
+   <Atom name="CA" type="CG" charge="0.0" />
+   <Atom name="CB" type="CG" charge="0.0" />
+   <Atom name="CC" type="CG" charge="0.0" />
+   <Atom name="CD" type="CG" charge="0.0" />
+   <Atom name="CE" type="CG" charge="0.0" />
+   <Atom name="CF" type="CG" charge="0.0" />
+   <Atom name="CG" type="CG" charge="0.0" />
+   <Atom name="CH" type="CG" charge="0.0" />
+   <Atom name="CI" type="CG" charge="0.0" />
+   <Atom name="CJ" type="CG" charge="0.0" />
+   <Atom name="CK" type="CG" charge="0.0" />
+   <Atom name="CL" type="CG" charge="0.0" />
+   <Atom name="CM" type="CG" charge="0.0" />
+   <Atom name="CN" type="CG" charge="0.0" />
+   <Atom name="CO" type="CG" charge="0.0" />
+   <Atom name="CP" type="CG" charge="0.0" />
+   <Atom name="CQ" type="CG" charge="0.0" />
+   <Atom name="CR" type="CG" charge="0.0" />
+   <Atom name="CS" type="CG" charge="0.0" />
+   <Atom name="CT" type="CG" charge="0.0" />
+   <Atom name="CU" type="CG" charge="0.0" />
+   <Atom name="CV" type="CG" charge="0.0" />
+   <Atom name="C10" type="CG" charge="0.0" />
+   <Atom name="C11" type="CG" charge="0.0" />
+   <Atom name="C12" type="CG" charge="0.0" />
+   <Atom name="C13" type="CG" charge="0.0" />
+   <Atom name="C14" type="CG" charge="0.0" />
+   <Atom name="C15" type="CG" charge="0.0" />
+   <Atom name="C16" type="CG" charge="0.0" />
+   <Atom name="C17" type="CG" charge="0.0" />
+   <Atom name="C18" type="CG" charge="0.0" />
+   <Atom name="C19" type="CG" charge="0.0" />
+   <Atom name="C1A" type="CG" charge="0.0" />
+   <Atom name="C1B" type="CG" charge="0.0" />
+   <Atom name="C1C" type="CG" charge="0.0" />
+   <Atom name="C1D" type="CG" charge="0.0" />
+   <Atom name="C1E" type="CG" charge="0.0" />
+   <Atom name="C1F" type="CG" charge="0.0" />
+   <Atom name="C1G" type="CG" charge="0.0" />
+   <Atom name="C1H" type="CG" charge="0.0" />
+   <Atom name="C1I" type="CG" charge="0.0" />
+   <Atom name="C1J" type="CG" charge="0.0" />
+   <Atom name="C1K" type="CG" charge="0.0" />
+   <Atom name="C1L" type="CG" charge="0.0" />
+   <Atom name="C1M" type="CG" charge="0.0" />
+   <Atom name="C1N" type="CG" charge="0.0" />
+   <Atom name="C1O" type="CG" charge="0.0" />
+   <Atom name="C1P" type="CG" charge="0.0" />
+   <Atom name="C1Q" type="CG" charge="0.0" />
+   <Atom name="C1R" type="CG" charge="0.0" />
+   <Atom name="C1S" type="CG" charge="0.0" />
+   <Atom name="C1T" type="CG" charge="0.0" />
+   <Atom name="C1U" type="CG" charge="0.0" />
+   <Atom name="C1V" type="CG" charge="0.0" />
+   <Atom name="C20" type="CG" charge="0.0" />
+   <Atom name="C21" type="CG" charge="0.0" />
+   <Atom name="C22" type="CG" charge="0.0" />
+   <Atom name="C23" type="CG" charge="0.0" />
+   <Atom name="C24" type="CG" charge="0.0" />
+   <Atom name="C25" type="CG" charge="0.0" />
+   <Atom name="C26" type="CG" charge="0.0" />
+   <Atom name="C27" type="CG" charge="0.0" />
+   <Atom name="C28" type="CG" charge="0.0" />
+   <Atom name="C29" type="CG" charge="0.0" />
+   <Atom name="C2A" type="CG" charge="0.0" />
+   <Atom name="C2B" type="CG" charge="0.0" />
+   <Atom name="C2C" type="CG" charge="0.0" />
+   <Atom name="C2D" type="CG" charge="0.0" />
+   <Atom name="C2E" type="CG" charge="0.0" />
+   <Atom name="C2F" type="CG" charge="0.0" />
+   <Atom name="C2G" type="CG" charge="0.0" />
+   <Atom name="C2H" type="CG" charge="0.0" />
+   <Atom name="C2I" type="CG" charge="0.0" />
+   <Atom name="C2J" type="CG" charge="0.0" />
+   <Atom name="C2K" type="CG" charge="0.0" />
+   <Atom name="C2L" type="CG" charge="0.0" />
+   <Atom name="C2M" type="CG" charge="0.0" />
+   <Atom name="C2N" type="CG" charge="0.0" />
+   <Atom name="C2O" type="CG" charge="0.0" />
+   <Atom name="C2P" type="CG" charge="0.0" />
+   <Atom name="C2Q" type="CG" charge="0.0" />
+   <Atom name="C2R" type="CG" charge="0.0" />
+   <Atom name="C2S" type="CG" charge="0.0" />
+   <Atom name="C2T" type="CG" charge="0.0" />
+   <Atom name="C2U" type="CG" charge="0.0" />
+   <Atom name="C2V" type="CG" charge="0.0" />
+   <Atom name="C30" type="CG" charge="0.0" />
+   <Atom name="C31" type="CG" charge="0.0" />
+   <Atom name="C32" type="CG" charge="0.0" />
+   <Atom name="C33" type="CG" charge="0.0" />
+   <Atom name="C34" type="CG" charge="0.0" />
+   <Atom name="C35" type="CG" charge="0.0" />
+   <Atom name="C36" type="CG" charge="0.0" />
+   <Atom name="C37" type="CG" charge="0.0" />
+   <Atom name="C38" type="CG" charge="0.0" />
+   <Atom name="C39" type="CG" charge="0.0" />
+   <Atom name="C3A" type="CG" charge="0.0" />
+   <Atom name="C3B" type="CG" charge="0.0" />
+   <Atom name="C3C" type="CG" charge="0.0" />
+   <Atom name="C3D" type="CG" charge="0.0" />
+   <Atom name="C3E" type="CG" charge="0.0" />
+   <Atom name="C3F" type="CG" charge="0.0" />
+   <Atom name="C3G" type="CG" charge="0.0" />
+   <Atom name="C3H" type="CG" charge="0.0" />
+   <Atom name="C3I" type="CG" charge="0.0" />
+   <Atom name="C3J" type="CG" charge="0.0" />
+   <Atom name="C3K" type="CG" charge="0.0" />
+   <Atom name="C3L" type="CG" charge="0.0" />
+   <Atom name="C3M" type="CG" charge="0.0" />
+   <Atom name="C3N" type="CG" charge="0.0" />
+   <Atom name="C3O" type="CG" charge="0.0" />
+   <Atom name="C3P" type="CG" charge="0.0" />
+   <Atom name="C3Q" type="CG" charge="0.0" />
+   <Atom name="C3R" type="CG" charge="0.0" />
+   <Atom name="C3S" type="CG" charge="0.0" />
+   <Atom name="C3T" type="CG" charge="0.0" />
+   <Atom name="C3U" type="CG" charge="0.0" />
+   <Atom name="C3V" type="CG" charge="0.0" />
+   <Atom name="C40" type="CG" charge="0.0" />
+   <Atom name="C41" type="CG" charge="0.0" />
+   <Atom name="C42" type="CG" charge="0.0" />
+   <Atom name="C43" type="CG" charge="0.0" />
+   <Atom name="C44" type="CG" charge="0.0" />
+   <Atom name="C45" type="CG" charge="0.0" />
+   <Atom name="C46" type="CG" charge="0.0" />
+   <Atom name="C47" type="CG" charge="0.0" />
+   <Atom name="C48" type="CG" charge="0.0" />
+   <Atom name="C49" type="CG" charge="0.0" />
+   <Atom name="C4A" type="CG" charge="0.0" />
+   <Atom name="C4B" type="CG" charge="0.0" />
+   <Atom name="C4C" type="CG" charge="0.0" />
+   <Atom name="C4D" type="CG" charge="0.0" />
+   <Atom name="C4E" type="CG" charge="0.0" />
+   <Atom name="C4F" type="CG" charge="0.0" />
+   <Atom name="C4G" type="CG" charge="0.0" />
+   <Atom name="C4H" type="CG" charge="0.0" />
+   <Atom name="C4I" type="CG" charge="0.0" />
+   <Atom name="C4J" type="CG" charge="0.0" />
+   <Atom name="C4K" type="CG" charge="0.0" />
+   <Atom name="C4L" type="CG" charge="0.0" />
+   <Atom name="C4M" type="CG" charge="0.0" />
+   <Atom name="C4N" type="CG" charge="0.0" />
+   <Atom name="C4O" type="CG" charge="0.0" />
+   <Atom name="C4P" type="CG" charge="0.0" />
+   <Atom name="C4Q" type="CG" charge="0.0" />
+   <Atom name="C4R" type="CG" charge="0.0" />
+   <Atom name="C4S" type="CG" charge="0.0" />
+   <Atom name="C4T" type="CG" charge="0.0" />
+   <Atom name="C4U" type="CG" charge="0.0" />
+   <Atom name="C4V" type="CG" charge="0.0" />
+   <Atom name="C50" type="CG" charge="0.0" />
+   <Atom name="C51" type="CG" charge="0.0" />
+   <Atom name="C52" type="CG" charge="0.0" />
+   <Atom name="C53" type="CG" charge="0.0" />
+   <Atom name="C54" type="CG" charge="0.0" />
+   <Atom name="C55" type="CG" charge="0.0" />
+   <Atom name="C56" type="CG" charge="0.0" />
+   <Atom name="C57" type="CG" charge="0.0" />
+   <Atom name="C58" type="CG" charge="0.0" />
+   <Atom name="C59" type="CG" charge="0.0" />
+   <Atom name="C5A" type="CG" charge="0.0" />
+   <Atom name="C5B" type="CG" charge="0.0" />
+   <Atom name="C5C" type="CG" charge="0.0" />
+   <Atom name="C5D" type="CG" charge="0.0" />
+   <Atom name="C5E" type="CG" charge="0.0" />
+   <Atom name="C5F" type="CG" charge="0.0" />
+   <Atom name="C5G" type="CG" charge="0.0" />
+   <Atom name="C5H" type="CG" charge="0.0" />
+   <Atom name="C5I" type="CG" charge="0.0" />
+   <Atom name="C5J" type="CG" charge="0.0" />
+   <Atom name="C5K" type="CG" charge="0.0" />
+   <Atom name="C5L" type="CG" charge="0.0" />
+   <Atom name="C5M" type="CG" charge="0.0" />
+   <Atom name="C5N" type="CG" charge="0.0" />
+   <Atom name="C5O" type="CG" charge="0.0" />
+   <Atom name="C5P" type="CG" charge="0.0" />
+   <Atom name="C5Q" type="CG" charge="0.0" />
+   <Atom name="C5R" type="CG" charge="0.0" />
+   <Atom name="C5S" type="CG" charge="0.0" />
+   <Atom name="C5T" type="CG" charge="0.0" />
+   <Atom name="C5U" type="CG" charge="0.0" />
+   <Atom name="C5V" type="CG" charge="0.0" />
+   <Atom name="C60" type="CG" charge="0.0" />
+   <Atom name="C61" type="CG" charge="0.0" />
+   <Atom name="C62" type="CG" charge="0.0" />
+   <Atom name="C63" type="CG" charge="0.0" />
+   <Atom name="C64" type="CG" charge="0.0" />
+   <Atom name="C65" type="CG" charge="0.0" />
+   <Atom name="C66" type="CG" charge="0.0" />
+   <Atom name="C67" type="CG" charge="0.0" />
+   <Atom name="C68" type="CG" charge="0.0" />
+   <Atom name="C69" type="CG" charge="0.0" />
+   <Atom name="C6A" type="CG" charge="0.0" />
+   <Atom name="C6B" type="CG" charge="0.0" />
+   <Atom name="C6C" type="CG" charge="0.0" />
+   <Atom name="C6D" type="CG" charge="0.0" />
+   <Atom name="C6E" type="CG" charge="0.0" />
+   <Atom name="C6F" type="CG" charge="0.0" />
+   <Atom name="C6G" type="CG" charge="0.0" />
+   <Atom name="C6H" type="CG" charge="0.0" />
+   <Atom name="C6I" type="CG" charge="0.0" />
+   <Atom name="C6J" type="CG" charge="0.0" />
+   <Atom name="C6K" type="CG" charge="0.0" />
+   <Atom name="C6L" type="CG" charge="0.0" />
+   <Atom name="C6M" type="CG" charge="0.0" />
+   <Atom name="C6N" type="CG" charge="0.0" />
+   <Atom name="C6O" type="CG" charge="0.0" />
+   <Atom name="C6P" type="CG" charge="0.0" />
+   <Atom name="C6Q" type="CG" charge="0.0" />
+   <Atom name="C6R" type="CG" charge="0.0" />
+   <Atom name="C6S" type="CG" charge="0.0" />
+   <Atom name="C6T" type="CG" charge="0.0" />
+   <Atom name="C6U" type="CG" charge="0.0" />
+   <Atom name="C6V" type="CG" charge="0.0" />
+   <Atom name="C70" type="CG" charge="0.0" />
+   <Atom name="C71" type="CG" charge="0.0" />
+   <Atom name="C72" type="CG" charge="0.0" />
+   <Atom name="C73" type="CG" charge="0.0" />
+   <Atom name="C74" type="CG" charge="0.0" />
+   <Atom name="C75" type="CG" charge="0.0" />
+   <Atom name="C76" type="CG" charge="0.0" />
+   <Atom name="C77" type="CG" charge="0.0" />
+   <Atom name="C78" type="CG" charge="0.0" />
+   <Atom name="C79" type="CG" charge="0.0" />
+   <Atom name="C7A" type="CG" charge="0.0" />
+   <Atom name="C7B" type="CG" charge="0.0" />
+   <Atom name="C7C" type="CG" charge="0.0" />
+   <Atom name="C7D" type="CG" charge="0.0" />
+   <Atom name="C7E" type="CG" charge="0.0" />
+   <Atom name="C7F" type="CG" charge="0.0" />
+   <Atom name="C7G" type="CG" charge="0.0" />
+   <Atom name="C7H" type="CG" charge="0.0" />
+   <Atom name="C7I" type="CG" charge="0.0" />
+   <Atom name="C7J" type="CG" charge="0.0" />
+   <Atom name="C7K" type="CG" charge="0.0" />
+   <Atom name="C7L" type="CG" charge="0.0" />
+   <Atom name="C7M" type="CG" charge="0.0" />
+   <Atom name="C7N" type="CG" charge="0.0" />
+   <Atom name="C7O" type="CG" charge="0.0" />
+   <Atom name="C7P" type="CG" charge="0.0" />
+   <Atom name="C7Q" type="CG" charge="0.0" />
+   <Atom name="C7R" type="CG" charge="0.0" />
+   <Atom name="C7S" type="CG" charge="0.0" />
+   <Atom name="C7T" type="CG" charge="0.0" />
+   <Atom name="C7U" type="CG" charge="0.0" />
+   <Atom name="C7V" type="CG" charge="0.0" />
+   <Atom name="C80" type="CG" charge="0.0" />
+   <Atom name="C81" type="CG" charge="0.0" />
+   <Atom name="C82" type="CG" charge="0.0" />
+   <Atom name="C83" type="CG" charge="0.0" />
+   <Atom name="C84" type="CG" charge="0.0" />
+   <Atom name="C85" type="CG" charge="0.0" />
+   <Atom name="C86" type="CG" charge="0.0" />
+   <Atom name="C87" type="CG" charge="0.0" />
+   <Atom name="C88" type="CG" charge="0.0" />
+   <Atom name="C89" type="CG" charge="0.0" />
+   <Atom name="C8A" type="CG" charge="0.0" />
+   <Atom name="C8B" type="CG" charge="0.0" />
+   <Atom name="C8C" type="CG" charge="0.0" />
+   <Atom name="C8D" type="CG" charge="0.0" />
+   <Atom name="C8E" type="CG" charge="0.0" />
+   <Atom name="C8F" type="CG" charge="0.0" />
+   <Atom name="C8G" type="CG" charge="0.0" />
+   <Atom name="C8H" type="CG" charge="0.0" />
+   <Atom name="C8I" type="CG" charge="0.0" />
+   <Atom name="C8J" type="CG" charge="0.0" />
+   <Atom name="C8K" type="CG" charge="0.0" />
+   <Atom name="C8L" type="CG" charge="0.0" />
+   <Atom name="C8M" type="CG" charge="0.0" />
+   <Atom name="C8N" type="CG" charge="0.0" />
+   <Atom name="C8O" type="CG" charge="0.0" />
+   <Atom name="C8P" type="CG" charge="0.0" />
+   <Atom name="C8Q" type="CG" charge="0.0" />
+   <Atom name="C8R" type="CG" charge="0.0" />
+   <Atom name="C8S" type="CG" charge="0.0" />
+   <Atom name="C8T" type="CG" charge="0.0" />
+   <Atom name="C8U" type="CG" charge="0.0" />
+   <Atom name="C8V" type="CG" charge="0.0" />
+   <Atom name="C90" type="CG" charge="0.0" />
+   <Atom name="C91" type="CG" charge="0.0" />
+   <Atom name="C92" type="CG" charge="0.0" />
+   <Atom name="C93" type="CG" charge="0.0" />
+   <Atom name="C94" type="CG" charge="0.0" />
+   <Atom name="C95" type="CG" charge="0.0" />
+   <Atom name="C96" type="CG" charge="0.0" />
+   <Atom name="C97" type="CG" charge="0.0" />
+   <Atom name="C98" type="CG" charge="0.0" />
+   <Atom name="C99" type="CG" charge="0.0" />
+   <Atom name="C9A" type="CG" charge="0.0" />
+   <Atom name="C9B" type="CG" charge="0.0" />
+   <Atom name="C9C" type="CG" charge="0.0" />
+   <Atom name="C9D" type="CG" charge="0.0" />
+   <Atom name="C9E" type="CG" charge="0.0" />
+   <Atom name="C9F" type="CG" charge="0.0" />
+   <Atom name="C9G" type="CG" charge="0.0" />
+   <Atom name="C9H" type="CG" charge="0.0" />
+   <Atom name="C9I" type="CG" charge="0.0" />
+   <Atom name="C9J" type="CG" charge="0.0" />
+   <Atom name="C9K" type="CG" charge="0.0" />
+   <Atom name="C9L" type="CG" charge="0.0" />
+   <Atom name="C9M" type="CG" charge="0.0" />
+   <Atom name="C9N" type="CG" charge="0.0" />
+   <Atom name="C9O" type="CG" charge="0.0" />
+   <Atom name="C9P" type="CG" charge="0.0" />
+   <Atom name="C9Q" type="CG" charge="0.0" />
+   <Atom name="C9R" type="CG" charge="0.0" />
+   <Atom name="C9S" type="CG" charge="0.0" />
+   <Atom name="C9T" type="CG" charge="0.0" />
+   <Atom name="C9U" type="CG" charge="0.0" />
+   <Atom name="C9V" type="CG" charge="0.0" />
+   <Atom name="CA0" type="CG" charge="0.0" />
+   <Atom name="CA1" type="CG" charge="0.0" />
+   <Atom name="CA2" type="CG" charge="0.0" />
+   <Atom name="CA3" type="CG" charge="0.0" />
+   <Atom name="CA4" type="CG" charge="0.0" />
+   <Atom name="CA5" type="CG" charge="0.0" />
+   <Atom name="CA6" type="CG" charge="0.0" />
+   <Atom name="CA7" type="CG" charge="0.0" />
+   <Atom name="CA8" type="CG" charge="0.0" />
+   <Atom name="CA9" type="CG" charge="0.0" />
+   <Atom name="CAA" type="CG" charge="0.0" />
+   <Atom name="CAB" type="CG" charge="0.0" />
+   <Atom name="CAC" type="CG" charge="0.0" />
+   <Atom name="CAD" type="CG" charge="0.0" />
+   <Atom name="CAE" type="CG" charge="0.0" />
+   <Atom name="CAF" type="CG" charge="0.0" />
+   <Atom name="CAG" type="CG" charge="0.0" />
+   <Atom name="CAH" type="CG" charge="0.0" />
+   <Atom name="CAI" type="CG" charge="0.0" />
+   <Atom name="CAJ" type="CG" charge="0.0" />
+   <Atom name="CAK" type="CG" charge="0.0" />
+   <Atom name="CAL" type="CG" charge="0.0" />
+   <Atom name="CAM" type="CG" charge="0.0" />
+   <Atom name="CAN" type="CG" charge="0.0" />
+   <Atom name="CAO" type="CG" charge="0.0" />
+   <Atom name="CAP" type="CG" charge="0.0" />
+   <Atom name="CAQ" type="CG" charge="0.0" />
+   <Atom name="CAR" type="CG" charge="0.0" />
+   <Atom name="CAS" type="CG" charge="0.0" />
+   <Atom name="CAT" type="CG" charge="0.0" />
+   <Atom name="CAU" type="CG" charge="0.0" />
+   <Atom name="CAV" type="CG" charge="0.0" />
+   <Atom name="CB0" type="CG" charge="0.0" />
+   <Atom name="CB1" type="CG" charge="0.0" />
+   <Atom name="CB2" type="CG" charge="0.0" />
+   <Atom name="CB3" type="CG" charge="0.0" />
+   <Atom name="CB4" type="CG" charge="0.0" />
+   <Atom name="CB5" type="CG" charge="0.0" />
+   <Atom name="CB6" type="CG" charge="0.0" />
+   <Atom name="CB7" type="CG" charge="0.0" />
+   <Atom name="CB8" type="CG" charge="0.0" />
+   <Atom name="CB9" type="CG" charge="0.0" />
+   <Atom name="CBA" type="CG" charge="0.0" />
+   <Atom name="CBB" type="CG" charge="0.0" />
+   <Atom name="CBC" type="CG" charge="0.0" />
+   <Atom name="CBD" type="CG" charge="0.0" />
+   <Atom name="CBE" type="CG" charge="0.0" />
+   <Atom name="CBF" type="CG" charge="0.0" />
+   <Atom name="CBG" type="CG" charge="0.0" />
+   <Atom name="CBH" type="CG" charge="0.0" />
+   <Atom name="CBI" type="CG" charge="0.0" />
+   <Atom name="CBJ" type="CG" charge="0.0" />
+   <Atom name="CBK" type="CG" charge="0.0" />
+   <Atom name="CBL" type="CG" charge="0.0" />
+   <Atom name="CBM" type="CG" charge="0.0" />
+   <Atom name="CBN" type="CG" charge="0.0" />
+   <Atom name="CBO" type="CG" charge="0.0" />
+   <Atom name="CBP" type="CG" charge="0.0" />
+   <Atom name="CBQ" type="CG" charge="0.0" />
+   <Atom name="CBR" type="CG" charge="0.0" />
+   <Atom name="CBS" type="CG" charge="0.0" />
+   <Atom name="CBT" type="CG" charge="0.0" />
+   <Atom name="CBU" type="CG" charge="0.0" />
+   <Atom name="CBV" type="CG" charge="0.0" />
+   <Atom name="CC0" type="CG" charge="0.0" />
+   <Atom name="CC1" type="CG" charge="0.0" />
+   <Atom name="CC2" type="CG" charge="0.0" />
+   <Atom name="CC3" type="CG" charge="0.0" />
+   <Atom name="CC4" type="CG" charge="0.0" />
+   <Atom name="CC5" type="CG" charge="0.0" />
+   <Atom name="CC6" type="CG" charge="0.0" />
+   <Atom name="CC7" type="CG" charge="0.0" />
+   <Atom name="CC8" type="CG" charge="0.0" />
+   <Atom name="CC9" type="CG" charge="0.0" />
+   <Atom name="CCA" type="CG" charge="0.0" />
+   <Atom name="CCB" type="CG" charge="0.0" />
+   <Atom name="CCC" type="CG" charge="0.0" />
+   <Atom name="CCD" type="CG" charge="0.0" />
+   <Atom name="CCE" type="CG" charge="0.0" />
+   <Atom name="CCF" type="CG" charge="0.0" />
+   <Atom name="CCG" type="CG" charge="0.0" />
+   <Atom name="CCH" type="CG" charge="0.0" />
+   <Atom name="CCI" type="CG" charge="0.0" />
+   <Atom name="CCJ" type="CG" charge="0.0" />
+   <Atom name="CCK" type="CG" charge="0.0" />
+   <Atom name="CCL" type="CG" charge="0.0" />
+   <Atom name="CCM" type="CG" charge="0.0" />
+   <Atom name="CCN" type="CG" charge="0.0" />
+   <Atom name="CCO" type="CG" charge="0.0" />
+   <Atom name="CCP" type="CG" charge="0.0" />
+   <Atom name="CCQ" type="CG" charge="0.0" />
+   <Atom name="CCR" type="CG" charge="0.0" />
+   <Atom name="CCS" type="CG" charge="0.0" />
+   <Atom name="CCT" type="CG" charge="0.0" />
+   <Atom name="CCU" type="CG" charge="0.0" />
+   <Atom name="CCV" type="CG" charge="0.0" />
+   <Atom name="CD0" type="CG" charge="0.0" />
+   <Atom name="CD1" type="CG" charge="0.0" />
+   <Atom name="CD2" type="CG" charge="0.0" />
+   <Atom name="CD3" type="CG" charge="0.0" />
+   <Atom name="CD4" type="CG" charge="0.0" />
+   <Atom name="CD5" type="CG" charge="0.0" />
+   <Atom name="CD6" type="CG" charge="0.0" />
+   <Atom name="CD7" type="CG" charge="0.0" />
+   <Atom name="CD8" type="CG" charge="0.0" />
+   <Atom name="CD9" type="CG" charge="0.0" />
+   <Atom name="CDA" type="CG" charge="0.0" />
+   <Atom name="CDB" type="CG" charge="0.0" />
+   <Atom name="CDC" type="CG" charge="0.0" />
+   <Atom name="CDD" type="CG" charge="0.0" />
+   <Atom name="CDE" type="CG" charge="0.0" />
+   <Atom name="CDF" type="CG" charge="0.0" />
+   <Atom name="CDG" type="CG" charge="0.0" />
+   <Atom name="CDH" type="CG" charge="0.0" />
+   <Atom name="CDI" type="CG" charge="0.0" />
+   <Atom name="CDJ" type="CG" charge="0.0" />
+   <Atom name="CDK" type="CG" charge="0.0" />
+   <Atom name="CDL" type="CG" charge="0.0" />
+   <Atom name="CDM" type="CG" charge="0.0" />
+   <Atom name="CDN" type="CG" charge="0.0" />
+   <Atom name="CDO" type="CG" charge="0.0" />
+   <Atom name="CDP" type="CG" charge="0.0" />
+   <Atom name="CDQ" type="CG" charge="0.0" />
+   <Atom name="CDR" type="CG" charge="0.0" />
+   <Atom name="CDS" type="CG" charge="0.0" />
+   <Atom name="CDT" type="CG" charge="0.0" />
+   <Atom name="CDU" type="CG" charge="0.0" />
+   <Atom name="CDV" type="CG" charge="0.0" />
+   <Atom name="CE0" type="CG" charge="0.0" />
+   <Atom name="CE1" type="CG" charge="0.0" />
+   <Atom name="CE2" type="CG" charge="0.0" />
+   <Atom name="CE3" type="CG" charge="0.0" />
+   <Atom name="CE4" type="CG" charge="0.0" />
+   <Atom name="CE5" type="CG" charge="0.0" />
+   <Atom name="CE6" type="CG" charge="0.0" />
+   <Atom name="CE7" type="CG" charge="0.0" />
+   <Atom name="CE8" type="CG" charge="0.0" />
+   <Atom name="CE9" type="CG" charge="0.0" />
+   <Atom name="CEA" type="CG" charge="0.0" />
+   <Atom name="CEB" type="CG" charge="0.0" />
+   <Atom name="CEC" type="CG" charge="0.0" />
+   <Atom name="CED" type="CG" charge="0.0" />
+   <Atom name="CEE" type="CG" charge="0.0" />
+   <Atom name="CEF" type="CG" charge="0.0" />
+   <Atom name="CEG" type="CG" charge="0.0" />
+   <Atom name="CEH" type="CG" charge="0.0" />
+   <Atom name="CEI" type="CG" charge="0.0" />
+   <Atom name="CEJ" type="CG" charge="0.0" />
+   <Atom name="CEK" type="CG" charge="0.0" />
+   <Atom name="CEL" type="CG" charge="0.0" />
+   <Atom name="CEM" type="CG" charge="0.0" />
+   <Atom name="CEN" type="CG" charge="0.0" />
+   <Atom name="CEO" type="CG" charge="0.0" />
+   <Atom name="CEP" type="CG" charge="0.0" />
+   <Atom name="CEQ" type="CG" charge="0.0" />
+   <Atom name="CER" type="CG" charge="0.0" />
+   <Atom name="CES" type="CG" charge="0.0" />
+   <Atom name="CET" type="CG" charge="0.0" />
+   <Atom name="CEU" type="CG" charge="0.0" />
+   <Atom name="CEV" type="CG" charge="0.0" />
+   <Atom name="CF0" type="CG" charge="0.0" />
+   <Atom name="CF1" type="CG" charge="0.0" />
+   <Atom name="CF2" type="CG" charge="0.0" />
+   <Atom name="CF3" type="CG" charge="0.0" />
+   <Atom name="CF4" type="CG" charge="0.0" />
+   <Atom name="CF5" type="CG" charge="0.0" />
+   <Atom name="CF6" type="CG" charge="0.0" />
+   <Atom name="CF7" type="CG" charge="0.0" />
+   <Atom name="CF8" type="CG" charge="0.0" />
+   <Atom name="CF9" type="CG" charge="0.0" />
+   <Atom name="CFA" type="CG" charge="0.0" />
+   <Atom name="CFB" type="CG" charge="0.0" />
+   <Atom name="CFC" type="CG" charge="0.0" />
+   <Atom name="CFD" type="CG" charge="0.0" />
+   <Atom name="CFE" type="CG" charge="0.0" />
+   <Atom name="CFF" type="CG" charge="0.0" />
+   <Atom name="CFG" type="CG" charge="0.0" />
+   <Atom name="CFH" type="CG" charge="0.0" />
+   <Atom name="CFI" type="CG" charge="0.0" />
+   <Atom name="CFJ" type="CG" charge="0.0" />
+   <Atom name="CFK" type="CG" charge="0.0" />
+   <Atom name="CFL" type="CG" charge="0.0" />
+   <Atom name="CFM" type="CG" charge="0.0" />
+   <Atom name="CFN" type="CG" charge="0.0" />
+   <Atom name="CFO" type="CG" charge="0.0" />
+   <Atom name="CFP" type="CG" charge="0.0" />
+   <Atom name="CFQ" type="CG" charge="0.0" />
+   <Atom name="CFR" type="CG" charge="0.0" />
+   <Atom name="CFS" type="CG" charge="0.0" />
+   <Atom name="CFT" type="CG" charge="0.0" />
+   <Atom name="CFU" type="CG" charge="0.0" />
+   <Atom name="CFV" type="CG" charge="0.0" />
+   <Atom name="CG0" type="CG" charge="0.0" />
+   <Atom name="CG1" type="CG" charge="0.0" />
+   <Atom name="CG2" type="CG" charge="0.0" />
+   <Atom name="CG3" type="CG" charge="0.0" />
+   <Atom name="CG4" type="CG" charge="0.0" />
+   <Atom name="CG5" type="CG" charge="0.0" />
+   <Atom name="CG6" type="CG" charge="0.0" />
+   <Atom name="CG7" type="CG" charge="0.0" />
+   <Atom name="CG8" type="CG" charge="0.0" />
+   <Atom name="CG9" type="CG" charge="0.0" />
+   <Atom name="CGA" type="CG" charge="0.0" />
+   <Atom name="CGB" type="CG" charge="0.0" />
+   <Atom name="CGC" type="CG" charge="0.0" />
+   <Atom name="CGD" type="CG" charge="0.0" />
+   <Atom name="CGE" type="CG" charge="0.0" />
+   <Atom name="CGF" type="CG" charge="0.0" />
+   <Atom name="CGG" type="CG" charge="0.0" />
+   <Atom name="CGH" type="CG" charge="0.0" />
+   <Atom name="CGI" type="CG" charge="0.0" />
+   <Atom name="CGJ" type="CG" charge="0.0" />
+   <Atom name="CGK" type="CG" charge="0.0" />
+   <Atom name="CGL" type="CG" charge="0.0" />
+   <Atom name="CGM" type="CG" charge="0.0" />
+   <Atom name="CGN" type="CG" charge="0.0" />
+   <Atom name="CGO" type="CG" charge="0.0" />
+   <Atom name="CGP" type="CG" charge="0.0" />
+   <Atom name="CGQ" type="CG" charge="0.0" />
+   <Atom name="CGR" type="CG" charge="0.0" />
+   <Atom name="CGS" type="CG" charge="0.0" />
+   <Atom name="CGT" type="CG" charge="0.0" />
+   <Atom name="CGU" type="CG" charge="0.0" />
+   <Atom name="CGV" type="CG" charge="0.0" />
+   <Atom name="CH0" type="CG" charge="0.0" />
+   <Atom name="CH1" type="CG" charge="0.0" />
+   <Atom name="CH2" type="CG" charge="0.0" />
+   <Atom name="CH3" type="CG" charge="0.0" />
+   <Atom name="CH4" type="CG" charge="0.0" />
+   <Atom name="CH5" type="CG" charge="0.0" />
+   <Atom name="CH6" type="CG" charge="0.0" />
+   <Atom name="CH7" type="CG" charge="0.0" />
+   <Atom name="CH8" type="CG" charge="0.0" />
+   <Atom name="CH9" type="CG" charge="0.0" />
+   <Atom name="CHA" type="CG" charge="0.0" />
+   <Atom name="CHB" type="CG" charge="0.0" />
+   <Atom name="CHC" type="CG" charge="0.0" />
+   <Atom name="CHD" type="CG" charge="0.0" />
+   <Atom name="CHE" type="CG" charge="0.0" />
+   <Atom name="CHF" type="CG" charge="0.0" />
+   <Atom name="CHG" type="CG" charge="0.0" />
+   <Atom name="CHH" type="CG" charge="0.0" />
+   <Atom name="CHI" type="CG" charge="0.0" />
+   <Atom name="CHJ" type="CG" charge="0.0" />
+   <Atom name="CHK" type="CG" charge="0.0" />
+   <Atom name="CHL" type="CG" charge="0.0" />
+   <Atom name="CHM" type="CG" charge="0.0" />
+   <Atom name="CHN" type="CG" charge="0.0" />
+   <Atom name="CHO" type="CG" charge="0.0" />
+   <Atom name="CHP" type="CG" charge="0.0" />
+   <Atom name="CHQ" type="CG" charge="0.0" />
+   <Atom name="CHR" type="CG" charge="0.0" />
+   <Atom name="CHS" type="CG" charge="0.0" />
+   <Atom name="CHT" type="CG" charge="0.0" />
+   <Atom name="CHU" type="CG" charge="0.0" />
+   <Atom name="CHV" type="CG" charge="0.0" />
+   <Atom name="CI0" type="CG" charge="0.0" />
+   <Atom name="CI1" type="CG" charge="0.0" />
+   <Atom name="CI2" type="CG" charge="0.0" />
+   <Atom name="CI3" type="CG" charge="0.0" />
+   <Atom name="CI4" type="CG" charge="0.0" />
+   <Atom name="CI5" type="CG" charge="0.0" />
+   <Atom name="CI6" type="CG" charge="0.0" />
+   <Atom name="CI7" type="CG" charge="0.0" />
+   <Atom name="CI8" type="CG" charge="0.0" />
+   <Atom name="CI9" type="CG" charge="0.0" />
+   <Atom name="CIA" type="CG" charge="0.0" />
+   <Atom name="CIB" type="CG" charge="0.0" />
+   <Atom name="CIC" type="CG" charge="0.0" />
+   <Atom name="CID" type="CG" charge="0.0" />
+   <Atom name="CIE" type="CG" charge="0.0" />
+   <Atom name="CIF" type="CG" charge="0.0" />
+   <Atom name="CIG" type="CG" charge="0.0" />
+   <Atom name="CIH" type="CG" charge="0.0" />
+   <Atom name="CII" type="CG" charge="0.0" />
+   <Atom name="CIJ" type="CG" charge="0.0" />
+   <Atom name="CIK" type="CG" charge="0.0" />
+   <Atom name="CIL" type="CG" charge="0.0" />
+   <Atom name="CIM" type="CG" charge="0.0" />
+   <Atom name="CIN" type="CG" charge="0.0" />
+   <Atom name="CIO" type="CG" charge="0.0" />
+   <Atom name="CIP" type="CG" charge="0.0" />
+   <Atom name="CIQ" type="CG" charge="0.0" />
+   <Atom name="CIR" type="CG" charge="0.0" />
+   <Atom name="CIS" type="CG" charge="0.0" />
+   <Atom name="CIT" type="CG" charge="0.0" />
+   <Atom name="CIU" type="CG" charge="0.0" />
+   <Atom name="CIV" type="CG" charge="0.0" />
+   <Atom name="CJ0" type="CG" charge="0.0" />
+   <Atom name="CJ1" type="CG" charge="0.0" />
+   <Atom name="CJ2" type="CG" charge="0.0" />
+   <Atom name="CJ3" type="CG" charge="0.0" />
+   <Atom name="CJ4" type="CG" charge="0.0" />
+   <Atom name="CJ5" type="CG" charge="0.0" />
+   <Atom name="CJ6" type="CG" charge="0.0" />
+   <Atom name="CJ7" type="CG" charge="0.0" />
+   <Atom name="CJ8" type="CG" charge="0.0" />
+   <Atom name="CJ9" type="CG" charge="0.0" />
+   <Atom name="CJA" type="CG" charge="0.0" />
+   <Atom name="CJB" type="CG" charge="0.0" />
+   <Atom name="CJC" type="CG" charge="0.0" />
+   <Atom name="CJD" type="CG" charge="0.0" />
+   <Atom name="CJE" type="CG" charge="0.0" />
+   <Atom name="CJF" type="CG" charge="0.0" />
+   <Atom name="CJG" type="CG" charge="0.0" />
+   <Atom name="CJH" type="CG" charge="0.0" />
+   <Atom name="CJI" type="CG" charge="0.0" />
+   <Atom name="CJJ" type="CG" charge="0.0" />
+   <Atom name="CJK" type="CG" charge="0.0" />
+   <Atom name="CJL" type="CG" charge="0.0" />
+   <Atom name="CJM" type="CG" charge="0.0" />
+   <Atom name="CJN" type="CG" charge="0.0" />
+   <Atom name="CJO" type="CG" charge="0.0" />
+   <Atom name="CJP" type="CG" charge="0.0" />
+   <Atom name="CJQ" type="CG" charge="0.0" />
+   <Atom name="CJR" type="CG" charge="0.0" />
+   <Atom name="CJS" type="CG" charge="0.0" />
+   <Atom name="CJT" type="CG" charge="0.0" />
+   <Atom name="CJU" type="CG" charge="0.0" />
+   <Atom name="CJV" type="CG" charge="0.0" />
+   <Atom name="CK0" type="CG" charge="0.0" />
+   <Atom name="CK1" type="CG" charge="0.0" />
+   <Atom name="CK2" type="CG" charge="0.0" />
+   <Atom name="CK3" type="CG" charge="0.0" />
+   <Atom name="CK4" type="CG" charge="0.0" />
+   <Atom name="CK5" type="CG" charge="0.0" />
+   <Atom name="CK6" type="CG" charge="0.0" />
+   <Atom name="CK7" type="CG" charge="0.0" />
+   <Atom name="CK8" type="CG" charge="0.0" />
+   <Atom name="CK9" type="CG" charge="0.0" />
+   <Atom name="CKA" type="CG" charge="0.0" />
+   <Atom name="CKB" type="CG" charge="0.0" />
+   <Atom name="CKC" type="CG" charge="0.0" />
+   <Atom name="CKD" type="CG" charge="0.0" />
+   <Atom name="CKE" type="CG" charge="0.0" />
+   <Atom name="CKF" type="CG" charge="0.0" />
+   <Atom name="CKG" type="CG" charge="0.0" />
+   <Atom name="CKH" type="CG" charge="0.0" />
+   <Atom name="CKI" type="CG" charge="0.0" />
+   <Atom name="CKJ" type="CG" charge="0.0" />
+   <Atom name="CKK" type="CG" charge="0.0" />
+   <Atom name="CKL" type="CG" charge="0.0" />
+   <Atom name="CKM" type="CG" charge="0.0" />
+   <Atom name="CKN" type="CG" charge="0.0" />
+   <Atom name="CKO" type="CG" charge="0.0" />
+   <Atom name="CKP" type="CG" charge="0.0" />
+   <Atom name="CKQ" type="CG" charge="0.0" />
+   <Atom name="CKR" type="CG" charge="0.0" />
+   <Atom name="CKS" type="CG" charge="0.0" />
+   <Atom name="CKT" type="CG" charge="0.0" />
+   <Atom name="CKU" type="CG" charge="0.0" />
+   <Atom name="CKV" type="CG" charge="0.0" />
+   <Atom name="CL0" type="CG" charge="0.0" />
+   <Atom name="CL1" type="CG" charge="0.0" />
+   <Atom name="CL2" type="CG" charge="0.0" />
+   <Atom name="CL3" type="CG" charge="0.0" />
+   <Atom name="CL4" type="CG" charge="0.0" />
+   <Atom name="CL5" type="CG" charge="0.0" />
+   <Atom name="CL6" type="CG" charge="0.0" />
+   <Atom name="CL7" type="CG" charge="0.0" />
+   <Atom name="CL8" type="CG" charge="0.0" />
+   <Atom name="CL9" type="CG" charge="0.0" />
+   <Atom name="CLA" type="CG" charge="0.0" />
+   <Atom name="CLB" type="CG" charge="0.0" />
+   <Atom name="CLC" type="CG" charge="0.0" />
+   <Atom name="CLD" type="CG" charge="0.0" />
+   <Atom name="CLE" type="CG" charge="0.0" />
+   <Atom name="CLF" type="CG" charge="0.0" />
+   <Atom name="CLG" type="CG" charge="0.0" />
+   <Atom name="CLH" type="CG" charge="0.0" />
+   <Atom name="CLI" type="CG" charge="0.0" />
+   <Atom name="CLJ" type="CG" charge="0.0" />
+   <Atom name="CLK" type="CG" charge="0.0" />
+   <Atom name="CLL" type="CG" charge="0.0" />
+   <Atom name="CLM" type="CG" charge="0.0" />
+   <Atom name="CLN" type="CG" charge="0.0" />
+   <Atom name="CLO" type="CG" charge="0.0" />
+   <Atom name="CLP" type="CG" charge="0.0" />
+   <Atom name="CLQ" type="CG" charge="0.0" />
+   <Atom name="CLR" type="CG" charge="0.0" />
+   <Atom name="CLS" type="CG" charge="0.0" />
+   <Atom name="CLT" type="CG" charge="0.0" />
+   <Atom name="CLU" type="CG" charge="0.0" />
+   <Atom name="CLV" type="CG" charge="0.0" />
+   <Atom name="CM0" type="CG" charge="0.0" />
+   <Atom name="CM1" type="CG" charge="0.0" />
+   <Atom name="CM2" type="CG" charge="0.0" />
+   <Atom name="CM3" type="CG" charge="0.0" />
+   <Atom name="CM4" type="CG" charge="0.0" />
+   <Atom name="CM5" type="CG" charge="0.0" />
+   <Atom name="CM6" type="CG" charge="0.0" />
+   <Atom name="CM7" type="CG" charge="0.0" />
+   <Atom name="CM8" type="CG" charge="0.0" />
+   <Atom name="CM9" type="CG" charge="0.0" />
+   <Atom name="CMA" type="CG" charge="0.0" />
+   <Atom name="CMB" type="CG" charge="0.0" />
+   <Atom name="CMC" type="CG" charge="0.0" />
+   <Atom name="CMD" type="CG" charge="0.0" />
+   <Atom name="CME" type="CG" charge="0.0" />
+   <Atom name="CMF" type="CG" charge="0.0" />
+   <Atom name="CMG" type="CG" charge="0.0" />
+   <Atom name="CMH" type="CG" charge="0.0" />
+   <Atom name="CMI" type="CG" charge="0.0" />
+   <Atom name="CMJ" type="CG" charge="0.0" />
+   <Atom name="CMK" type="CG" charge="0.0" />
+   <Atom name="CML" type="CG" charge="0.0" />
+   <Atom name="CMM" type="CG" charge="0.0" />
+   <Atom name="CMN" type="CG" charge="0.0" />
+   <Atom name="CMO" type="CG" charge="0.0" />
+   <Atom name="CMP" type="CG" charge="0.0" />
+   <Atom name="CMQ" type="CG" charge="0.0" />
+   <Atom name="CMR" type="CG" charge="0.0" />
+   <Atom name="CMS" type="CG" charge="0.0" />
+   <Atom name="CMT" type="CG" charge="0.0" />
+   <Atom name="CMU" type="CG" charge="0.0" />
+   <Atom name="CMV" type="CG" charge="0.0" />
+   <Atom name="CN0" type="CG" charge="0.0" />
+   <Atom name="CN1" type="CG" charge="0.0" />
+   <Atom name="CN2" type="CG" charge="0.0" />
+   <Atom name="CN3" type="CG" charge="0.0" />
+   <Atom name="CN4" type="CG" charge="0.0" />
+   <Atom name="CN5" type="CG" charge="0.0" />
+   <Atom name="CN6" type="CG" charge="0.0" />
+   <Atom name="CN7" type="CG" charge="0.0" />
+   <Atom name="CN8" type="CG" charge="0.0" />
+   <Atom name="CN9" type="CG" charge="0.0" />
+   <Atom name="CNA" type="CG" charge="0.0" />
+   <Atom name="CNB" type="CG" charge="0.0" />
+   <Atom name="CNC" type="CG" charge="0.0" />
+   <Atom name="CND" type="CG" charge="0.0" />
+   <Atom name="CNE" type="CG" charge="0.0" />
+   <Atom name="CNF" type="CG" charge="0.0" />
+   <Atom name="CNG" type="CG" charge="0.0" />
+   <Atom name="CNH" type="CG" charge="0.0" />
+   <Atom name="CNI" type="CG" charge="0.0" />
+   <Atom name="CNJ" type="CG" charge="0.0" />
+   <Atom name="CNK" type="CG" charge="0.0" />
+   <Atom name="CNL" type="CG" charge="0.0" />
+   <Atom name="CNM" type="CG" charge="0.0" />
+   <Atom name="CNN" type="CG" charge="0.0" />
+   <Atom name="CNO" type="CG" charge="0.0" />
+   <Atom name="CNP" type="CG" charge="0.0" />
+   <Atom name="CNQ" type="CG" charge="0.0" />
+   <Atom name="CNR" type="CG" charge="0.0" />
+   <Atom name="CNS" type="CG" charge="0.0" />
+   <Atom name="CNT" type="CG" charge="0.0" />
+   <Atom name="CNU" type="CG" charge="0.0" />
+   <Atom name="CNV" type="CG" charge="0.0" />
+   <Atom name="CO0" type="CG" charge="0.0" />
+   <Atom name="CO1" type="CG" charge="0.0" />
+   <Atom name="CO2" type="CG" charge="0.0" />
+   <Atom name="CO3" type="CG" charge="0.0" />
+   <Atom name="CO4" type="CG" charge="0.0" />
+   <Atom name="CO5" type="CG" charge="0.0" />
+   <Atom name="CO6" type="CG" charge="0.0" />
+   <Atom name="CO7" type="CG" charge="0.0" />
+   <Atom name="CO8" type="CG" charge="0.0" />
+   <Atom name="CO9" type="CG" charge="0.0" />
+   <Atom name="COA" type="CG" charge="0.0" />
+   <Atom name="COB" type="CG" charge="0.0" />
+   <Atom name="COC" type="CG" charge="0.0" />
+   <Atom name="COD" type="CG" charge="0.0" />
+   <Atom name="COE" type="CG" charge="0.0" />
+   <Atom name="COF" type="CG" charge="0.0" />
+   <Atom name="COG" type="CG" charge="0.0" />
+   <Atom name="COH" type="CG" charge="0.0" />
+   <Atom name="COI" type="CG" charge="0.0" />
+   <Atom name="COJ" type="CG" charge="0.0" />
+   <Atom name="COK" type="CG" charge="0.0" />
+   <Atom name="COL" type="CG" charge="0.0" />
+   <Atom name="COM" type="CG" charge="0.0" />
+   <Atom name="CON" type="CG" charge="0.0" />
+   <Atom name="COO" type="CG" charge="0.0" />
+   <Atom name="COP" type="CG" charge="0.0" />
+   <Atom name="COQ" type="CG" charge="0.0" />
+   <Atom name="COR" type="CG" charge="0.0" />
+   <Atom name="COS" type="CG" charge="0.0" />
+   <Atom name="COT" type="CG" charge="0.0" />
+   <Atom name="COU" type="CG" charge="0.0" />
+   <Atom name="COV" type="CG" charge="0.0" />
+   <Atom name="CP0" type="CG" charge="0.0" />
+   <Atom name="CP1" type="CG" charge="0.0" />
+   <Atom name="CP2" type="CG" charge="0.0" />
+   <Atom name="CP3" type="CG" charge="0.0" />
+   <Atom name="CP4" type="CG" charge="0.0" />
+   <Atom name="CP5" type="CG" charge="0.0" />
+   <Atom name="CP6" type="CG" charge="0.0" />
+   <Atom name="CP7" type="CG" charge="0.0" />
+   <Atom name="CP8" type="CG" charge="0.0" />
+   <Atom name="CP9" type="CG" charge="0.0" />
+   <Atom name="CPA" type="CG" charge="0.0" />
+   <Atom name="CPB" type="CG" charge="0.0" />
+   <Atom name="CPC" type="CG" charge="0.0" />
+   <Atom name="CPD" type="CG" charge="0.0" />
+   <Atom name="CPE" type="CG" charge="0.0" />
+   <Atom name="CPF" type="CG" charge="0.0" />
+   <Atom name="CPG" type="CG" charge="0.0" />
+   <Atom name="CPH" type="CG" charge="0.0" />
+   <Atom name="CPI" type="CG" charge="0.0" />
+   <Atom name="CPJ" type="CG" charge="0.0" />
+   <Atom name="CPK" type="CG" charge="0.0" />
+   <Atom name="CPL" type="CG" charge="0.0" />
+   <Atom name="CPM" type="CG" charge="0.0" />
+   <Atom name="CPN" type="CG" charge="0.0" />
+   <Atom name="CPO" type="CG" charge="0.0" />
+   <Atom name="CPP" type="CG" charge="0.0" />
+   <Atom name="CPQ" type="CG" charge="0.0" />
+   <Atom name="CPR" type="CG" charge="0.0" />
+   <Atom name="CPS" type="CG" charge="0.0" />
+   <Atom name="CPT" type="CG" charge="0.0" />
+   <Atom name="CPU" type="CG" charge="0.0" />
+   <Atom name="CPV" type="CG" charge="0.0" />
+   <Atom name="CQ0" type="CG" charge="0.0" />
+   <Atom name="CQ1" type="CG" charge="0.0" />
+   <Atom name="CQ2" type="CG" charge="0.0" />
+   <Atom name="CQ3" type="CG" charge="0.0" />
+   <Atom name="CQ4" type="CG" charge="0.0" />
+   <Atom name="CQ5" type="CG" charge="0.0" />
+   <Atom name="CQ6" type="CG" charge="0.0" />
+   <Atom name="CQ7" type="CG" charge="0.0" />
+   <Atom name="CQ8" type="CG" charge="0.0" />
+   <Atom name="CQ9" type="CG" charge="0.0" />
+   <Atom name="CQA" type="CG" charge="0.0" />
+   <Atom name="CQB" type="CG" charge="0.0" />
+   <Atom name="CQC" type="CG" charge="0.0" />
+   <Atom name="CQD" type="CG" charge="0.0" />
+   <Atom name="CQE" type="CG" charge="0.0" />
+   <Atom name="CQF" type="CG" charge="0.0" />
+   <Atom name="CQG" type="CG" charge="0.0" />
+   <Atom name="CQH" type="CG" charge="0.0" />
+   <Atom name="CQI" type="CG" charge="0.0" />
+   <Atom name="CQJ" type="CG" charge="0.0" />
+   <Atom name="CQK" type="CG" charge="0.0" />
+   <Atom name="CQL" type="CG" charge="0.0" />
+   <Atom name="CQM" type="CG" charge="0.0" />
+   <Atom name="CQN" type="CG" charge="0.0" />
+   <Atom name="CQO" type="CG" charge="0.0" />
+   <Atom name="CQP" type="CG" charge="0.0" />
+   <Atom name="CQQ" type="CG" charge="0.0" />
+   <Atom name="CQR" type="CG" charge="0.0" />
+   <Atom name="CQS" type="CG" charge="0.0" />
+   <Atom name="CQT" type="CG" charge="0.0" />
+   <Atom name="CQU" type="CG" charge="0.0" />
+   <Atom name="CQV" type="CG" charge="0.0" />
+   <Atom name="CR0" type="CG" charge="0.0" />
+   <Atom name="CR1" type="CG" charge="0.0" />
+   <Atom name="CR2" type="CG" charge="0.0" />
+   <Atom name="CR3" type="CG" charge="0.0" />
+   <Atom name="CR4" type="CG" charge="0.0" />
+   <Atom name="CR5" type="CG" charge="0.0" />
+   <Atom name="CR6" type="CG" charge="0.0" />
+   <Atom name="CR7" type="CG" charge="0.0" />
+   <Atom name="CR8" type="CG" charge="0.0" />
+   <Atom name="CR9" type="CG" charge="0.0" />
+   <Atom name="CRA" type="CG" charge="0.0" />
+   <Atom name="CRB" type="CG" charge="0.0" />
+   <Atom name="CRC" type="CG" charge="0.0" />
+   <Atom name="CRD" type="CG" charge="0.0" />
+   <Atom name="CRE" type="CG" charge="0.0" />
+   <Atom name="CRF" type="CG" charge="0.0" />
+   <Atom name="CRG" type="CG" charge="0.0" />
+   <Atom name="CRH" type="CG" charge="0.0" />
+   <Atom name="CRI" type="CG" charge="0.0" />
+   <Atom name="CRJ" type="CG" charge="0.0" />
+   <Atom name="CRK" type="CG" charge="0.0" />
+   <Atom name="CRL" type="CG" charge="0.0" />
+   <Atom name="CRM" type="CG" charge="0.0" />
+   <Atom name="CRN" type="CG" charge="0.0" />
+   <Atom name="CRO" type="CG" charge="0.0" />
+   <Atom name="CRP" type="CG" charge="0.0" />
+   <Atom name="CRQ" type="CG" charge="0.0" />
+   <Atom name="CRR" type="CG" charge="0.0" />
+   <Atom name="CRS" type="CG" charge="0.0" />
+   <Atom name="CRT" type="CG" charge="0.0" />
+   <Atom name="CRU" type="CG" charge="0.0" />
+   <Atom name="CRV" type="CG" charge="0.0" />
+   <Atom name="CS0" type="CG" charge="0.0" />
+   <Atom name="CS1" type="CG" charge="0.0" />
+   <Atom name="CS2" type="CG" charge="0.0" />
+   <Atom name="CS3" type="CG" charge="0.0" />
+   <Atom name="CS4" type="CG" charge="0.0" />
+   <Atom name="CS5" type="CG" charge="0.0" />
+   <Atom name="CS6" type="CG" charge="0.0" />
+   <Atom name="CS7" type="CG" charge="0.0" />
+   <Atom name="CS8" type="CG" charge="0.0" />
+   <Atom name="CS9" type="CG" charge="0.0" />
+   <Atom name="CSA" type="CG" charge="0.0" />
+   <Atom name="CSB" type="CG" charge="0.0" />
+   <Atom name="CSC" type="CG" charge="0.0" />
+   <Atom name="CSD" type="CG" charge="0.0" />
+   <Atom name="CSE" type="CG" charge="0.0" />
+   <Atom name="CSF" type="CG" charge="0.0" />
+   <Atom name="CSG" type="CG" charge="0.0" />
+   <Atom name="CSH" type="CG" charge="0.0" />
+   <Atom name="CSI" type="CG" charge="0.0" />
+   <Atom name="CSJ" type="CG" charge="0.0" />
+   <Atom name="CSK" type="CG" charge="0.0" />
+   <Atom name="CSL" type="CG" charge="0.0" />
+   <Atom name="CSM" type="CG" charge="0.0" />
+   <Atom name="CSN" type="CG" charge="0.0" />
+   <Atom name="CSO" type="CG" charge="0.0" />
+   <Atom name="CSP" type="CG" charge="0.0" />
+   <Atom name="CSQ" type="CG" charge="0.0" />
+   <Atom name="CSR" type="CG" charge="0.0" />
+   <Atom name="CSS" type="CG" charge="0.0" />
+   <Atom name="CST" type="CG" charge="0.0" />
+   <Atom name="CSU" type="CG" charge="0.0" />
+   <Atom name="CSV" type="CG" charge="0.0" />
+   <Atom name="CT0" type="CG" charge="0.0" />
+   <Atom name="CT1" type="CG" charge="0.0" />
+   <Atom name="CT2" type="CG" charge="0.0" />
+   <Atom name="CT3" type="CG" charge="0.0" />
+   <Atom name="CT4" type="CG" charge="0.0" />
+   <Atom name="CT5" type="CG" charge="0.0" />
+   <Atom name="CT6" type="CG" charge="0.0" />
+   <Atom name="CT7" type="CG" charge="0.0" />
+   <Atom name="CT8" type="CG" charge="0.0" />
+   <Atom name="CT9" type="CG" charge="0.0" />
+   <Atom name="CTA" type="CG" charge="0.0" />
+   <Atom name="CTB" type="CG" charge="0.0" />
+   <Atom name="CTC" type="CG" charge="0.0" />
+   <Atom name="CTD" type="CG" charge="0.0" />
+   <Atom name="CTE" type="CG" charge="0.0" />
+   <Atom name="CTF" type="CG" charge="0.0" />
+   <Atom name="CTG" type="CG" charge="0.0" />
+   <Atom name="CTH" type="CG" charge="0.0" />
+   <Atom name="CTI" type="CG" charge="0.0" />
+   <Atom name="CTJ" type="CG" charge="0.0" />
+   <Atom name="CTK" type="CG" charge="0.0" />
+   <Atom name="CTL" type="CG" charge="0.0" />
+   <Atom name="CTM" type="CG" charge="0.0" />
+   <Atom name="CTN" type="CG" charge="0.0" />
+   <Atom name="CTO" type="CG" charge="0.0" />
+   <Atom name="CTP" type="CG" charge="0.0" />
+   <Atom name="CTQ" type="CG" charge="0.0" />
+   <Atom name="CTR" type="CG" charge="0.0" />
+   <Atom name="CTS" type="CG" charge="0.0" />
+   <Atom name="CTT" type="CG" charge="0.0" />
+   <Atom name="CTU" type="CG" charge="0.0" />
+   <Atom name="CTV" type="CG" charge="0.0" />
+   <Atom name="CU0" type="CG" charge="0.0" />
+   <Atom name="CU1" type="CG" charge="0.0" />
+   <Atom name="CU2" type="CG" charge="0.0" />
+   <Atom name="CU3" type="CG" charge="0.0" />
+   <Atom name="CU4" type="CG" charge="0.0" />
+   <Atom name="CU5" type="CG" charge="0.0" />
+   <Atom name="CU6" type="CG" charge="0.0" />
+   <Atom name="CU7" type="CG" charge="0.0" />
+   <Atom name="CU8" type="CG" charge="0.0" />
+   <Atom name="CU9" type="CG" charge="0.0" />
+   <Atom name="CUA" type="CG" charge="0.0" />
+   <Atom name="CUB" type="CG" charge="0.0" />
+   <Atom name="CUC" type="CG" charge="0.0" />
+   <Atom name="CUD" type="CG" charge="0.0" />
+   <Atom name="CUE" type="CG" charge="0.0" />
+   <Atom name="CUF" type="CG" charge="0.0" />
+   <Atom name="CUG" type="CG" charge="0.0" />
+   <Atom name="CUH" type="CG" charge="0.0" />
+   <Atom name="CUI" type="CG" charge="0.0" />
+   <Atom name="CUJ" type="CG" charge="0.0" />
+   <Atom name="CUK" type="CG" charge="0.0" />
+   <Atom name="CUL" type="CG" charge="0.0" />
+   <Atom name="CUM" type="CG" charge="0.0" />
+   <Atom name="CUN" type="CG" charge="0.0" />
+   <Atom name="CUO" type="CG" charge="0.0" />
+   <Atom name="CUP" type="CG" charge="0.0" />
+   <Atom name="CUQ" type="CG" charge="0.0" />
+   <Atom name="CUR" type="CG" charge="0.0" />
+   <Atom name="CUS" type="CG" charge="0.0" />
+   <Atom name="CUT" type="CG" charge="0.0" />
+   <Atom name="CUU" type="CG" charge="0.0" />
+   <Atom name="CUV" type="CG" charge="0.0" />
+   <Atom name="CV0" type="CG" charge="0.0" />
+   <Atom name="CV1" type="CG" charge="0.0" />
+   <Atom name="CV2" type="CG" charge="0.0" />
+   <Atom name="CV3" type="CG" charge="0.0" />
+   <Atom name="CV4" type="CG" charge="0.0" />
+   <Atom name="CV5" type="CG" charge="0.0" />
+   <Atom name="CV6" type="CG" charge="0.0" />
+   <Atom name="CV7" type="CG" charge="0.0" />
+   <Atom name="CV8" type="CG" charge="0.0" />
+   <Atom name="CV9" type="CG" charge="0.0" />
+   <Atom name="CVA" type="CG" charge="0.0" />
+   <Atom name="CVB" type="CG" charge="0.0" />
+   <Atom name="CVC" type="CG" charge="0.0" />
+   <Atom name="CVD" type="CG" charge="0.0" />
+   <Atom name="CVE" type="CG" charge="0.0" />
+   <Atom name="CVF" type="CG" charge="0.0" />
+   <Atom name="CVG" type="CG" charge="0.0" />
+   <Atom name="CVH" type="CG" charge="0.0" />
+   <Atom name="CVI" type="CG" charge="0.0" />
+   <Atom name="CVJ" type="CG" charge="0.0" />
+   <Atom name="CVK" type="CG" charge="0.0" />
+   <Atom name="CVL" type="CG" charge="0.0" />
+   <Atom name="CVM" type="CG" charge="0.0" />
+   <Atom name="CVN" type="CG" charge="0.0" />
+   <Atom name="CVO" type="CG" charge="0.0" />
+   <Atom name="CVP" type="CG" charge="0.0" />
+   <Atom name="CVQ" type="CG" charge="0.0" />
+   <Atom name="CVR" type="CG" charge="0.0" />
+   <Atom name="CVS" type="CG" charge="0.0" />
+   <Atom name="CVT" type="CG" charge="0.0" />
+   <Atom name="CVU" type="CG" charge="0.0" />
+   <Atom name="CVV" type="CG" charge="0.0" />
+   <Atom name="C100" type="CG" charge="0.0" />
+   <Atom name="C101" type="CG" charge="0.0" />
+   <Atom name="C102" type="CG" charge="0.0" />
+   <Atom name="C103" type="CG" charge="0.0" />
+   <Atom name="C104" type="CG" charge="0.0" />
+   <Atom name="C105" type="CG" charge="0.0" />
+   <Atom name="C106" type="CG" charge="0.0" />
+   <Atom name="C107" type="CG" charge="0.0" />
+   <Atom name="C108" type="CG" charge="0.0" />
+   <Atom name="C109" type="CG" charge="0.0" />
+   <Atom name="C10A" type="CG" charge="0.0" />
+   <Atom name="C10B" type="CG" charge="0.0" />
+   <Atom name="C10C" type="CG" charge="0.0" />
+   <Atom name="C10D" type="CG" charge="0.0" />
+   <Atom name="C10E" type="CG" charge="0.0" />
+   <Atom name="C10F" type="CG" charge="0.0" />
+   <Atom name="C10G" type="CG" charge="0.0" />
+   <Atom name="C10H" type="CG" charge="0.0" />
+   <Atom name="C10I" type="CG" charge="0.0" />
+   <Atom name="C10J" type="CG" charge="0.0" />
+   <Atom name="C10K" type="CG" charge="0.0" />
+   <Atom name="C10L" type="CG" charge="0.0" />
+   <Atom name="C10M" type="CG" charge="0.0" />
+   <Atom name="C10N" type="CG" charge="0.0" />
+   <Atom name="C10O" type="CG" charge="0.0" />
+   <Atom name="C10P" type="CG" charge="0.0" />
+   <Atom name="C10Q" type="CG" charge="0.0" />
+   <Atom name="C10R" type="CG" charge="0.0" />
+   <Atom name="C10S" type="CG" charge="0.0" />
+   <Atom name="C10T" type="CG" charge="0.0" />
+   <Atom name="C10U" type="CG" charge="0.0" />
+   <Atom name="C10V" type="CG" charge="0.0" />
+   <Atom name="C110" type="CG" charge="0.0" />
+   <Atom name="C111" type="CG" charge="0.0" />
+   <Atom name="C112" type="CG" charge="0.0" />
+   <Atom name="C113" type="CG" charge="0.0" />
+   <Atom name="C114" type="CG" charge="0.0" />
+   <Atom name="C115" type="CG" charge="0.0" />
+   <Atom name="C116" type="CG" charge="0.0" />
+   <Atom name="C117" type="CG" charge="0.0" />
+   <Atom name="C118" type="CG" charge="0.0" />
+   <Atom name="C119" type="CG" charge="0.0" />
+   <Atom name="C11A" type="CG" charge="0.0" />
+   <Atom name="C11B" type="CG" charge="0.0" />
+   <Atom name="C11C" type="CG" charge="0.0" />
+   <Atom name="C11D" type="CG" charge="0.0" />
+   <Atom name="C11E" type="CG" charge="0.0" />
+   <Atom name="C11F" type="CG" charge="0.0" />
+   <Atom name="C11G" type="CG" charge="0.0" />
+   <Atom name="C11H" type="CG" charge="0.0" />
+   <Atom name="C11I" type="CG" charge="0.0" />
+   <Atom name="C11J" type="CG" charge="0.0" />
+   <Atom name="C11K" type="CG" charge="0.0" />
+   <Atom name="C11L" type="CG" charge="0.0" />
+   <Atom name="C11M" type="CG" charge="0.0" />
+   <Atom name="C11N" type="CG" charge="0.0" />
+   <Atom name="C11O" type="CG" charge="0.0" />
+   <Atom name="C11P" type="CG" charge="0.0" />
+   <Atom name="C11Q" type="CG" charge="0.0" />
+   <Atom name="C11R" type="CG" charge="0.0" />
+   <Atom name="C11S" type="CG" charge="0.0" />
+   <Atom name="C11T" type="CG" charge="0.0" />
+   <Atom name="C11U" type="CG" charge="0.0" />
+   <Atom name="C11V" type="CG" charge="0.0" />
+   <Atom name="C120" type="CG" charge="0.0" />
+   <Atom name="C121" type="CG" charge="0.0" />
+   <Atom name="C122" type="CG" charge="0.0" />
+   <Atom name="C123" type="CG" charge="0.0" />
+   <Atom name="C124" type="CG" charge="0.0" />
+   <Atom name="C125" type="CG" charge="0.0" />
+   <Atom name="C126" type="CG" charge="0.0" />
+   <Atom name="C127" type="CG" charge="0.0" />
+   <Atom name="C128" type="CG" charge="0.0" />
+   <Atom name="C129" type="CG" charge="0.0" />
+   <Atom name="C12A" type="CG" charge="0.0" />
+   <Atom name="C12B" type="CG" charge="0.0" />
+   <Atom name="C12C" type="CG" charge="0.0" />
+   <Atom name="C12D" type="CG" charge="0.0" />
+   <Atom name="C12E" type="CG" charge="0.0" />
+   <Atom name="C12F" type="CG" charge="0.0" />
+   <Atom name="C12G" type="CG" charge="0.0" />
+   <Atom name="C12H" type="CG" charge="0.0" />
+   <Atom name="C12I" type="CG" charge="0.0" />
+   <Atom name="C12J" type="CG" charge="0.0" />
+   <Atom name="C12K" type="CG" charge="0.0" />
+   <Atom name="C12L" type="CG" charge="0.0" />
+   <Atom name="C12M" type="CG" charge="0.0" />
+   <Atom name="C12N" type="CG" charge="0.0" />
+   <Atom name="C12O" type="CG" charge="0.0" />
+   <Atom name="C12P" type="CG" charge="0.0" />
+   <Atom name="C12Q" type="CG" charge="0.0" />
+   <Atom name="C12R" type="CG" charge="0.0" />
+   <Atom name="C12S" type="CG" charge="0.0" />
+   <Atom name="C12T" type="CG" charge="0.0" />
+   <Atom name="C12U" type="CG" charge="0.0" />
+   <Atom name="C12V" type="CG" charge="0.0" />
+   <Atom name="C130" type="CG" charge="0.0" />
+   <Atom name="C131" type="CG" charge="0.0" />
+   <Atom name="C132" type="CG" charge="0.0" />
+   <Atom name="C133" type="CG" charge="0.0" />
+   <Atom name="C134" type="CG" charge="0.0" />
+   <Atom name="C135" type="CG" charge="0.0" />
+   <Atom name="C136" type="CG" charge="0.0" />
+   <Atom name="C137" type="CG" charge="0.0" />
+   <Atom name="C138" type="CG" charge="0.0" />
+   <Atom name="C139" type="CG" charge="0.0" />
+   <Atom name="C13A" type="CG" charge="0.0" />
+   <Atom name="C13B" type="CG" charge="0.0" />
+   <Atom name="C13C" type="CG" charge="0.0" />
+   <Atom name="C13D" type="CG" charge="0.0" />
+   <Atom name="C13E" type="CG" charge="0.0" />
+   <Atom name="C13F" type="CG" charge="0.0" />
+   <Atom name="C13G" type="CG" charge="0.0" />
+   <Atom name="C13H" type="CG" charge="0.0" />
+   <Atom name="C13I" type="CG" charge="0.0" />
+   <Atom name="C13J" type="CG" charge="0.0" />
+   <Atom name="C13K" type="CG" charge="0.0" />
+   <Atom name="C13L" type="CG" charge="0.0" />
+   <Atom name="C13M" type="CG" charge="0.0" />
+   <Atom name="C13N" type="CG" charge="0.0" />
+   <Atom name="C13O" type="CG" charge="0.0" />
+   <Atom name="C13P" type="CG" charge="0.0" />
+   <Atom name="C13Q" type="CG" charge="0.0" />
+   <Atom name="C13R" type="CG" charge="0.0" />
+   <Atom name="C13S" type="CG" charge="0.0" />
+   <Atom name="C13T" type="CG" charge="0.0" />
+   <Atom name="C13U" type="CG" charge="0.0" />
+   <Atom name="C13V" type="CG" charge="0.0" />
+   <Atom name="C140" type="CG" charge="0.0" />
+   <Atom name="C141" type="CG" charge="0.0" />
+   <Atom name="C142" type="CG" charge="0.0" />
+   <Atom name="C143" type="CG" charge="0.0" />
+   <Atom name="C144" type="CG" charge="0.0" />
+   <Atom name="C145" type="CG" charge="0.0" />
+   <Atom name="C146" type="CG" charge="0.0" />
+   <Atom name="C147" type="CG" charge="0.0" />
+   <Atom name="C148" type="CG" charge="0.0" />
+   <Atom name="C149" type="CG" charge="0.0" />
+   <Atom name="C14A" type="CG" charge="0.0" />
+   <Atom name="C14B" type="CG" charge="0.0" />
+   <Atom name="C14C" type="CG" charge="0.0" />
+   <Atom name="C14D" type="CG" charge="0.0" />
+   <Atom name="C14E" type="CG" charge="0.0" />
+   <Atom name="C14F" type="CG" charge="0.0" />
+   <Atom name="C14G" type="CG" charge="0.0" />
+   <Atom name="C14H" type="CG" charge="0.0" />
+   <Atom name="C14I" type="CG" charge="0.0" />
+   <Atom name="C14J" type="CG" charge="0.0" />
+   <Atom name="C14K" type="CG" charge="0.0" />
+   <Atom name="C14L" type="CG" charge="0.0" />
+   <Atom name="C14M" type="CG" charge="0.0" />
+   <Atom name="C14N" type="CG" charge="0.0" />
+   <Atom name="C14O" type="CG" charge="0.0" />
+   <Atom name="C14P" type="CG" charge="0.0" />
+   <Atom name="C14Q" type="CG" charge="0.0" />
+   <Atom name="C14R" type="CG" charge="0.0" />
+   <Atom name="C14S" type="CG" charge="0.0" />
+   <Atom name="C14T" type="CG" charge="0.0" />
+   <Atom name="C14U" type="CG" charge="0.0" />
+   <Atom name="C14V" type="CG" charge="0.0" />
+   <Atom name="C150" type="CG" charge="0.0" />
+   <Atom name="C151" type="CG" charge="0.0" />
+   <Atom name="C152" type="CG" charge="0.0" />
+   <Atom name="C153" type="CG" charge="0.0" />
+   <Atom name="C154" type="CG" charge="0.0" />
+   <Atom name="C155" type="CG" charge="0.0" />
+   <Atom name="C156" type="CG" charge="0.0" />
+   <Atom name="C157" type="CG" charge="0.0" />
+   <Atom name="C158" type="CG" charge="0.0" />
+   <Atom name="C159" type="CG" charge="0.0" />
+   <Atom name="C15A" type="CG" charge="0.0" />
+   <Atom name="C15B" type="CG" charge="0.0" />
+   <Atom name="C15C" type="CG" charge="0.0" />
+   <Atom name="C15D" type="CG" charge="0.0" />
+   <Atom name="C15E" type="CG" charge="0.0" />
+   <Atom name="C15F" type="CG" charge="0.0" />
+   <Atom name="C15G" type="CG" charge="0.0" />
+   <Atom name="C15H" type="CG" charge="0.0" />
+   <Atom name="C15I" type="CG" charge="0.0" />
+   <Atom name="C15J" type="CG" charge="0.0" />
+   <Atom name="C15K" type="CG" charge="0.0" />
+   <Atom name="C15L" type="CG" charge="0.0" />
+   <Atom name="C15M" type="CG" charge="0.0" />
+   <Atom name="C15N" type="CG" charge="0.0" />
+   <Atom name="C15O" type="CG" charge="0.0" />
+   <Atom name="C15P" type="CG" charge="0.0" />
+   <Atom name="C15Q" type="CG" charge="0.0" />
+   <Atom name="C15R" type="CG" charge="0.0" />
+   <Atom name="C15S" type="CG" charge="0.0" />
+   <Atom name="C15T" type="CG" charge="0.0" />
+   <Atom name="C15U" type="CG" charge="0.0" />
+   <Atom name="C15V" type="CG" charge="0.0" />
+   <Atom name="C160" type="CG" charge="0.0" />
+   <Atom name="C161" type="CG" charge="0.0" />
+   <Atom name="C162" type="CG" charge="0.0" />
+   <Atom name="C163" type="CG" charge="0.0" />
+   <Atom name="C164" type="CG" charge="0.0" />
+   <Atom name="C165" type="CG" charge="0.0" />
+   <Atom name="C166" type="CG" charge="0.0" />
+   <Atom name="C167" type="CG" charge="0.0" />
+   <Atom name="C168" type="CG" charge="0.0" />
+   <Atom name="C169" type="CG" charge="0.0" />
+   <Atom name="C16A" type="CG" charge="0.0" />
+   <Atom name="C16B" type="CG" charge="0.0" />
+   <Atom name="C16C" type="CG" charge="0.0" />
+   <Atom name="C16D" type="CG" charge="0.0" />
+   <Atom name="C16E" type="CG" charge="0.0" />
+   <Atom name="C16F" type="CG" charge="0.0" />
+   <Atom name="C16G" type="CG" charge="0.0" />
+   <Atom name="C16H" type="CG" charge="0.0" />
+   <Atom name="C16I" type="CG" charge="0.0" />
+   <Atom name="C16J" type="CG" charge="0.0" />
+   <Atom name="C16K" type="CG" charge="0.0" />
+   <Atom name="C16L" type="CG" charge="0.0" />
+   <Atom name="C16M" type="CG" charge="0.0" />
+   <Atom name="C16N" type="CG" charge="0.0" />
+   <Atom name="C16O" type="CG" charge="0.0" />
+   <Atom name="C16P" type="CG" charge="0.0" />
+   <Atom name="C16Q" type="CG" charge="0.0" />
+   <Atom name="C16R" type="CG" charge="0.0" />
+   <Atom name="C16S" type="CG" charge="0.0" />
+   <Atom name="C16T" type="CG" charge="0.0" />
+   <Atom name="C16U" type="CG" charge="0.0" />
+   <Atom name="C16V" type="CG" charge="0.0" />
+   <Atom name="C170" type="CG" charge="0.0" />
+   <Atom name="C171" type="CG" charge="0.0" />
+   <Atom name="C172" type="CG" charge="0.0" />
+   <Atom name="C173" type="CG" charge="0.0" />
+   <Atom name="C174" type="CG" charge="0.0" />
+   <Atom name="C175" type="CG" charge="0.0" />
+   <Atom name="C176" type="CG" charge="0.0" />
+   <Atom name="C177" type="CG" charge="0.0" />
+   <Atom name="C178" type="CG" charge="0.0" />
+   <Atom name="C179" type="CG" charge="0.0" />
+   <Atom name="C17A" type="CG" charge="0.0" />
+   <Atom name="C17B" type="CG" charge="0.0" />
+   <Atom name="C17C" type="CG" charge="0.0" />
+   <Atom name="C17D" type="CG" charge="0.0" />
+   <Atom name="C17E" type="CG" charge="0.0" />
+   <Atom name="C17F" type="CG" charge="0.0" />
+   <Atom name="C17G" type="CG" charge="0.0" />
+   <Atom name="C17H" type="CG" charge="0.0" />
+   <Atom name="C17I" type="CG" charge="0.0" />
+   <Atom name="C17J" type="CG" charge="0.0" />
+   <Atom name="C17K" type="CG" charge="0.0" />
+   <Atom name="C17L" type="CG" charge="0.0" />
+   <Atom name="C17M" type="CG" charge="0.0" />
+   <Atom name="C17N" type="CG" charge="0.0" />
+   <Atom name="C17O" type="CG" charge="0.0" />
+   <Atom name="C17P" type="CG" charge="0.0" />
+   <Atom name="C17Q" type="CG" charge="0.0" />
+   <Atom name="C17R" type="CG" charge="0.0" />
+   <Atom name="C17S" type="CG" charge="0.0" />
+   <Atom name="C17T" type="CG" charge="0.0" />
+   <Atom name="C17U" type="CG" charge="0.0" />
+   <Atom name="C17V" type="CG" charge="0.0" />
+   <Atom name="C180" type="CG" charge="0.0" />
+   <Atom name="C181" type="CG" charge="0.0" />
+   <Atom name="C182" type="CG" charge="0.0" />
+   <Atom name="C183" type="CG" charge="0.0" />
+   <Atom name="C184" type="CG" charge="0.0" />
+   <Atom name="C185" type="CG" charge="0.0" />
+   <Atom name="C186" type="CG" charge="0.0" />
+   <Atom name="C187" type="CG" charge="0.0" />
+   <Atom name="C188" type="CG" charge="0.0" />
+   <Atom name="C189" type="CG" charge="0.0" />
+   <Atom name="C18A" type="CG" charge="0.0" />
+   <Atom name="C18B" type="CG" charge="0.0" />
+   <Atom name="C18C" type="CG" charge="0.0" />
+   <Atom name="C18D" type="CG" charge="0.0" />
+   <Atom name="C18E" type="CG" charge="0.0" />
+   <Atom name="C18F" type="CG" charge="0.0" />
+   <Atom name="C18G" type="CG" charge="0.0" />
+   <Atom name="C18H" type="CG" charge="0.0" />
+   <Atom name="C18I" type="CG" charge="0.0" />
+   <Atom name="C18J" type="CG" charge="0.0" />
+   <Atom name="C18K" type="CG" charge="0.0" />
+   <Atom name="C18L" type="CG" charge="0.0" />
+   <Atom name="C18M" type="CG" charge="0.0" />
+   <Atom name="C18N" type="CG" charge="0.0" />
+   <Atom name="C18O" type="CG" charge="0.0" />
+   <Atom name="C18P" type="CG" charge="0.0" />
+   <Atom name="C18Q" type="CG" charge="0.0" />
+   <Atom name="C18R" type="CG" charge="0.0" />
+   <Atom name="C18S" type="CG" charge="0.0" />
+   <Atom name="C18T" type="CG" charge="0.0" />
+   <Atom name="C18U" type="CG" charge="0.0" />
+   <Atom name="C18V" type="CG" charge="0.0" />
+   <Atom name="C190" type="CG" charge="0.0" />
+   <Atom name="C191" type="CG" charge="0.0" />
+   <Atom name="C192" type="CG" charge="0.0" />
+   <Atom name="C193" type="CG" charge="0.0" />
+   <Atom name="C194" type="CG" charge="0.0" />
+   <Atom name="C195" type="CG" charge="0.0" />
+   <Atom name="C196" type="CG" charge="0.0" />
+   <Atom name="C197" type="CG" charge="0.0" />
+   <Atom name="C198" type="CG" charge="0.0" />
+   <Atom name="C199" type="CG" charge="0.0" />
+   <Atom name="C19A" type="CG" charge="0.0" />
+   <Atom name="C19B" type="CG" charge="0.0" />
+   <Atom name="C19C" type="CG" charge="0.0" />
+   <Atom name="C19D" type="CG" charge="0.0" />
+   <Atom name="C19E" type="CG" charge="0.0" />
+   <Atom name="C19F" type="CG" charge="0.0" />
+   <Atom name="C19G" type="CG" charge="0.0" />
+   <Atom name="C19H" type="CG" charge="0.0" />
+   <Atom name="C19I" type="CG" charge="0.0" />
+   <Atom name="C19J" type="CG" charge="0.0" />
+   <Atom name="C19K" type="CG" charge="0.0" />
+   <Atom name="C19L" type="CG" charge="0.0" />
+   <Atom name="C19M" type="CG" charge="0.0" />
+   <Atom name="C19N" type="CG" charge="0.0" />
+   <Atom name="C19O" type="CG" charge="0.0" />
+   <Atom name="C19P" type="CG" charge="0.0" />
+   <Atom name="C19Q" type="CG" charge="0.0" />
+   <Atom name="C19R" type="CG" charge="0.0" />
+   <Atom name="C19S" type="CG" charge="0.0" />
+   <Atom name="C19T" type="CG" charge="0.0" />
+   <Atom name="C19U" type="CG" charge="0.0" />
+   <Atom name="C19V" type="CG" charge="0.0" />
+   <Atom name="C1A0" type="CG" charge="0.0" />
+   <Atom name="C1A1" type="CG" charge="0.0" />
+   <Atom name="C1A2" type="CG" charge="0.0" />
+   <Atom name="C1A3" type="CG" charge="0.0" />
+   <Atom name="C1A4" type="CG" charge="0.0" />
+   <Atom name="C1A5" type="CG" charge="0.0" />
+   <Atom name="C1A6" type="CG" charge="0.0" />
+   <Atom name="C1A7" type="CG" charge="0.0" />
+   <Atom name="C1A8" type="CG" charge="0.0" />
+   <Atom name="C1A9" type="CG" charge="0.0" />
+   <Atom name="C1AA" type="CG" charge="0.0" />
+   <Atom name="C1AB" type="CG" charge="0.0" />
+   <Atom name="C1AC" type="CG" charge="0.0" />
+   <Atom name="C1AD" type="CG" charge="0.0" />
+   <Atom name="C1AE" type="CG" charge="0.0" />
+   <Atom name="C1AF" type="CG" charge="0.0" />
+   <Atom name="C1AG" type="CG" charge="0.0" />
+   <Bond atomName1="C1" atomName2="CL9" />
+   <Bond atomName1="C1" atomName2="CP0" />
+   <Bond atomName1="C1" atomName2="CVS" />
+   <Bond atomName1="C2" atomName2="CLA" />
+   <Bond atomName1="C2" atomName2="CP0" />
+   <Bond atomName1="C2" atomName2="CPK" />
+   <Bond atomName1="C3" atomName2="CL9" />
+   <Bond atomName1="C3" atomName2="CLA" />
+   <Bond atomName1="C3" atomName2="CLB" />
+   <Bond atomName1="C4" atomName2="CLB" />
+   <Bond atomName1="C4" atomName2="CLC" />
+   <Bond atomName1="C4" atomName2="CSP" />
+   <Bond atomName1="C5" atomName2="CLD" />
+   <Bond atomName1="C5" atomName2="CPK" />
+   <Bond atomName1="C5" atomName2="CQ8" />
+   <Bond atomName1="C6" atomName2="CLA" />
+   <Bond atomName1="C6" atomName2="CLD" />
+   <Bond atomName1="C6" atomName2="CLE" />
+   <Bond atomName1="C7" atomName2="CLB" />
+   <Bond atomName1="C7" atomName2="CLE" />
+   <Bond atomName1="C7" atomName2="CLF" />
+   <Bond atomName1="C8" atomName2="CLC" />
+   <Bond atomName1="C8" atomName2="CLF" />
+   <Bond atomName1="C8" atomName2="CLG" />
+   <Bond atomName1="C9" atomName2="CLG" />
+   <Bond atomName1="C9" atomName2="CLH" />
+   <Bond atomName1="C9" atomName2="CTC" />
+   <Bond atomName1="CA" atomName2="CLI" />
+   <Bond atomName1="CA" atomName2="CQ8" />
+   <Bond atomName1="CA" atomName2="CQS" />
+   <Bond atomName1="CB" atomName2="CLD" />
+   <Bond atomName1="CB" atomName2="CLI" />
+   <Bond atomName1="CB" atomName2="CLJ" />
+   <Bond atomName1="CC" atomName2="CLE" />
+   <Bond atomName1="CC" atomName2="CLJ" />
+   <Bond atomName1="CC" atomName2="CLK" />
+   <Bond atomName1="CD" atomName2="CLF" />
+   <Bond atomName1="CD" atomName2="CLK" />
+   <Bond atomName1="CD" atomName2="CLL" />
+   <Bond atomName1="CE" atomName2="CLG" />
+   <Bond atomName1="CE" atomName2="CLL" />
+   <Bond atomName1="CE" atomName2="CLM" />
+   <Bond atomName1="CF" atomName2="CLH" />
+   <Bond atomName1="CF" atomName2="CLM" />
+   <Bond atomName1="CF" atomName2="CLN" />
+   <Bond atomName1="CG" atomName2="CLN" />
+   <Bond atomName1="CG" atomName2="CLO" />
+   <Bond atomName1="CG" atomName2="CTT" />
+   <Bond atomName1="CH" atomName2="CLP" />
+   <Bond atomName1="CH" atomName2="CQS" />
+   <Bond atomName1="CH" atomName2="CRG" />
+   <Bond atomName1="CI" atomName2="CLI" />
+   <Bond atomName1="CI" atomName2="CLP" />
+   <Bond atomName1="CI" atomName2="CLQ" />
+   <Bond atomName1="CJ" atomName2="CLJ" />
+   <Bond atomName1="CJ" atomName2="CLQ" />
+   <Bond atomName1="CJ" atomName2="CLR" />
+   <Bond atomName1="CK" atomName2="CLK" />
+   <Bond atomName1="CK" atomName2="CLR" />
+   <Bond atomName1="CK" atomName2="CLS" />
+   <Bond atomName1="CL" atomName2="CLL" />
+   <Bond atomName1="CL" atomName2="CLS" />
+   <Bond atomName1="CL" atomName2="CLT" />
+   <Bond atomName1="CM" atomName2="CLM" />
+   <Bond atomName1="CM" atomName2="CLT" />
+   <Bond atomName1="CM" atomName2="CLU" />
+   <Bond atomName1="CN" atomName2="CLN" />
+   <Bond atomName1="CN" atomName2="CLU" />
+   <Bond atomName1="CN" atomName2="CLV" />
+   <Bond atomName1="CO" atomName2="CLO" />
+   <Bond atomName1="CO" atomName2="CLV" />
+   <Bond atomName1="CO" atomName2="CM0" />
+   <Bond atomName1="CP" atomName2="CM0" />
+   <Bond atomName1="CP" atomName2="CM1" />
+   <Bond atomName1="CP" atomName2="CUC" />
+   <Bond atomName1="CQ" atomName2="CM2" />
+   <Bond atomName1="CQ" atomName2="CRG" />
+   <Bond atomName1="CQ" atomName2="CS4" />
+   <Bond atomName1="CR" atomName2="CLP" />
+   <Bond atomName1="CR" atomName2="CM2" />
+   <Bond atomName1="CR" atomName2="CM3" />
+   <Bond atomName1="CS" atomName2="CLQ" />
+   <Bond atomName1="CS" atomName2="CM3" />
+   <Bond atomName1="CS" atomName2="CM4" />
+   <Bond atomName1="CT" atomName2="CLR" />
+   <Bond atomName1="CT" atomName2="CM4" />
+   <Bond atomName1="CT" atomName2="CM5" />
+   <Bond atomName1="CU" atomName2="CLS" />
+   <Bond atomName1="CU" atomName2="CM5" />
+   <Bond atomName1="CU" atomName2="CM6" />
+   <Bond atomName1="CV" atomName2="CLT" />
+   <Bond atomName1="CV" atomName2="CM6" />
+   <Bond atomName1="CV" atomName2="CM7" />
+   <Bond atomName1="C10" atomName2="CLU" />
+   <Bond atomName1="C10" atomName2="CM7" />
+   <Bond atomName1="C10" atomName2="CM8" />
+   <Bond atomName1="C11" atomName2="CLV" />
+   <Bond atomName1="C11" atomName2="CM8" />
+   <Bond atomName1="C11" atomName2="CM9" />
+   <Bond atomName1="C12" atomName2="CM0" />
+   <Bond atomName1="C12" atomName2="CM9" />
+   <Bond atomName1="C12" atomName2="CMA" />
+   <Bond atomName1="C13" atomName2="CM1" />
+   <Bond atomName1="C13" atomName2="CMA" />
+   <Bond atomName1="C13" atomName2="CMB" />
+   <Bond atomName1="C14" atomName2="CMB" />
+   <Bond atomName1="C14" atomName2="CMC" />
+   <Bond atomName1="C14" atomName2="CUP" />
+   <Bond atomName1="C15" atomName2="CMD" />
+   <Bond atomName1="C15" atomName2="CS4" />
+   <Bond atomName1="C15" atomName2="CSO" />
+   <Bond atomName1="C16" atomName2="CM2" />
+   <Bond atomName1="C16" atomName2="CMD" />
+   <Bond atomName1="C16" atomName2="CME" />
+   <Bond atomName1="C17" atomName2="CM3" />
+   <Bond atomName1="C17" atomName2="CME" />
+   <Bond atomName1="C17" atomName2="CMF" />
+   <Bond atomName1="C18" atomName2="CM4" />
+   <Bond atomName1="C18" atomName2="CMF" />
+   <Bond atomName1="C18" atomName2="CMG" />
+   <Bond atomName1="C19" atomName2="CM5" />
+   <Bond atomName1="C19" atomName2="CMG" />
+   <Bond atomName1="C19" atomName2="CMH" />
+   <Bond atomName1="C1A" atomName2="CM6" />
+   <Bond atomName1="C1A" atomName2="CMH" />
+   <Bond atomName1="C1A" atomName2="CMI" />
+   <Bond atomName1="C1B" atomName2="CM7" />
+   <Bond atomName1="C1B" atomName2="CMI" />
+   <Bond atomName1="C1B" atomName2="CMJ" />
+   <Bond atomName1="C1C" atomName2="CM8" />
+   <Bond atomName1="C1C" atomName2="CMJ" />
+   <Bond atomName1="C1C" atomName2="CMK" />
+   <Bond atomName1="C1D" atomName2="CM9" />
+   <Bond atomName1="C1D" atomName2="CMK" />
+   <Bond atomName1="C1D" atomName2="CML" />
+   <Bond atomName1="C1E" atomName2="CMA" />
+   <Bond atomName1="C1E" atomName2="CML" />
+   <Bond atomName1="C1E" atomName2="CMM" />
+   <Bond atomName1="C1F" atomName2="CMB" />
+   <Bond atomName1="C1F" atomName2="CMM" />
+   <Bond atomName1="C1F" atomName2="CMN" />
+   <Bond atomName1="C1G" atomName2="CMC" />
+   <Bond atomName1="C1G" atomName2="CMN" />
+   <Bond atomName1="C1G" atomName2="CMO" />
+   <Bond atomName1="C1H" atomName2="CMO" />
+   <Bond atomName1="C1H" atomName2="CMP" />
+   <Bond atomName1="C1H" atomName2="CV4" />
+   <Bond atomName1="C1I" atomName2="CMQ" />
+   <Bond atomName1="C1I" atomName2="CSO" />
+   <Bond atomName1="C1I" atomName2="CTB" />
+   <Bond atomName1="C1J" atomName2="CMD" />
+   <Bond atomName1="C1J" atomName2="CMQ" />
+   <Bond atomName1="C1J" atomName2="CMR" />
+   <Bond atomName1="C1K" atomName2="CME" />
+   <Bond atomName1="C1K" atomName2="CMR" />
+   <Bond atomName1="C1K" atomName2="CMS" />
+   <Bond atomName1="C1L" atomName2="CMF" />
+   <Bond atomName1="C1L" atomName2="CMS" />
+   <Bond atomName1="C1L" atomName2="CMT" />
+   <Bond atomName1="C1M" atomName2="CMG" />
+   <Bond atomName1="C1M" atomName2="CMT" />
+   <Bond atomName1="C1M" atomName2="CMU" />
+   <Bond atomName1="C1N" atomName2="CMH" />
+   <Bond atomName1="C1N" atomName2="CMU" />
+   <Bond atomName1="C1N" atomName2="CMV" />
+   <Bond atomName1="C1O" atomName2="CMI" />
+   <Bond atomName1="C1O" atomName2="CMV" />
+   <Bond atomName1="C1O" atomName2="CN0" />
+   <Bond atomName1="C1P" atomName2="CMJ" />
+   <Bond atomName1="C1P" atomName2="CN0" />
+   <Bond atomName1="C1P" atomName2="CN1" />
+   <Bond atomName1="C1Q" atomName2="CMK" />
+   <Bond atomName1="C1Q" atomName2="CN1" />
+   <Bond atomName1="C1Q" atomName2="CN2" />
+   <Bond atomName1="C1R" atomName2="CML" />
+   <Bond atomName1="C1R" atomName2="CN2" />
+   <Bond atomName1="C1R" atomName2="CN3" />
+   <Bond atomName1="C1S" atomName2="CMM" />
+   <Bond atomName1="C1S" atomName2="CN3" />
+   <Bond atomName1="C1S" atomName2="CN4" />
+   <Bond atomName1="C1T" atomName2="CMN" />
+   <Bond atomName1="C1T" atomName2="CN4" />
+   <Bond atomName1="C1T" atomName2="CN5" />
+   <Bond atomName1="C1U" atomName2="CMO" />
+   <Bond atomName1="C1U" atomName2="CN5" />
+   <Bond atomName1="C1U" atomName2="CN6" />
+   <Bond atomName1="C1V" atomName2="CMP" />
+   <Bond atomName1="C1V" atomName2="CN6" />
+   <Bond atomName1="C1V" atomName2="CN7" />
+   <Bond atomName1="C20" atomName2="CN7" />
+   <Bond atomName1="C20" atomName2="CN8" />
+   <Bond atomName1="C20" atomName2="CVD" />
+   <Bond atomName1="C21" atomName2="CN9" />
+   <Bond atomName1="C21" atomName2="CTB" />
+   <Bond atomName1="C21" atomName2="CTS" />
+   <Bond atomName1="C22" atomName2="CMQ" />
+   <Bond atomName1="C22" atomName2="CN9" />
+   <Bond atomName1="C22" atomName2="CNA" />
+   <Bond atomName1="C23" atomName2="CMR" />
+   <Bond atomName1="C23" atomName2="CNA" />
+   <Bond atomName1="C23" atomName2="CNB" />
+   <Bond atomName1="C24" atomName2="CMS" />
+   <Bond atomName1="C24" atomName2="CNB" />
+   <Bond atomName1="C24" atomName2="CNC" />
+   <Bond atomName1="C25" atomName2="CMT" />
+   <Bond atomName1="C25" atomName2="CNC" />
+   <Bond atomName1="C25" atomName2="CND" />
+   <Bond atomName1="C26" atomName2="CMU" />
+   <Bond atomName1="C26" atomName2="CND" />
+   <Bond atomName1="C26" atomName2="CNE" />
+   <Bond atomName1="C27" atomName2="CMV" />
+   <Bond atomName1="C27" atomName2="CNE" />
+   <Bond atomName1="C27" atomName2="CNF" />
+   <Bond atomName1="C28" atomName2="CN0" />
+   <Bond atomName1="C28" atomName2="CNF" />
+   <Bond atomName1="C28" atomName2="CNG" />
+   <Bond atomName1="C29" atomName2="CN1" />
+   <Bond atomName1="C29" atomName2="CNG" />
+   <Bond atomName1="C29" atomName2="CNH" />
+   <Bond atomName1="C2A" atomName2="CN2" />
+   <Bond atomName1="C2A" atomName2="CNH" />
+   <Bond atomName1="C2A" atomName2="CNI" />
+   <Bond atomName1="C2B" atomName2="CN3" />
+   <Bond atomName1="C2B" atomName2="CNI" />
+   <Bond atomName1="C2B" atomName2="CNJ" />
+   <Bond atomName1="C2C" atomName2="CN4" />
+   <Bond atomName1="C2C" atomName2="CNJ" />
+   <Bond atomName1="C2C" atomName2="CNK" />
+   <Bond atomName1="C2D" atomName2="CN5" />
+   <Bond atomName1="C2D" atomName2="CNK" />
+   <Bond atomName1="C2D" atomName2="CNL" />
+   <Bond atomName1="C2E" atomName2="CN6" />
+   <Bond atomName1="C2E" atomName2="CNL" />
+   <Bond atomName1="C2E" atomName2="CNM" />
+   <Bond atomName1="C2F" atomName2="CN7" />
+   <Bond atomName1="C2F" atomName2="CNM" />
+   <Bond atomName1="C2F" atomName2="CNN" />
+   <Bond atomName1="C2G" atomName2="CN8" />
+   <Bond atomName1="C2G" atomName2="CNN" />
+   <Bond atomName1="C2G" atomName2="CNO" />
+   <Bond atomName1="C2H" atomName2="CNO" />
+   <Bond atomName1="C2H" atomName2="CNP" />
+   <Bond atomName1="C2H" atomName2="CVK" />
+   <Bond atomName1="C2I" atomName2="CNQ" />
+   <Bond atomName1="C2I" atomName2="CTS" />
+   <Bond atomName1="C2I" atomName2="CUB" />
+   <Bond atomName1="C2J" atomName2="CN9" />
+   <Bond atomName1="C2J" atomName2="CNQ" />
+   <Bond atomName1="C2J" atomName2="CNR" />
+   <Bond atomName1="C2K" atomName2="CNA" />
+   <Bond atomName1="C2K" atomName2="CNR" />
+   <Bond atomName1="C2K" atomName2="CNS" />
+   <Bond atomName1="C2L" atomName2="CNB" />
+   <Bond atomName1="C2L" atomName2="CNS" />
+   <Bond atomName1="C2L" atomName2="CNT" />
+   <Bond atomName1="C2M" atomName2="CNC" />
+   <Bond atomName1="C2M" atomName2="CNT" />
+   <Bond atomName1="C2M" atomName2="CNU" />
+   <Bond atomName1="C2N" atomName2="CND" />
+   <Bond atomName1="C2N" atomName2="CNU" />
+   <Bond atomName1="C2N" atomName2="CNV" />
+   <Bond atomName1="C2O" atomName2="CNE" />
+   <Bond atomName1="C2O" atomName2="CNV" />
+   <Bond atomName1="C2O" atomName2="CO0" />
+   <Bond atomName1="C2P" atomName2="CNF" />
+   <Bond atomName1="C2P" atomName2="CO0" />
+   <Bond atomName1="C2P" atomName2="CO1" />
+   <Bond atomName1="C2Q" atomName2="CNG" />
+   <Bond atomName1="C2Q" atomName2="CO1" />
+   <Bond atomName1="C2Q" atomName2="CO2" />
+   <Bond atomName1="C2R" atomName2="CNH" />
+   <Bond atomName1="C2R" atomName2="CO2" />
+   <Bond atomName1="C2R" atomName2="CO3" />
+   <Bond atomName1="C2S" atomName2="CNI" />
+   <Bond atomName1="C2S" atomName2="CO3" />
+   <Bond atomName1="C2S" atomName2="CO4" />
+   <Bond atomName1="C2T" atomName2="CNJ" />
+   <Bond atomName1="C2T" atomName2="CO4" />
+   <Bond atomName1="C2T" atomName2="CO5" />
+   <Bond atomName1="C2U" atomName2="CNK" />
+   <Bond atomName1="C2U" atomName2="CO5" />
+   <Bond atomName1="C2U" atomName2="CO6" />
+   <Bond atomName1="C2V" atomName2="CNL" />
+   <Bond atomName1="C2V" atomName2="CO6" />
+   <Bond atomName1="C2V" atomName2="CO7" />
+   <Bond atomName1="C30" atomName2="CNM" />
+   <Bond atomName1="C30" atomName2="CO7" />
+   <Bond atomName1="C30" atomName2="CO8" />
+   <Bond atomName1="C31" atomName2="CNN" />
+   <Bond atomName1="C31" atomName2="CO8" />
+   <Bond atomName1="C31" atomName2="CO9" />
+   <Bond atomName1="C32" atomName2="CNO" />
+   <Bond atomName1="C32" atomName2="CO9" />
+   <Bond atomName1="C32" atomName2="COA" />
+   <Bond atomName1="C33" atomName2="CNP" />
+   <Bond atomName1="C33" atomName2="COA" />
+   <Bond atomName1="C33" atomName2="COB" />
+   <Bond atomName1="C34" atomName2="COB" />
+   <Bond atomName1="C34" atomName2="COC" />
+   <Bond atomName1="C34" atomName2="CVP" />
+   <Bond atomName1="C35" atomName2="COD" />
+   <Bond atomName1="C35" atomName2="CUB" />
+   <Bond atomName1="C35" atomName2="CUO" />
+   <Bond atomName1="C36" atomName2="CNQ" />
+   <Bond atomName1="C36" atomName2="COD" />
+   <Bond atomName1="C36" atomName2="COE" />
+   <Bond atomName1="C37" atomName2="CNR" />
+   <Bond atomName1="C37" atomName2="COE" />
+   <Bond atomName1="C37" atomName2="COF" />
+   <Bond atomName1="C38" atomName2="CNS" />
+   <Bond atomName1="C38" atomName2="COF" />
+   <Bond atomName1="C38" atomName2="COG" />
+   <Bond atomName1="C39" atomName2="CNT" />
+   <Bond atomName1="C39" atomName2="COG" />
+   <Bond atomName1="C39" atomName2="COH" />
+   <Bond atomName1="C3A" atomName2="CNU" />
+   <Bond atomName1="C3A" atomName2="COH" />
+   <Bond atomName1="C3A" atomName2="COI" />
+   <Bond atomName1="C3B" atomName2="CNV" />
+   <Bond atomName1="C3B" atomName2="COI" />
+   <Bond atomName1="C3B" atomName2="COJ" />
+   <Bond atomName1="C3C" atomName2="CO0" />
+   <Bond atomName1="C3C" atomName2="COJ" />
+   <Bond atomName1="C3C" atomName2="COK" />
+   <Bond atomName1="C3D" atomName2="CO1" />
+   <Bond atomName1="C3D" atomName2="COK" />
+   <Bond atomName1="C3D" atomName2="COL" />
+   <Bond atomName1="C3E" atomName2="CO2" />
+   <Bond atomName1="C3E" atomName2="COL" />
+   <Bond atomName1="C3E" atomName2="COM" />
+   <Bond atomName1="C3F" atomName2="CO3" />
+   <Bond atomName1="C3F" atomName2="COM" />
+   <Bond atomName1="C3F" atomName2="CON" />
+   <Bond atomName1="C3G" atomName2="CO4" />
+   <Bond atomName1="C3G" atomName2="CON" />
+   <Bond atomName1="C3G" atomName2="COO" />
+   <Bond atomName1="C3H" atomName2="CO5" />
+   <Bond atomName1="C3H" atomName2="COO" />
+   <Bond atomName1="C3H" atomName2="COP" />
+   <Bond atomName1="C3I" atomName2="CO6" />
+   <Bond atomName1="C3I" atomName2="COP" />
+   <Bond atomName1="C3I" atomName2="COQ" />
+   <Bond atomName1="C3J" atomName2="CO7" />
+   <Bond atomName1="C3J" atomName2="COQ" />
+   <Bond atomName1="C3J" atomName2="COR" />
+   <Bond atomName1="C3K" atomName2="CO8" />
+   <Bond atomName1="C3K" atomName2="COR" />
+   <Bond atomName1="C3K" atomName2="COS" />
+   <Bond atomName1="C3L" atomName2="CO9" />
+   <Bond atomName1="C3L" atomName2="COS" />
+   <Bond atomName1="C3L" atomName2="COT" />
+   <Bond atomName1="C3M" atomName2="COA" />
+   <Bond atomName1="C3M" atomName2="COT" />
+   <Bond atomName1="C3M" atomName2="COU" />
+   <Bond atomName1="C3N" atomName2="COB" />
+   <Bond atomName1="C3N" atomName2="COU" />
+   <Bond atomName1="C3N" atomName2="COV" />
+   <Bond atomName1="C3O" atomName2="COC" />
+   <Bond atomName1="C3O" atomName2="COV" />
+   <Bond atomName1="C3O" atomName2="CP0" />
+   <Bond atomName1="C3P" atomName2="CP1" />
+   <Bond atomName1="C3P" atomName2="CUO" />
+   <Bond atomName1="C3P" atomName2="CV3" />
+   <Bond atomName1="C3Q" atomName2="COD" />
+   <Bond atomName1="C3Q" atomName2="CP1" />
+   <Bond atomName1="C3Q" atomName2="CP2" />
+   <Bond atomName1="C3R" atomName2="COE" />
+   <Bond atomName1="C3R" atomName2="CP2" />
+   <Bond atomName1="C3R" atomName2="CP3" />
+   <Bond atomName1="C3S" atomName2="COF" />
+   <Bond atomName1="C3S" atomName2="CP3" />
+   <Bond atomName1="C3S" atomName2="CP4" />
+   <Bond atomName1="C3T" atomName2="COG" />
+   <Bond atomName1="C3T" atomName2="CP4" />
+   <Bond atomName1="C3T" atomName2="CP5" />
+   <Bond atomName1="C3U" atomName2="COH" />
+   <Bond atomName1="C3U" atomName2="CP5" />
+   <Bond atomName1="C3U" atomName2="CP6" />
+   <Bond atomName1="C3V" atomName2="COI" />
+   <Bond atomName1="C3V" atomName2="CP6" />
+   <Bond atomName1="C3V" atomName2="CP7" />
+   <Bond atomName1="C40" atomName2="COJ" />
+   <Bond atomName1="C40" atomName2="CP7" />
+   <Bond atomName1="C40" atomName2="CP8" />
+   <Bond atomName1="C41" atomName2="COK" />
+   <Bond atomName1="C41" atomName2="CP8" />
+   <Bond atomName1="C41" atomName2="CP9" />
+   <Bond atomName1="C42" atomName2="COL" />
+   <Bond atomName1="C42" atomName2="CP9" />
+   <Bond atomName1="C42" atomName2="CPA" />
+   <Bond atomName1="C43" atomName2="COM" />
+   <Bond atomName1="C43" atomName2="CPA" />
+   <Bond atomName1="C43" atomName2="CPB" />
+   <Bond atomName1="C44" atomName2="CON" />
+   <Bond atomName1="C44" atomName2="CPB" />
+   <Bond atomName1="C44" atomName2="CPC" />
+   <Bond atomName1="C45" atomName2="COO" />
+   <Bond atomName1="C45" atomName2="CPC" />
+   <Bond atomName1="C45" atomName2="CPD" />
+   <Bond atomName1="C46" atomName2="COP" />
+   <Bond atomName1="C46" atomName2="CPD" />
+   <Bond atomName1="C46" atomName2="CPE" />
+   <Bond atomName1="C47" atomName2="COQ" />
+   <Bond atomName1="C47" atomName2="CPE" />
+   <Bond atomName1="C47" atomName2="CPF" />
+   <Bond atomName1="C48" atomName2="COR" />
+   <Bond atomName1="C48" atomName2="CPF" />
+   <Bond atomName1="C48" atomName2="CPG" />
+   <Bond atomName1="C49" atomName2="COS" />
+   <Bond atomName1="C49" atomName2="CPG" />
+   <Bond atomName1="C49" atomName2="CPH" />
+   <Bond atomName1="C4A" atomName2="COT" />
+   <Bond atomName1="C4A" atomName2="CPH" />
+   <Bond atomName1="C4A" atomName2="CPI" />
+   <Bond atomName1="C4B" atomName2="COU" />
+   <Bond atomName1="C4B" atomName2="CPI" />
+   <Bond atomName1="C4B" atomName2="CPJ" />
+   <Bond atomName1="C4C" atomName2="COV" />
+   <Bond atomName1="C4C" atomName2="CPJ" />
+   <Bond atomName1="C4C" atomName2="CPK" />
+   <Bond atomName1="C4D" atomName2="CPL" />
+   <Bond atomName1="C4D" atomName2="CV3" />
+   <Bond atomName1="C4D" atomName2="CVC" />
+   <Bond atomName1="C4E" atomName2="CP1" />
+   <Bond atomName1="C4E" atomName2="CPL" />
+   <Bond atomName1="C4E" atomName2="CPM" />
+   <Bond atomName1="C4F" atomName2="CP2" />
+   <Bond atomName1="C4F" atomName2="CPM" />
+   <Bond atomName1="C4F" atomName2="CPN" />
+   <Bond atomName1="C4G" atomName2="CP3" />
+   <Bond atomName1="C4G" atomName2="CPN" />
+   <Bond atomName1="C4G" atomName2="CPO" />
+   <Bond atomName1="C4H" atomName2="CP4" />
+   <Bond atomName1="C4H" atomName2="CPO" />
+   <Bond atomName1="C4H" atomName2="CPP" />
+   <Bond atomName1="C4I" atomName2="CP5" />
+   <Bond atomName1="C4I" atomName2="CPP" />
+   <Bond atomName1="C4I" atomName2="CPQ" />
+   <Bond atomName1="C4J" atomName2="CP6" />
+   <Bond atomName1="C4J" atomName2="CPQ" />
+   <Bond atomName1="C4J" atomName2="CPR" />
+   <Bond atomName1="C4K" atomName2="CP7" />
+   <Bond atomName1="C4K" atomName2="CPR" />
+   <Bond atomName1="C4K" atomName2="CPS" />
+   <Bond atomName1="C4L" atomName2="CP8" />
+   <Bond atomName1="C4L" atomName2="CPS" />
+   <Bond atomName1="C4L" atomName2="CPT" />
+   <Bond atomName1="C4M" atomName2="CP9" />
+   <Bond atomName1="C4M" atomName2="CPT" />
+   <Bond atomName1="C4M" atomName2="CPU" />
+   <Bond atomName1="C4N" atomName2="CPA" />
+   <Bond atomName1="C4N" atomName2="CPU" />
+   <Bond atomName1="C4N" atomName2="CPV" />
+   <Bond atomName1="C4O" atomName2="CPB" />
+   <Bond atomName1="C4O" atomName2="CPV" />
+   <Bond atomName1="C4O" atomName2="CQ0" />
+   <Bond atomName1="C4P" atomName2="CPC" />
+   <Bond atomName1="C4P" atomName2="CQ0" />
+   <Bond atomName1="C4P" atomName2="CQ1" />
+   <Bond atomName1="C4Q" atomName2="CPD" />
+   <Bond atomName1="C4Q" atomName2="CQ1" />
+   <Bond atomName1="C4Q" atomName2="CQ2" />
+   <Bond atomName1="C4R" atomName2="CPE" />
+   <Bond atomName1="C4R" atomName2="CQ2" />
+   <Bond atomName1="C4R" atomName2="CQ3" />
+   <Bond atomName1="C4S" atomName2="CPF" />
+   <Bond atomName1="C4S" atomName2="CQ3" />
+   <Bond atomName1="C4S" atomName2="CQ4" />
+   <Bond atomName1="C4T" atomName2="CPG" />
+   <Bond atomName1="C4T" atomName2="CQ4" />
+   <Bond atomName1="C4T" atomName2="CQ5" />
+   <Bond atomName1="C4U" atomName2="CPH" />
+   <Bond atomName1="C4U" atomName2="CQ5" />
+   <Bond atomName1="C4U" atomName2="CQ6" />
+   <Bond atomName1="C4V" atomName2="CPI" />
+   <Bond atomName1="C4V" atomName2="CQ6" />
+   <Bond atomName1="C4V" atomName2="CQ7" />
+   <Bond atomName1="C50" atomName2="CPJ" />
+   <Bond atomName1="C50" atomName2="CQ7" />
+   <Bond atomName1="C50" atomName2="CQ8" />
+   <Bond atomName1="C51" atomName2="CQ9" />
+   <Bond atomName1="C51" atomName2="CVC" />
+   <Bond atomName1="C51" atomName2="CVJ" />
+   <Bond atomName1="C52" atomName2="CPL" />
+   <Bond atomName1="C52" atomName2="CQ9" />
+   <Bond atomName1="C52" atomName2="CQA" />
+   <Bond atomName1="C53" atomName2="CPM" />
+   <Bond atomName1="C53" atomName2="CQA" />
+   <Bond atomName1="C53" atomName2="CQB" />
+   <Bond atomName1="C54" atomName2="CPN" />
+   <Bond atomName1="C54" atomName2="CQB" />
+   <Bond atomName1="C54" atomName2="CQC" />
+   <Bond atomName1="C55" atomName2="CPO" />
+   <Bond atomName1="C55" atomName2="CQC" />
+   <Bond atomName1="C55" atomName2="CQD" />
+   <Bond atomName1="C56" atomName2="CPP" />
+   <Bond atomName1="C56" atomName2="CQD" />
+   <Bond atomName1="C56" atomName2="CQE" />
+   <Bond atomName1="C57" atomName2="CPQ" />
+   <Bond atomName1="C57" atomName2="CQE" />
+   <Bond atomName1="C57" atomName2="CQF" />
+   <Bond atomName1="C58" atomName2="CPR" />
+   <Bond atomName1="C58" atomName2="CQF" />
+   <Bond atomName1="C58" atomName2="CQG" />
+   <Bond atomName1="C59" atomName2="CPS" />
+   <Bond atomName1="C59" atomName2="CQG" />
+   <Bond atomName1="C59" atomName2="CQH" />
+   <Bond atomName1="C5A" atomName2="CPT" />
+   <Bond atomName1="C5A" atomName2="CQH" />
+   <Bond atomName1="C5A" atomName2="CQI" />
+   <Bond atomName1="C5B" atomName2="CPU" />
+   <Bond atomName1="C5B" atomName2="CQI" />
+   <Bond atomName1="C5B" atomName2="CQJ" />
+   <Bond atomName1="C5C" atomName2="CPV" />
+   <Bond atomName1="C5C" atomName2="CQJ" />
+   <Bond atomName1="C5C" atomName2="CQK" />
+   <Bond atomName1="C5D" atomName2="CQ0" />
+   <Bond atomName1="C5D" atomName2="CQK" />
+   <Bond atomName1="C5D" atomName2="CQL" />
+   <Bond atomName1="C5E" atomName2="CQ1" />
+   <Bond atomName1="C5E" atomName2="CQL" />
+   <Bond atomName1="C5E" atomName2="CQM" />
+   <Bond atomName1="C5F" atomName2="CQ2" />
+   <Bond atomName1="C5F" atomName2="CQM" />
+   <Bond atomName1="C5F" atomName2="CQN" />
+   <Bond atomName1="C5G" atomName2="CQ3" />
+   <Bond atomName1="C5G" atomName2="CQN" />
+   <Bond atomName1="C5G" atomName2="CQO" />
+   <Bond atomName1="C5H" atomName2="CQ4" />
+   <Bond atomName1="C5H" atomName2="CQO" />
+   <Bond atomName1="C5H" atomName2="CQP" />
+   <Bond atomName1="C5I" atomName2="CQ5" />
+   <Bond atomName1="C5I" atomName2="CQP" />
+   <Bond atomName1="C5I" atomName2="CQQ" />
+   <Bond atomName1="C5J" atomName2="CQ6" />
+   <Bond atomName1="C5J" atomName2="CQQ" />
+   <Bond atomName1="C5J" atomName2="CQR" />
+   <Bond atomName1="C5K" atomName2="CQ7" />
+   <Bond atomName1="C5K" atomName2="CQR" />
+   <Bond atomName1="C5K" atomName2="CQS" />
+   <Bond atomName1="C5L" atomName2="CQT" />
+   <Bond atomName1="C5L" atomName2="CVJ" />
+   <Bond atomName1="C5L" atomName2="CVO" />
+   <Bond atomName1="C5M" atomName2="CQ9" />
+   <Bond atomName1="C5M" atomName2="CQT" />
+   <Bond atomName1="C5M" atomName2="CQU" />
+   <Bond atomName1="C5N" atomName2="CQA" />
+   <Bond atomName1="C5N" atomName2="CQU" />
+   <Bond atomName1="C5N" atomName2="CQV" />
+   <Bond atomName1="C5O" atomName2="CQB" />
+   <Bond atomName1="C5O" atomName2="CQV" />
+   <Bond atomName1="C5O" atomName2="CR0" />
+   <Bond atomName1="C5P" atomName2="CQC" />
+   <Bond atomName1="C5P" atomName2="CR0" />
+   <Bond atomName1="C5P" atomName2="CR1" />
+   <Bond atomName1="C5Q" atomName2="CQD" />
+   <Bond atomName1="C5Q" atomName2="CR1" />
+   <Bond atomName1="C5Q" atomName2="CR2" />
+   <Bond atomName1="C5R" atomName2="CQE" />
+   <Bond atomName1="C5R" atomName2="CR2" />
+   <Bond atomName1="C5R" atomName2="CR3" />
+   <Bond atomName1="C5S" atomName2="CQF" />
+   <Bond atomName1="C5S" atomName2="CR3" />
+   <Bond atomName1="C5S" atomName2="CR4" />
+   <Bond atomName1="C5T" atomName2="CQG" />
+   <Bond atomName1="C5T" atomName2="CR4" />
+   <Bond atomName1="C5T" atomName2="CR5" />
+   <Bond atomName1="C5U" atomName2="CQH" />
+   <Bond atomName1="C5U" atomName2="CR5" />
+   <Bond atomName1="C5U" atomName2="CR6" />
+   <Bond atomName1="C5V" atomName2="CQI" />
+   <Bond atomName1="C5V" atomName2="CR6" />
+   <Bond atomName1="C5V" atomName2="CR7" />
+   <Bond atomName1="C60" atomName2="CQJ" />
+   <Bond atomName1="C60" atomName2="CR7" />
+   <Bond atomName1="C60" atomName2="CR8" />
+   <Bond atomName1="C61" atomName2="CQK" />
+   <Bond atomName1="C61" atomName2="CR8" />
+   <Bond atomName1="C61" atomName2="CR9" />
+   <Bond atomName1="C62" atomName2="CQL" />
+   <Bond atomName1="C62" atomName2="CR9" />
+   <Bond atomName1="C62" atomName2="CRA" />
+   <Bond atomName1="C63" atomName2="CQM" />
+   <Bond atomName1="C63" atomName2="CRA" />
+   <Bond atomName1="C63" atomName2="CRB" />
+   <Bond atomName1="C64" atomName2="CQN" />
+   <Bond atomName1="C64" atomName2="CRB" />
+   <Bond atomName1="C64" atomName2="CRC" />
+   <Bond atomName1="C65" atomName2="CQO" />
+   <Bond atomName1="C65" atomName2="CRC" />
+   <Bond atomName1="C65" atomName2="CRD" />
+   <Bond atomName1="C66" atomName2="CQP" />
+   <Bond atomName1="C66" atomName2="CRD" />
+   <Bond atomName1="C66" atomName2="CRE" />
+   <Bond atomName1="C67" atomName2="CQQ" />
+   <Bond atomName1="C67" atomName2="CRE" />
+   <Bond atomName1="C67" atomName2="CRF" />
+   <Bond atomName1="C68" atomName2="CQR" />
+   <Bond atomName1="C68" atomName2="CRF" />
+   <Bond atomName1="C68" atomName2="CRG" />
+   <Bond atomName1="C69" atomName2="CRH" />
+   <Bond atomName1="C69" atomName2="CVO" />
+   <Bond atomName1="C69" atomName2="CVR" />
+   <Bond atomName1="C6A" atomName2="CQT" />
+   <Bond atomName1="C6A" atomName2="CRH" />
+   <Bond atomName1="C6A" atomName2="CRI" />
+   <Bond atomName1="C6B" atomName2="CQU" />
+   <Bond atomName1="C6B" atomName2="CRI" />
+   <Bond atomName1="C6B" atomName2="CRJ" />
+   <Bond atomName1="C6C" atomName2="CQV" />
+   <Bond atomName1="C6C" atomName2="CRJ" />
+   <Bond atomName1="C6C" atomName2="CRK" />
+   <Bond atomName1="C6D" atomName2="CR0" />
+   <Bond atomName1="C6D" atomName2="CRK" />
+   <Bond atomName1="C6D" atomName2="CRL" />
+   <Bond atomName1="C6E" atomName2="CR1" />
+   <Bond atomName1="C6E" atomName2="CRL" />
+   <Bond atomName1="C6E" atomName2="CRM" />
+   <Bond atomName1="C6F" atomName2="CR2" />
+   <Bond atomName1="C6F" atomName2="CRM" />
+   <Bond atomName1="C6F" atomName2="CRN" />
+   <Bond atomName1="C6G" atomName2="CR3" />
+   <Bond atomName1="C6G" atomName2="CRN" />
+   <Bond atomName1="C6G" atomName2="CRO" />
+   <Bond atomName1="C6H" atomName2="CR4" />
+   <Bond atomName1="C6H" atomName2="CRO" />
+   <Bond atomName1="C6H" atomName2="CRP" />
+   <Bond atomName1="C6I" atomName2="CR5" />
+   <Bond atomName1="C6I" atomName2="CRP" />
+   <Bond atomName1="C6I" atomName2="CRQ" />
+   <Bond atomName1="C6J" atomName2="CR6" />
+   <Bond atomName1="C6J" atomName2="CRQ" />
+   <Bond atomName1="C6J" atomName2="CRR" />
+   <Bond atomName1="C6K" atomName2="CR7" />
+   <Bond atomName1="C6K" atomName2="CRR" />
+   <Bond atomName1="C6K" atomName2="CRS" />
+   <Bond atomName1="C6L" atomName2="CR8" />
+   <Bond atomName1="C6L" atomName2="CRS" />
+   <Bond atomName1="C6L" atomName2="CRT" />
+   <Bond atomName1="C6M" atomName2="CR9" />
+   <Bond atomName1="C6M" atomName2="CRT" />
+   <Bond atomName1="C6M" atomName2="CRU" />
+   <Bond atomName1="C6N" atomName2="CRA" />
+   <Bond atomName1="C6N" atomName2="CRU" />
+   <Bond atomName1="C6N" atomName2="CRV" />
+   <Bond atomName1="C6O" atomName2="CRB" />
+   <Bond atomName1="C6O" atomName2="CRV" />
+   <Bond atomName1="C6O" atomName2="CS0" />
+   <Bond atomName1="C6P" atomName2="CRC" />
+   <Bond atomName1="C6P" atomName2="CS0" />
+   <Bond atomName1="C6P" atomName2="CS1" />
+   <Bond atomName1="C6Q" atomName2="CRD" />
+   <Bond atomName1="C6Q" atomName2="CS1" />
+   <Bond atomName1="C6Q" atomName2="CS2" />
+   <Bond atomName1="C6R" atomName2="CRE" />
+   <Bond atomName1="C6R" atomName2="CS2" />
+   <Bond atomName1="C6R" atomName2="CS3" />
+   <Bond atomName1="C6S" atomName2="CRF" />
+   <Bond atomName1="C6S" atomName2="CS3" />
+   <Bond atomName1="C6S" atomName2="CS4" />
+   <Bond atomName1="C6T" atomName2="CS5" />
+   <Bond atomName1="C6T" atomName2="CVR" />
+   <Bond atomName1="C6T" atomName2="CVS" />
+   <Bond atomName1="C6U" atomName2="CRH" />
+   <Bond atomName1="C6U" atomName2="CS5" />
+   <Bond atomName1="C6U" atomName2="CS6" />
+   <Bond atomName1="C6V" atomName2="CRI" />
+   <Bond atomName1="C6V" atomName2="CS6" />
+   <Bond atomName1="C6V" atomName2="CS7" />
+   <Bond atomName1="C70" atomName2="CRJ" />
+   <Bond atomName1="C70" atomName2="CS7" />
+   <Bond atomName1="C70" atomName2="CS8" />
+   <Bond atomName1="C71" atomName2="CRK" />
+   <Bond atomName1="C71" atomName2="CS8" />
+   <Bond atomName1="C71" atomName2="CS9" />
+   <Bond atomName1="C72" atomName2="CRL" />
+   <Bond atomName1="C72" atomName2="CS9" />
+   <Bond atomName1="C72" atomName2="CSA" />
+   <Bond atomName1="C73" atomName2="CRM" />
+   <Bond atomName1="C73" atomName2="CSA" />
+   <Bond atomName1="C73" atomName2="CSB" />
+   <Bond atomName1="C74" atomName2="CRN" />
+   <Bond atomName1="C74" atomName2="CSB" />
+   <Bond atomName1="C74" atomName2="CSC" />
+   <Bond atomName1="C75" atomName2="CRO" />
+   <Bond atomName1="C75" atomName2="CSC" />
+   <Bond atomName1="C75" atomName2="CSD" />
+   <Bond atomName1="C76" atomName2="CRP" />
+   <Bond atomName1="C76" atomName2="CSD" />
+   <Bond atomName1="C76" atomName2="CSE" />
+   <Bond atomName1="C77" atomName2="CRQ" />
+   <Bond atomName1="C77" atomName2="CSE" />
+   <Bond atomName1="C77" atomName2="CSF" />
+   <Bond atomName1="C78" atomName2="CRR" />
+   <Bond atomName1="C78" atomName2="CSF" />
+   <Bond atomName1="C78" atomName2="CSG" />
+   <Bond atomName1="C79" atomName2="CRS" />
+   <Bond atomName1="C79" atomName2="CSG" />
+   <Bond atomName1="C79" atomName2="CSH" />
+   <Bond atomName1="C7A" atomName2="CRT" />
+   <Bond atomName1="C7A" atomName2="CSH" />
+   <Bond atomName1="C7A" atomName2="CSI" />
+   <Bond atomName1="C7B" atomName2="CRU" />
+   <Bond atomName1="C7B" atomName2="CSI" />
+   <Bond atomName1="C7B" atomName2="CSJ" />
+   <Bond atomName1="C7C" atomName2="CRV" />
+   <Bond atomName1="C7C" atomName2="CSJ" />
+   <Bond atomName1="C7C" atomName2="CSK" />
+   <Bond atomName1="C7D" atomName2="CS0" />
+   <Bond atomName1="C7D" atomName2="CSK" />
+   <Bond atomName1="C7D" atomName2="CSL" />
+   <Bond atomName1="C7E" atomName2="CS1" />
+   <Bond atomName1="C7E" atomName2="CSL" />
+   <Bond atomName1="C7E" atomName2="CSM" />
+   <Bond atomName1="C7F" atomName2="CS2" />
+   <Bond atomName1="C7F" atomName2="CSM" />
+   <Bond atomName1="C7F" atomName2="CSN" />
+   <Bond atomName1="C7G" atomName2="CS3" />
+   <Bond atomName1="C7G" atomName2="CSN" />
+   <Bond atomName1="C7G" atomName2="CSO" />
+   <Bond atomName1="C7H" atomName2="CL9" />
+   <Bond atomName1="C7H" atomName2="CS5" />
+   <Bond atomName1="C7H" atomName2="CSP" />
+   <Bond atomName1="C7I" atomName2="CS6" />
+   <Bond atomName1="C7I" atomName2="CSP" />
+   <Bond atomName1="C7I" atomName2="CSQ" />
+   <Bond atomName1="C7J" atomName2="CS7" />
+   <Bond atomName1="C7J" atomName2="CSQ" />
+   <Bond atomName1="C7J" atomName2="CSR" />
+   <Bond atomName1="C7K" atomName2="CS8" />
+   <Bond atomName1="C7K" atomName2="CSR" />
+   <Bond atomName1="C7K" atomName2="CSS" />
+   <Bond atomName1="C7L" atomName2="CS9" />
+   <Bond atomName1="C7L" atomName2="CSS" />
+   <Bond atomName1="C7L" atomName2="CST" />
+   <Bond atomName1="C7M" atomName2="CSA" />
+   <Bond atomName1="C7M" atomName2="CST" />
+   <Bond atomName1="C7M" atomName2="CSU" />
+   <Bond atomName1="C7N" atomName2="CSB" />
+   <Bond atomName1="C7N" atomName2="CSU" />
+   <Bond atomName1="C7N" atomName2="CSV" />
+   <Bond atomName1="C7O" atomName2="CSC" />
+   <Bond atomName1="C7O" atomName2="CSV" />
+   <Bond atomName1="C7O" atomName2="CT0" />
+   <Bond atomName1="C7P" atomName2="CSD" />
+   <Bond atomName1="C7P" atomName2="CT0" />
+   <Bond atomName1="C7P" atomName2="CT1" />
+   <Bond atomName1="C7Q" atomName2="CSE" />
+   <Bond atomName1="C7Q" atomName2="CT1" />
+   <Bond atomName1="C7Q" atomName2="CT2" />
+   <Bond atomName1="C7R" atomName2="CSF" />
+   <Bond atomName1="C7R" atomName2="CT2" />
+   <Bond atomName1="C7R" atomName2="CT3" />
+   <Bond atomName1="C7S" atomName2="CSG" />
+   <Bond atomName1="C7S" atomName2="CT3" />
+   <Bond atomName1="C7S" atomName2="CT4" />
+   <Bond atomName1="C7T" atomName2="CSH" />
+   <Bond atomName1="C7T" atomName2="CT4" />
+   <Bond atomName1="C7T" atomName2="CT5" />
+   <Bond atomName1="C7U" atomName2="CSI" />
+   <Bond atomName1="C7U" atomName2="CT5" />
+   <Bond atomName1="C7U" atomName2="CT6" />
+   <Bond atomName1="C7V" atomName2="CSJ" />
+   <Bond atomName1="C7V" atomName2="CT6" />
+   <Bond atomName1="C7V" atomName2="CT7" />
+   <Bond atomName1="C80" atomName2="CSK" />
+   <Bond atomName1="C80" atomName2="CT7" />
+   <Bond atomName1="C80" atomName2="CT8" />
+   <Bond atomName1="C81" atomName2="CSL" />
+   <Bond atomName1="C81" atomName2="CT8" />
+   <Bond atomName1="C81" atomName2="CT9" />
+   <Bond atomName1="C82" atomName2="CSM" />
+   <Bond atomName1="C82" atomName2="CT9" />
+   <Bond atomName1="C82" atomName2="CTA" />
+   <Bond atomName1="C83" atomName2="CSN" />
+   <Bond atomName1="C83" atomName2="CTA" />
+   <Bond atomName1="C83" atomName2="CTB" />
+   <Bond atomName1="C84" atomName2="CLC" />
+   <Bond atomName1="C84" atomName2="CSQ" />
+   <Bond atomName1="C84" atomName2="CTC" />
+   <Bond atomName1="C85" atomName2="CSR" />
+   <Bond atomName1="C85" atomName2="CTC" />
+   <Bond atomName1="C85" atomName2="CTD" />
+   <Bond atomName1="C86" atomName2="CSS" />
+   <Bond atomName1="C86" atomName2="CTD" />
+   <Bond atomName1="C86" atomName2="CTE" />
+   <Bond atomName1="C87" atomName2="CST" />
+   <Bond atomName1="C87" atomName2="CTE" />
+   <Bond atomName1="C87" atomName2="CTF" />
+   <Bond atomName1="C88" atomName2="CSU" />
+   <Bond atomName1="C88" atomName2="CTF" />
+   <Bond atomName1="C88" atomName2="CTG" />
+   <Bond atomName1="C89" atomName2="CSV" />
+   <Bond atomName1="C89" atomName2="CTG" />
+   <Bond atomName1="C89" atomName2="CTH" />
+   <Bond atomName1="C8A" atomName2="CT0" />
+   <Bond atomName1="C8A" atomName2="CTH" />
+   <Bond atomName1="C8A" atomName2="CTI" />
+   <Bond atomName1="C8B" atomName2="CT1" />
+   <Bond atomName1="C8B" atomName2="CTI" />
+   <Bond atomName1="C8B" atomName2="CTJ" />
+   <Bond atomName1="C8C" atomName2="CT2" />
+   <Bond atomName1="C8C" atomName2="CTJ" />
+   <Bond atomName1="C8C" atomName2="CTK" />
+   <Bond atomName1="C8D" atomName2="CT3" />
+   <Bond atomName1="C8D" atomName2="CTK" />
+   <Bond atomName1="C8D" atomName2="CTL" />
+   <Bond atomName1="C8E" atomName2="CT4" />
+   <Bond atomName1="C8E" atomName2="CTL" />
+   <Bond atomName1="C8E" atomName2="CTM" />
+   <Bond atomName1="C8F" atomName2="CT5" />
+   <Bond atomName1="C8F" atomName2="CTM" />
+   <Bond atomName1="C8F" atomName2="CTN" />
+   <Bond atomName1="C8G" atomName2="CT6" />
+   <Bond atomName1="C8G" atomName2="CTN" />
+   <Bond atomName1="C8G" atomName2="CTO" />
+   <Bond atomName1="C8H" atomName2="CT7" />
+   <Bond atomName1="C8H" atomName2="CTO" />
+   <Bond atomName1="C8H" atomName2="CTP" />
+   <Bond atomName1="C8I" atomName2="CT8" />
+   <Bond atomName1="C8I" atomName2="CTP" />
+   <Bond atomName1="C8I" atomName2="CTQ" />
+   <Bond atomName1="C8J" atomName2="CT9" />
+   <Bond atomName1="C8J" atomName2="CTQ" />
+   <Bond atomName1="C8J" atomName2="CTR" />
+   <Bond atomName1="C8K" atomName2="CTA" />
+   <Bond atomName1="C8K" atomName2="CTR" />
+   <Bond atomName1="C8K" atomName2="CTS" />
+   <Bond atomName1="C8L" atomName2="CLH" />
+   <Bond atomName1="C8L" atomName2="CTD" />
+   <Bond atomName1="C8L" atomName2="CTT" />
+   <Bond atomName1="C8M" atomName2="CTE" />
+   <Bond atomName1="C8M" atomName2="CTT" />
+   <Bond atomName1="C8M" atomName2="CTU" />
+   <Bond atomName1="C8N" atomName2="CTF" />
+   <Bond atomName1="C8N" atomName2="CTU" />
+   <Bond atomName1="C8N" atomName2="CTV" />
+   <Bond atomName1="C8O" atomName2="CTG" />
+   <Bond atomName1="C8O" atomName2="CTV" />
+   <Bond atomName1="C8O" atomName2="CU0" />
+   <Bond atomName1="C8P" atomName2="CTH" />
+   <Bond atomName1="C8P" atomName2="CU0" />
+   <Bond atomName1="C8P" atomName2="CU1" />
+   <Bond atomName1="C8Q" atomName2="CTI" />
+   <Bond atomName1="C8Q" atomName2="CU1" />
+   <Bond atomName1="C8Q" atomName2="CU2" />
+   <Bond atomName1="C8R" atomName2="CTJ" />
+   <Bond atomName1="C8R" atomName2="CU2" />
+   <Bond atomName1="C8R" atomName2="CU3" />
+   <Bond atomName1="C8S" atomName2="CTK" />
+   <Bond atomName1="C8S" atomName2="CU3" />
+   <Bond atomName1="C8S" atomName2="CU4" />
+   <Bond atomName1="C8T" atomName2="CTL" />
+   <Bond atomName1="C8T" atomName2="CU4" />
+   <Bond atomName1="C8T" atomName2="CU5" />
+   <Bond atomName1="C8U" atomName2="CTM" />
+   <Bond atomName1="C8U" atomName2="CU5" />
+   <Bond atomName1="C8U" atomName2="CU6" />
+   <Bond atomName1="C8V" atomName2="CTN" />
+   <Bond atomName1="C8V" atomName2="CU6" />
+   <Bond atomName1="C8V" atomName2="CU7" />
+   <Bond atomName1="C90" atomName2="CTO" />
+   <Bond atomName1="C90" atomName2="CU7" />
+   <Bond atomName1="C90" atomName2="CU8" />
+   <Bond atomName1="C91" atomName2="CTP" />
+   <Bond atomName1="C91" atomName2="CU8" />
+   <Bond atomName1="C91" atomName2="CU9" />
+   <Bond atomName1="C92" atomName2="CTQ" />
+   <Bond atomName1="C92" atomName2="CU9" />
+   <Bond atomName1="C92" atomName2="CUA" />
+   <Bond atomName1="C93" atomName2="CTR" />
+   <Bond atomName1="C93" atomName2="CUA" />
+   <Bond atomName1="C93" atomName2="CUB" />
+   <Bond atomName1="C94" atomName2="CLO" />
+   <Bond atomName1="C94" atomName2="CTU" />
+   <Bond atomName1="C94" atomName2="CUC" />
+   <Bond atomName1="C95" atomName2="CTV" />
+   <Bond atomName1="C95" atomName2="CUC" />
+   <Bond atomName1="C95" atomName2="CUD" />
+   <Bond atomName1="C96" atomName2="CU0" />
+   <Bond atomName1="C96" atomName2="CUD" />
+   <Bond atomName1="C96" atomName2="CUE" />
+   <Bond atomName1="C97" atomName2="CU1" />
+   <Bond atomName1="C97" atomName2="CUE" />
+   <Bond atomName1="C97" atomName2="CUF" />
+   <Bond atomName1="C98" atomName2="CU2" />
+   <Bond atomName1="C98" atomName2="CUF" />
+   <Bond atomName1="C98" atomName2="CUG" />
+   <Bond atomName1="C99" atomName2="CU3" />
+   <Bond atomName1="C99" atomName2="CUG" />
+   <Bond atomName1="C99" atomName2="CUH" />
+   <Bond atomName1="C9A" atomName2="CU4" />
+   <Bond atomName1="C9A" atomName2="CUH" />
+   <Bond atomName1="C9A" atomName2="CUI" />
+   <Bond atomName1="C9B" atomName2="CU5" />
+   <Bond atomName1="C9B" atomName2="CUI" />
+   <Bond atomName1="C9B" atomName2="CUJ" />
+   <Bond atomName1="C9C" atomName2="CU6" />
+   <Bond atomName1="C9C" atomName2="CUJ" />
+   <Bond atomName1="C9C" atomName2="CUK" />
+   <Bond atomName1="C9D" atomName2="CU7" />
+   <Bond atomName1="C9D" atomName2="CUK" />
+   <Bond atomName1="C9D" atomName2="CUL" />
+   <Bond atomName1="C9E" atomName2="CU8" />
+   <Bond atomName1="C9E" atomName2="CUL" />
+   <Bond atomName1="C9E" atomName2="CUM" />
+   <Bond atomName1="C9F" atomName2="CU9" />
+   <Bond atomName1="C9F" atomName2="CUM" />
+   <Bond atomName1="C9F" atomName2="CUN" />
+   <Bond atomName1="C9G" atomName2="CUA" />
+   <Bond atomName1="C9G" atomName2="CUN" />
+   <Bond atomName1="C9G" atomName2="CUO" />
+   <Bond atomName1="C9H" atomName2="CM1" />
+   <Bond atomName1="C9H" atomName2="CUD" />
+   <Bond atomName1="C9H" atomName2="CUP" />
+   <Bond atomName1="C9I" atomName2="CUE" />
+   <Bond atomName1="C9I" atomName2="CUP" />
+   <Bond atomName1="C9I" atomName2="CUQ" />
+   <Bond atomName1="C9J" atomName2="CUF" />
+   <Bond atomName1="C9J" atomName2="CUQ" />
+   <Bond atomName1="C9J" atomName2="CUR" />
+   <Bond atomName1="C9K" atomName2="CUG" />
+   <Bond atomName1="C9K" atomName2="CUR" />
+   <Bond atomName1="C9K" atomName2="CUS" />
+   <Bond atomName1="C9L" atomName2="CUH" />
+   <Bond atomName1="C9L" atomName2="CUS" />
+   <Bond atomName1="C9L" atomName2="CUT" />
+   <Bond atomName1="C9M" atomName2="CUI" />
+   <Bond atomName1="C9M" atomName2="CUT" />
+   <Bond atomName1="C9M" atomName2="CUU" />
+   <Bond atomName1="C9N" atomName2="CUJ" />
+   <Bond atomName1="C9N" atomName2="CUU" />
+   <Bond atomName1="C9N" atomName2="CUV" />
+   <Bond atomName1="C9O" atomName2="CUK" />
+   <Bond atomName1="C9O" atomName2="CUV" />
+   <Bond atomName1="C9O" atomName2="CV0" />
+   <Bond atomName1="C9P" atomName2="CUL" />
+   <Bond atomName1="C9P" atomName2="CV0" />
+   <Bond atomName1="C9P" atomName2="CV1" />
+   <Bond atomName1="C9Q" atomName2="CUM" />
+   <Bond atomName1="C9Q" atomName2="CV1" />
+   <Bond atomName1="C9Q" atomName2="CV2" />
+   <Bond atomName1="C9R" atomName2="CUN" />
+   <Bond atomName1="C9R" atomName2="CV2" />
+   <Bond atomName1="C9R" atomName2="CV3" />
+   <Bond atomName1="C9S" atomName2="CMC" />
+   <Bond atomName1="C9S" atomName2="CUQ" />
+   <Bond atomName1="C9S" atomName2="CV4" />
+   <Bond atomName1="C9T" atomName2="CUR" />
+   <Bond atomName1="C9T" atomName2="CV4" />
+   <Bond atomName1="C9T" atomName2="CV5" />
+   <Bond atomName1="C9U" atomName2="CUS" />
+   <Bond atomName1="C9U" atomName2="CV5" />
+   <Bond atomName1="C9U" atomName2="CV6" />
+   <Bond atomName1="C9V" atomName2="CUT" />
+   <Bond atomName1="C9V" atomName2="CV6" />
+   <Bond atomName1="C9V" atomName2="CV7" />
+   <Bond atomName1="CA0" atomName2="CUU" />
+   <Bond atomName1="CA0" atomName2="CV7" />
+   <Bond atomName1="CA0" atomName2="CV8" />
+   <Bond atomName1="CA1" atomName2="CUV" />
+   <Bond atomName1="CA1" atomName2="CV8" />
+   <Bond atomName1="CA1" atomName2="CV9" />
+   <Bond atomName1="CA2" atomName2="CV0" />
+   <Bond atomName1="CA2" atomName2="CV9" />
+   <Bond atomName1="CA2" atomName2="CVA" />
+   <Bond atomName1="CA3" atomName2="CV1" />
+   <Bond atomName1="CA3" atomName2="CVA" />
+   <Bond atomName1="CA3" atomName2="CVB" />
+   <Bond atomName1="CA4" atomName2="CV2" />
+   <Bond atomName1="CA4" atomName2="CVB" />
+   <Bond atomName1="CA4" atomName2="CVC" />
+   <Bond atomName1="CA5" atomName2="CMP" />
+   <Bond atomName1="CA5" atomName2="CV5" />
+   <Bond atomName1="CA5" atomName2="CVD" />
+   <Bond atomName1="CA6" atomName2="CV6" />
+   <Bond atomName1="CA6" atomName2="CVD" />
+   <Bond atomName1="CA6" atomName2="CVE" />
+   <Bond atomName1="CA7" atomName2="CV7" />
+   <Bond atomName1="CA7" atomName2="CVE" />
+   <Bond atomName1="CA7" atomName2="CVF" />
+   <Bond atomName1="CA8" atomName2="CV8" />
+   <Bond atomName1="CA8" atomName2="CVF" />
+   <Bond atomName1="CA8" atomName2="CVG" />
+   <Bond atomName1="CA9" atomName2="CV9" />
+   <Bond atomName1="CA9" atomName2="CVG" />
+   <Bond atomName1="CA9" atomName2="CVH" />
+   <Bond atomName1="CAA" atomName2="CVA" />
+   <Bond atomName1="CAA" atomName2="CVH" />
+   <Bond atomName1="CAA" atomName2="CVI" />
+   <Bond atomName1="CAB" atomName2="CVB" />
+   <Bond atomName1="CAB" atomName2="CVI" />
+   <Bond atomName1="CAB" atomName2="CVJ" />
+   <Bond atomName1="CAC" atomName2="CN8" />
+   <Bond atomName1="CAC" atomName2="CVE" />
+   <Bond atomName1="CAC" atomName2="CVK" />
+   <Bond atomName1="CAD" atomName2="CVF" />
+   <Bond atomName1="CAD" atomName2="CVK" />
+   <Bond atomName1="CAD" atomName2="CVL" />
+   <Bond atomName1="CAE" atomName2="CVG" />
+   <Bond atomName1="CAE" atomName2="CVL" />
+   <Bond atomName1="CAE" atomName2="CVM" />
+   <Bond atomName1="CAF" atomName2="CVH" />
+   <Bond atomName1="CAF" atomName2="CVM" />
+   <Bond atomName1="CAF" atomName2="CVN" />
+   <Bond atomName1="CAG" atomName2="CVI" />
+   <Bond atomName1="CAG" atomName2="CVN" />
+   <Bond atomName1="CAG" atomName2="CVO" />
+   <Bond atomName1="CAH" atomName2="CNP" />
+   <Bond atomName1="CAH" atomName2="CVL" />
+   <Bond atomName1="CAH" atomName2="CVP" />
+   <Bond atomName1="CAI" atomName2="CVM" />
+   <Bond atomName1="CAI" atomName2="CVP" />
+   <Bond atomName1="CAI" atomName2="CVQ" />
+   <Bond atomName1="CAJ" atomName2="CVN" />
+   <Bond atomName1="CAJ" atomName2="CVQ" />
+   <Bond atomName1="CAJ" atomName2="CVR" />
+   <Bond atomName1="CAK" atomName2="COC" />
+   <Bond atomName1="CAK" atomName2="CVQ" />
+   <Bond atomName1="CAK" atomName2="CVS" />
+   <Bond atomName1="CAL" atomName2="CVT" />
+   <Bond atomName1="CAL" atomName2="C13A" />
+   <Bond atomName1="CAL" atomName2="C173" />
+   <Bond atomName1="CAM" atomName2="CVT" />
+   <Bond atomName1="CAM" atomName2="CVV" />
+   <Bond atomName1="CAM" atomName2="C13U" />
+   <Bond atomName1="CAN" atomName2="CVT" />
+   <Bond atomName1="CAN" atomName2="CVU" />
+   <Bond atomName1="CAN" atomName2="C100" />
+   <Bond atomName1="CAO" atomName2="CVU" />
+   <Bond atomName1="CAO" atomName2="C101" />
+   <Bond atomName1="CAO" atomName2="C17N" />
+   <Bond atomName1="CAP" atomName2="CVV" />
+   <Bond atomName1="CAP" atomName2="C103" />
+   <Bond atomName1="CAP" atomName2="C14I" />
+   <Bond atomName1="CAQ" atomName2="CVV" />
+   <Bond atomName1="CAQ" atomName2="C100" />
+   <Bond atomName1="CAQ" atomName2="C104" />
+   <Bond atomName1="CAR" atomName2="C100" />
+   <Bond atomName1="CAR" atomName2="C101" />
+   <Bond atomName1="CAR" atomName2="C105" />
+   <Bond atomName1="CAS" atomName2="C101" />
+   <Bond atomName1="CAS" atomName2="C102" />
+   <Bond atomName1="CAS" atomName2="C106" />
+   <Bond atomName1="CAT" atomName2="C102" />
+   <Bond atomName1="CAT" atomName2="C107" />
+   <Bond atomName1="CAT" atomName2="C189" />
+   <Bond atomName1="CAU" atomName2="C103" />
+   <Bond atomName1="CAU" atomName2="C109" />
+   <Bond atomName1="CAU" atomName2="C156" />
+   <Bond atomName1="CAV" atomName2="C103" />
+   <Bond atomName1="CAV" atomName2="C104" />
+   <Bond atomName1="CAV" atomName2="C10A" />
+   <Bond atomName1="CB0" atomName2="C104" />
+   <Bond atomName1="CB0" atomName2="C105" />
+   <Bond atomName1="CB0" atomName2="C10B" />
+   <Bond atomName1="CB1" atomName2="C105" />
+   <Bond atomName1="CB1" atomName2="C106" />
+   <Bond atomName1="CB1" atomName2="C10C" />
+   <Bond atomName1="CB2" atomName2="C106" />
+   <Bond atomName1="CB2" atomName2="C107" />
+   <Bond atomName1="CB2" atomName2="C10D" />
+   <Bond atomName1="CB3" atomName2="C107" />
+   <Bond atomName1="CB3" atomName2="C108" />
+   <Bond atomName1="CB3" atomName2="C10E" />
+   <Bond atomName1="CB4" atomName2="C108" />
+   <Bond atomName1="CB4" atomName2="C10F" />
+   <Bond atomName1="CB4" atomName2="C18P" />
+   <Bond atomName1="CB5" atomName2="C109" />
+   <Bond atomName1="CB5" atomName2="C10H" />
+   <Bond atomName1="CB5" atomName2="C15Q" />
+   <Bond atomName1="CB6" atomName2="C109" />
+   <Bond atomName1="CB6" atomName2="C10A" />
+   <Bond atomName1="CB6" atomName2="C10I" />
+   <Bond atomName1="CB7" atomName2="C10A" />
+   <Bond atomName1="CB7" atomName2="C10B" />
+   <Bond atomName1="CB7" atomName2="C10J" />
+   <Bond atomName1="CB8" atomName2="C10B" />
+   <Bond atomName1="CB8" atomName2="C10C" />
+   <Bond atomName1="CB8" atomName2="C10K" />
+   <Bond atomName1="CB9" atomName2="C10C" />
+   <Bond atomName1="CB9" atomName2="C10D" />
+   <Bond atomName1="CB9" atomName2="C10L" />
+   <Bond atomName1="CBA" atomName2="C10D" />
+   <Bond atomName1="CBA" atomName2="C10E" />
+   <Bond atomName1="CBA" atomName2="C10M" />
+   <Bond atomName1="CBB" atomName2="C10E" />
+   <Bond atomName1="CBB" atomName2="C10F" />
+   <Bond atomName1="CBB" atomName2="C10N" />
+   <Bond atomName1="CBC" atomName2="C10F" />
+   <Bond atomName1="CBC" atomName2="C10G" />
+   <Bond atomName1="CBC" atomName2="C10O" />
+   <Bond atomName1="CBD" atomName2="C10G" />
+   <Bond atomName1="CBD" atomName2="C10P" />
+   <Bond atomName1="CBD" atomName2="C197" />
+   <Bond atomName1="CBE" atomName2="C10H" />
+   <Bond atomName1="CBE" atomName2="C10R" />
+   <Bond atomName1="CBE" atomName2="C16E" />
+   <Bond atomName1="CBF" atomName2="C10H" />
+   <Bond atomName1="CBF" atomName2="C10I" />
+   <Bond atomName1="CBF" atomName2="C10S" />
+   <Bond atomName1="CBG" atomName2="C10I" />
+   <Bond atomName1="CBG" atomName2="C10J" />
+   <Bond atomName1="CBG" atomName2="C10T" />
+   <Bond atomName1="CBH" atomName2="C10J" />
+   <Bond atomName1="CBH" atomName2="C10K" />
+   <Bond atomName1="CBH" atomName2="C10U" />
+   <Bond atomName1="CBI" atomName2="C10K" />
+   <Bond atomName1="CBI" atomName2="C10L" />
+   <Bond atomName1="CBI" atomName2="C10V" />
+   <Bond atomName1="CBJ" atomName2="C10L" />
+   <Bond atomName1="CBJ" atomName2="C10M" />
+   <Bond atomName1="CBJ" atomName2="C110" />
+   <Bond atomName1="CBK" atomName2="C10M" />
+   <Bond atomName1="CBK" atomName2="C10N" />
+   <Bond atomName1="CBK" atomName2="C111" />
+   <Bond atomName1="CBL" atomName2="C10N" />
+   <Bond atomName1="CBL" atomName2="C10O" />
+   <Bond atomName1="CBL" atomName2="C112" />
+   <Bond atomName1="CBM" atomName2="C10O" />
+   <Bond atomName1="CBM" atomName2="C10P" />
+   <Bond atomName1="CBM" atomName2="C113" />
+   <Bond atomName1="CBN" atomName2="C10P" />
+   <Bond atomName1="CBN" atomName2="C10Q" />
+   <Bond atomName1="CBN" atomName2="C114" />
+   <Bond atomName1="CBO" atomName2="C10Q" />
+   <Bond atomName1="CBO" atomName2="C115" />
+   <Bond atomName1="CBO" atomName2="C19J" />
+   <Bond atomName1="CBP" atomName2="C10R" />
+   <Bond atomName1="CBP" atomName2="C117" />
+   <Bond atomName1="CBP" atomName2="C172" />
+   <Bond atomName1="CBQ" atomName2="C10R" />
+   <Bond atomName1="CBQ" atomName2="C10S" />
+   <Bond atomName1="CBQ" atomName2="C118" />
+   <Bond atomName1="CBR" atomName2="C10S" />
+   <Bond atomName1="CBR" atomName2="C10T" />
+   <Bond atomName1="CBR" atomName2="C119" />
+   <Bond atomName1="CBS" atomName2="C10T" />
+   <Bond atomName1="CBS" atomName2="C10U" />
+   <Bond atomName1="CBS" atomName2="C11A" />
+   <Bond atomName1="CBT" atomName2="C10U" />
+   <Bond atomName1="CBT" atomName2="C10V" />
+   <Bond atomName1="CBT" atomName2="C11B" />
+   <Bond atomName1="CBU" atomName2="C10V" />
+   <Bond atomName1="CBU" atomName2="C110" />
+   <Bond atomName1="CBU" atomName2="C11C" />
+   <Bond atomName1="CBV" atomName2="C110" />
+   <Bond atomName1="CBV" atomName2="C111" />
+   <Bond atomName1="CBV" atomName2="C11D" />
+   <Bond atomName1="CC0" atomName2="C111" />
+   <Bond atomName1="CC0" atomName2="C112" />
+   <Bond atomName1="CC0" atomName2="C11E" />
+   <Bond atomName1="CC1" atomName2="C112" />
+   <Bond atomName1="CC1" atomName2="C113" />
+   <Bond atomName1="CC1" atomName2="C11F" />
+   <Bond atomName1="CC2" atomName2="C113" />
+   <Bond atomName1="CC2" atomName2="C114" />
+   <Bond atomName1="CC2" atomName2="C11G" />
+   <Bond atomName1="CC3" atomName2="C114" />
+   <Bond atomName1="CC3" atomName2="C115" />
+   <Bond atomName1="CC3" atomName2="C11H" />
+   <Bond atomName1="CC4" atomName2="C115" />
+   <Bond atomName1="CC4" atomName2="C116" />
+   <Bond atomName1="CC4" atomName2="C11I" />
+   <Bond atomName1="CC5" atomName2="C116" />
+   <Bond atomName1="CC5" atomName2="C11J" />
+   <Bond atomName1="CC5" atomName2="C19T" />
+   <Bond atomName1="CC6" atomName2="C117" />
+   <Bond atomName1="CC6" atomName2="C11L" />
+   <Bond atomName1="CC6" atomName2="C17M" />
+   <Bond atomName1="CC7" atomName2="C117" />
+   <Bond atomName1="CC7" atomName2="C118" />
+   <Bond atomName1="CC7" atomName2="C11M" />
+   <Bond atomName1="CC8" atomName2="C118" />
+   <Bond atomName1="CC8" atomName2="C119" />
+   <Bond atomName1="CC8" atomName2="C11N" />
+   <Bond atomName1="CC9" atomName2="C119" />
+   <Bond atomName1="CC9" atomName2="C11A" />
+   <Bond atomName1="CC9" atomName2="C11O" />
+   <Bond atomName1="CCA" atomName2="C11A" />
+   <Bond atomName1="CCA" atomName2="C11B" />
+   <Bond atomName1="CCA" atomName2="C11P" />
+   <Bond atomName1="CCB" atomName2="C11B" />
+   <Bond atomName1="CCB" atomName2="C11C" />
+   <Bond atomName1="CCB" atomName2="C11Q" />
+   <Bond atomName1="CCC" atomName2="C11C" />
+   <Bond atomName1="CCC" atomName2="C11D" />
+   <Bond atomName1="CCC" atomName2="C11R" />
+   <Bond atomName1="CCD" atomName2="C11D" />
+   <Bond atomName1="CCD" atomName2="C11E" />
+   <Bond atomName1="CCD" atomName2="C11S" />
+   <Bond atomName1="CCE" atomName2="C11E" />
+   <Bond atomName1="CCE" atomName2="C11F" />
+   <Bond atomName1="CCE" atomName2="C11T" />
+   <Bond atomName1="CCF" atomName2="C11F" />
+   <Bond atomName1="CCF" atomName2="C11G" />
+   <Bond atomName1="CCF" atomName2="C11U" />
+   <Bond atomName1="CCG" atomName2="C11G" />
+   <Bond atomName1="CCG" atomName2="C11H" />
+   <Bond atomName1="CCG" atomName2="C11V" />
+   <Bond atomName1="CCH" atomName2="C11H" />
+   <Bond atomName1="CCH" atomName2="C11I" />
+   <Bond atomName1="CCH" atomName2="C120" />
+   <Bond atomName1="CCI" atomName2="C11I" />
+   <Bond atomName1="CCI" atomName2="C11J" />
+   <Bond atomName1="CCI" atomName2="C121" />
+   <Bond atomName1="CCJ" atomName2="C11J" />
+   <Bond atomName1="CCJ" atomName2="C11K" />
+   <Bond atomName1="CCJ" atomName2="C122" />
+   <Bond atomName1="CCK" atomName2="C11K" />
+   <Bond atomName1="CCK" atomName2="C123" />
+   <Bond atomName1="CCK" atomName2="C1A5" />
+   <Bond atomName1="CCL" atomName2="C11L" />
+   <Bond atomName1="CCL" atomName2="C125" />
+   <Bond atomName1="CCL" atomName2="C188" />
+   <Bond atomName1="CCM" atomName2="C11L" />
+   <Bond atomName1="CCM" atomName2="C11M" />
+   <Bond atomName1="CCM" atomName2="C126" />
+   <Bond atomName1="CCN" atomName2="C11M" />
+   <Bond atomName1="CCN" atomName2="C11N" />
+   <Bond atomName1="CCN" atomName2="C127" />
+   <Bond atomName1="CCO" atomName2="C11N" />
+   <Bond atomName1="CCO" atomName2="C11O" />
+   <Bond atomName1="CCO" atomName2="C128" />
+   <Bond atomName1="CCP" atomName2="C11O" />
+   <Bond atomName1="CCP" atomName2="C11P" />
+   <Bond atomName1="CCP" atomName2="C129" />
+   <Bond atomName1="CCQ" atomName2="C11P" />
+   <Bond atomName1="CCQ" atomName2="C11Q" />
+   <Bond atomName1="CCQ" atomName2="C12A" />
+   <Bond atomName1="CCR" atomName2="C11Q" />
+   <Bond atomName1="CCR" atomName2="C11R" />
+   <Bond atomName1="CCR" atomName2="C12B" />
+   <Bond atomName1="CCS" atomName2="C11R" />
+   <Bond atomName1="CCS" atomName2="C11S" />
+   <Bond atomName1="CCS" atomName2="C12C" />
+   <Bond atomName1="CCT" atomName2="C11S" />
+   <Bond atomName1="CCT" atomName2="C11T" />
+   <Bond atomName1="CCT" atomName2="C12D" />
+   <Bond atomName1="CCU" atomName2="C11T" />
+   <Bond atomName1="CCU" atomName2="C11U" />
+   <Bond atomName1="CCU" atomName2="C12E" />
+   <Bond atomName1="CCV" atomName2="C11U" />
+   <Bond atomName1="CCV" atomName2="C11V" />
+   <Bond atomName1="CCV" atomName2="C12F" />
+   <Bond atomName1="CD0" atomName2="C11V" />
+   <Bond atomName1="CD0" atomName2="C120" />
+   <Bond atomName1="CD0" atomName2="C12G" />
+   <Bond atomName1="CD1" atomName2="C120" />
+   <Bond atomName1="CD1" atomName2="C121" />
+   <Bond atomName1="CD1" atomName2="C12H" />
+   <Bond atomName1="CD2" atomName2="C121" />
+   <Bond atomName1="CD2" atomName2="C122" />
+   <Bond atomName1="CD2" atomName2="C12I" />
+   <Bond atomName1="CD3" atomName2="C122" />
+   <Bond atomName1="CD3" atomName2="C123" />
+   <Bond atomName1="CD3" atomName2="C12J" />
+   <Bond atomName1="CD4" atomName2="C123" />
+   <Bond atomName1="CD4" atomName2="C124" />
+   <Bond atomName1="CD4" atomName2="C12K" />
+   <Bond atomName1="CD5" atomName2="C124" />
+   <Bond atomName1="CD5" atomName2="C12L" />
+   <Bond atomName1="CD5" atomName2="C1AB" />
+   <Bond atomName1="CD6" atomName2="C125" />
+   <Bond atomName1="CD6" atomName2="C12N" />
+   <Bond atomName1="CD6" atomName2="C18O" />
+   <Bond atomName1="CD7" atomName2="C125" />
+   <Bond atomName1="CD7" atomName2="C126" />
+   <Bond atomName1="CD7" atomName2="C12O" />
+   <Bond atomName1="CD8" atomName2="C126" />
+   <Bond atomName1="CD8" atomName2="C127" />
+   <Bond atomName1="CD8" atomName2="C12P" />
+   <Bond atomName1="CD9" atomName2="C127" />
+   <Bond atomName1="CD9" atomName2="C128" />
+   <Bond atomName1="CD9" atomName2="C12Q" />
+   <Bond atomName1="CDA" atomName2="C128" />
+   <Bond atomName1="CDA" atomName2="C129" />
+   <Bond atomName1="CDA" atomName2="C12R" />
+   <Bond atomName1="CDB" atomName2="C129" />
+   <Bond atomName1="CDB" atomName2="C12A" />
+   <Bond atomName1="CDB" atomName2="C12S" />
+   <Bond atomName1="CDC" atomName2="C12A" />
+   <Bond atomName1="CDC" atomName2="C12B" />
+   <Bond atomName1="CDC" atomName2="C12T" />
+   <Bond atomName1="CDD" atomName2="C12B" />
+   <Bond atomName1="CDD" atomName2="C12C" />
+   <Bond atomName1="CDD" atomName2="C12U" />
+   <Bond atomName1="CDE" atomName2="C12C" />
+   <Bond atomName1="CDE" atomName2="C12D" />
+   <Bond atomName1="CDE" atomName2="C12V" />
+   <Bond atomName1="CDF" atomName2="C12D" />
+   <Bond atomName1="CDF" atomName2="C12E" />
+   <Bond atomName1="CDF" atomName2="C130" />
+   <Bond atomName1="CDG" atomName2="C12E" />
+   <Bond atomName1="CDG" atomName2="C12F" />
+   <Bond atomName1="CDG" atomName2="C131" />
+   <Bond atomName1="CDH" atomName2="C12F" />
+   <Bond atomName1="CDH" atomName2="C12G" />
+   <Bond atomName1="CDH" atomName2="C132" />
+   <Bond atomName1="CDI" atomName2="C12G" />
+   <Bond atomName1="CDI" atomName2="C12H" />
+   <Bond atomName1="CDI" atomName2="C133" />
+   <Bond atomName1="CDJ" atomName2="C12H" />
+   <Bond atomName1="CDJ" atomName2="C12I" />
+   <Bond atomName1="CDJ" atomName2="C134" />
+   <Bond atomName1="CDK" atomName2="C12I" />
+   <Bond atomName1="CDK" atomName2="C12J" />
+   <Bond atomName1="CDK" atomName2="C135" />
+   <Bond atomName1="CDL" atomName2="C12J" />
+   <Bond atomName1="CDL" atomName2="C12K" />
+   <Bond atomName1="CDL" atomName2="C136" />
+   <Bond atomName1="CDM" atomName2="C12K" />
+   <Bond atomName1="CDM" atomName2="C12L" />
+   <Bond atomName1="CDM" atomName2="C137" />
+   <Bond atomName1="CDN" atomName2="C12L" />
+   <Bond atomName1="CDN" atomName2="C12M" />
+   <Bond atomName1="CDN" atomName2="C138" />
+   <Bond atomName1="CDO" atomName2="C12M" />
+   <Bond atomName1="CDO" atomName2="C139" />
+   <Bond atomName1="CDO" atomName2="C1AF" />
+   <Bond atomName1="CDP" atomName2="C12N" />
+   <Bond atomName1="CDP" atomName2="C13B" />
+   <Bond atomName1="CDP" atomName2="C196" />
+   <Bond atomName1="CDQ" atomName2="C12N" />
+   <Bond atomName1="CDQ" atomName2="C12O" />
+   <Bond atomName1="CDQ" atomName2="C13C" />
+   <Bond atomName1="CDR" atomName2="C12O" />
+   <Bond atomName1="CDR" atomName2="C12P" />
+   <Bond atomName1="CDR" atomName2="C13D" />
+   <Bond atomName1="CDS" atomName2="C12P" />
+   <Bond atomName1="CDS" atomName2="C12Q" />
+   <Bond atomName1="CDS" atomName2="C13E" />
+   <Bond atomName1="CDT" atomName2="C12Q" />
+   <Bond atomName1="CDT" atomName2="C12R" />
+   <Bond atomName1="CDT" atomName2="C13F" />
+   <Bond atomName1="CDU" atomName2="C12R" />
+   <Bond atomName1="CDU" atomName2="C12S" />
+   <Bond atomName1="CDU" atomName2="C13G" />
+   <Bond atomName1="CDV" atomName2="C12S" />
+   <Bond atomName1="CDV" atomName2="C12T" />
+   <Bond atomName1="CDV" atomName2="C13H" />
+   <Bond atomName1="CE0" atomName2="C12T" />
+   <Bond atomName1="CE0" atomName2="C12U" />
+   <Bond atomName1="CE0" atomName2="C13I" />
+   <Bond atomName1="CE1" atomName2="C12U" />
+   <Bond atomName1="CE1" atomName2="C12V" />
+   <Bond atomName1="CE1" atomName2="C13J" />
+   <Bond atomName1="CE2" atomName2="C12V" />
+   <Bond atomName1="CE2" atomName2="C130" />
+   <Bond atomName1="CE2" atomName2="C13K" />
+   <Bond atomName1="CE3" atomName2="C130" />
+   <Bond atomName1="CE3" atomName2="C131" />
+   <Bond atomName1="CE3" atomName2="C13L" />
+   <Bond atomName1="CE4" atomName2="C131" />
+   <Bond atomName1="CE4" atomName2="C132" />
+   <Bond atomName1="CE4" atomName2="C13M" />
+   <Bond atomName1="CE5" atomName2="C132" />
+   <Bond atomName1="CE5" atomName2="C133" />
+   <Bond atomName1="CE5" atomName2="C13N" />
+   <Bond atomName1="CE6" atomName2="C133" />
+   <Bond atomName1="CE6" atomName2="C134" />
+   <Bond atomName1="CE6" atomName2="C13O" />
+   <Bond atomName1="CE7" atomName2="C134" />
+   <Bond atomName1="CE7" atomName2="C135" />
+   <Bond atomName1="CE7" atomName2="C13P" />
+   <Bond atomName1="CE8" atomName2="C135" />
+   <Bond atomName1="CE8" atomName2="C136" />
+   <Bond atomName1="CE8" atomName2="C13Q" />
+   <Bond atomName1="CE9" atomName2="C136" />
+   <Bond atomName1="CE9" atomName2="C137" />
+   <Bond atomName1="CE9" atomName2="C13R" />
+   <Bond atomName1="CEA" atomName2="C137" />
+   <Bond atomName1="CEA" atomName2="C138" />
+   <Bond atomName1="CEA" atomName2="C13S" />
+   <Bond atomName1="CEB" atomName2="C138" />
+   <Bond atomName1="CEB" atomName2="C139" />
+   <Bond atomName1="CEB" atomName2="C13T" />
+   <Bond atomName1="CEC" atomName2="C139" />
+   <Bond atomName1="CEC" atomName2="C13A" />
+   <Bond atomName1="CEC" atomName2="C13U" />
+   <Bond atomName1="CED" atomName2="C13B" />
+   <Bond atomName1="CED" atomName2="C13V" />
+   <Bond atomName1="CED" atomName2="C19I" />
+   <Bond atomName1="CEE" atomName2="C13B" />
+   <Bond atomName1="CEE" atomName2="C13C" />
+   <Bond atomName1="CEE" atomName2="C140" />
+   <Bond atomName1="CEF" atomName2="C13C" />
+   <Bond atomName1="CEF" atomName2="C13D" />
+   <Bond atomName1="CEF" atomName2="C141" />
+   <Bond atomName1="CEG" atomName2="C13D" />
+   <Bond atomName1="CEG" atomName2="C13E" />
+   <Bond atomName1="CEG" atomName2="C142" />
+   <Bond atomName1="CEH" atomName2="C13E" />
+   <Bond atomName1="CEH" atomName2="C13F" />
+   <Bond atomName1="CEH" atomName2="C143" />
+   <Bond atomName1="CEI" atomName2="C13F" />
+   <Bond atomName1="CEI" atomName2="C13G" />
+   <Bond atomName1="CEI" atomName2="C144" />
+   <Bond atomName1="CEJ" atomName2="C13G" />
+   <Bond atomName1="CEJ" atomName2="C13H" />
+   <Bond atomName1="CEJ" atomName2="C145" />
+   <Bond atomName1="CEK" atomName2="C13H" />
+   <Bond atomName1="CEK" atomName2="C13I" />
+   <Bond atomName1="CEK" atomName2="C146" />
+   <Bond atomName1="CEL" atomName2="C13I" />
+   <Bond atomName1="CEL" atomName2="C13J" />
+   <Bond atomName1="CEL" atomName2="C147" />
+   <Bond atomName1="CEM" atomName2="C13J" />
+   <Bond atomName1="CEM" atomName2="C13K" />
+   <Bond atomName1="CEM" atomName2="C148" />
+   <Bond atomName1="CEN" atomName2="C13K" />
+   <Bond atomName1="CEN" atomName2="C13L" />
+   <Bond atomName1="CEN" atomName2="C149" />
+   <Bond atomName1="CEO" atomName2="C13L" />
+   <Bond atomName1="CEO" atomName2="C13M" />
+   <Bond atomName1="CEO" atomName2="C14A" />
+   <Bond atomName1="CEP" atomName2="C13M" />
+   <Bond atomName1="CEP" atomName2="C13N" />
+   <Bond atomName1="CEP" atomName2="C14B" />
+   <Bond atomName1="CEQ" atomName2="C13N" />
+   <Bond atomName1="CEQ" atomName2="C13O" />
+   <Bond atomName1="CEQ" atomName2="C14C" />
+   <Bond atomName1="CER" atomName2="C13O" />
+   <Bond atomName1="CER" atomName2="C13P" />
+   <Bond atomName1="CER" atomName2="C14D" />
+   <Bond atomName1="CES" atomName2="C13P" />
+   <Bond atomName1="CES" atomName2="C13Q" />
+   <Bond atomName1="CES" atomName2="C14E" />
+   <Bond atomName1="CET" atomName2="C13Q" />
+   <Bond atomName1="CET" atomName2="C13R" />
+   <Bond atomName1="CET" atomName2="C14F" />
+   <Bond atomName1="CEU" atomName2="C13R" />
+   <Bond atomName1="CEU" atomName2="C13S" />
+   <Bond atomName1="CEU" atomName2="C14G" />
+   <Bond atomName1="CEV" atomName2="C13S" />
+   <Bond atomName1="CEV" atomName2="C13T" />
+   <Bond atomName1="CEV" atomName2="C14H" />
+   <Bond atomName1="CF0" atomName2="C13T" />
+   <Bond atomName1="CF0" atomName2="C13U" />
+   <Bond atomName1="CF0" atomName2="C14I" />
+   <Bond atomName1="CF1" atomName2="C13V" />
+   <Bond atomName1="CF1" atomName2="C14J" />
+   <Bond atomName1="CF1" atomName2="C19S" />
+   <Bond atomName1="CF2" atomName2="C13V" />
+   <Bond atomName1="CF2" atomName2="C140" />
+   <Bond atomName1="CF2" atomName2="C14K" />
+   <Bond atomName1="CF3" atomName2="C140" />
+   <Bond atomName1="CF3" atomName2="C141" />
+   <Bond atomName1="CF3" atomName2="C14L" />
+   <Bond atomName1="CF4" atomName2="C141" />
+   <Bond atomName1="CF4" atomName2="C142" />
+   <Bond atomName1="CF4" atomName2="C14M" />
+   <Bond atomName1="CF5" atomName2="C142" />
+   <Bond atomName1="CF5" atomName2="C143" />
+   <Bond atomName1="CF5" atomName2="C14N" />
+   <Bond atomName1="CF6" atomName2="C143" />
+   <Bond atomName1="CF6" atomName2="C144" />
+   <Bond atomName1="CF6" atomName2="C14O" />
+   <Bond atomName1="CF7" atomName2="C144" />
+   <Bond atomName1="CF7" atomName2="C145" />
+   <Bond atomName1="CF7" atomName2="C14P" />
+   <Bond atomName1="CF8" atomName2="C145" />
+   <Bond atomName1="CF8" atomName2="C146" />
+   <Bond atomName1="CF8" atomName2="C14Q" />
+   <Bond atomName1="CF9" atomName2="C146" />
+   <Bond atomName1="CF9" atomName2="C147" />
+   <Bond atomName1="CF9" atomName2="C14R" />
+   <Bond atomName1="CFA" atomName2="C147" />
+   <Bond atomName1="CFA" atomName2="C148" />
+   <Bond atomName1="CFA" atomName2="C14S" />
+   <Bond atomName1="CFB" atomName2="C148" />
+   <Bond atomName1="CFB" atomName2="C149" />
+   <Bond atomName1="CFB" atomName2="C14T" />
+   <Bond atomName1="CFC" atomName2="C149" />
+   <Bond atomName1="CFC" atomName2="C14A" />
+   <Bond atomName1="CFC" atomName2="C14U" />
+   <Bond atomName1="CFD" atomName2="C14A" />
+   <Bond atomName1="CFD" atomName2="C14B" />
+   <Bond atomName1="CFD" atomName2="C14V" />
+   <Bond atomName1="CFE" atomName2="C14B" />
+   <Bond atomName1="CFE" atomName2="C14C" />
+   <Bond atomName1="CFE" atomName2="C150" />
+   <Bond atomName1="CFF" atomName2="C14C" />
+   <Bond atomName1="CFF" atomName2="C14D" />
+   <Bond atomName1="CFF" atomName2="C151" />
+   <Bond atomName1="CFG" atomName2="C14D" />
+   <Bond atomName1="CFG" atomName2="C14E" />
+   <Bond atomName1="CFG" atomName2="C152" />
+   <Bond atomName1="CFH" atomName2="C14E" />
+   <Bond atomName1="CFH" atomName2="C14F" />
+   <Bond atomName1="CFH" atomName2="C153" />
+   <Bond atomName1="CFI" atomName2="C14F" />
+   <Bond atomName1="CFI" atomName2="C14G" />
+   <Bond atomName1="CFI" atomName2="C154" />
+   <Bond atomName1="CFJ" atomName2="C14G" />
+   <Bond atomName1="CFJ" atomName2="C14H" />
+   <Bond atomName1="CFJ" atomName2="C155" />
+   <Bond atomName1="CFK" atomName2="C14H" />
+   <Bond atomName1="CFK" atomName2="C14I" />
+   <Bond atomName1="CFK" atomName2="C156" />
+   <Bond atomName1="CFL" atomName2="C14J" />
+   <Bond atomName1="CFL" atomName2="C157" />
+   <Bond atomName1="CFL" atomName2="C1A4" />
+   <Bond atomName1="CFM" atomName2="C14J" />
+   <Bond atomName1="CFM" atomName2="C14K" />
+   <Bond atomName1="CFM" atomName2="C158" />
+   <Bond atomName1="CFN" atomName2="C14K" />
+   <Bond atomName1="CFN" atomName2="C14L" />
+   <Bond atomName1="CFN" atomName2="C159" />
+   <Bond atomName1="CFO" atomName2="C14L" />
+   <Bond atomName1="CFO" atomName2="C14M" />
+   <Bond atomName1="CFO" atomName2="C15A" />
+   <Bond atomName1="CFP" atomName2="C14M" />
+   <Bond atomName1="CFP" atomName2="C14N" />
+   <Bond atomName1="CFP" atomName2="C15B" />
+   <Bond atomName1="CFQ" atomName2="C14N" />
+   <Bond atomName1="CFQ" atomName2="C14O" />
+   <Bond atomName1="CFQ" atomName2="C15C" />
+   <Bond atomName1="CFR" atomName2="C14O" />
+   <Bond atomName1="CFR" atomName2="C14P" />
+   <Bond atomName1="CFR" atomName2="C15D" />
+   <Bond atomName1="CFS" atomName2="C14P" />
+   <Bond atomName1="CFS" atomName2="C14Q" />
+   <Bond atomName1="CFS" atomName2="C15E" />
+   <Bond atomName1="CFT" atomName2="C14Q" />
+   <Bond atomName1="CFT" atomName2="C14R" />
+   <Bond atomName1="CFT" atomName2="C15F" />
+   <Bond atomName1="CFU" atomName2="C14R" />
+   <Bond atomName1="CFU" atomName2="C14S" />
+   <Bond atomName1="CFU" atomName2="C15G" />
+   <Bond atomName1="CFV" atomName2="C14S" />
+   <Bond atomName1="CFV" atomName2="C14T" />
+   <Bond atomName1="CFV" atomName2="C15H" />
+   <Bond atomName1="CG0" atomName2="C14T" />
+   <Bond atomName1="CG0" atomName2="C14U" />
+   <Bond atomName1="CG0" atomName2="C15I" />
+   <Bond atomName1="CG1" atomName2="C14U" />
+   <Bond atomName1="CG1" atomName2="C14V" />
+   <Bond atomName1="CG1" atomName2="C15J" />
+   <Bond atomName1="CG2" atomName2="C14V" />
+   <Bond atomName1="CG2" atomName2="C150" />
+   <Bond atomName1="CG2" atomName2="C15K" />
+   <Bond atomName1="CG3" atomName2="C150" />
+   <Bond atomName1="CG3" atomName2="C151" />
+   <Bond atomName1="CG3" atomName2="C15L" />
+   <Bond atomName1="CG4" atomName2="C151" />
+   <Bond atomName1="CG4" atomName2="C152" />
+   <Bond atomName1="CG4" atomName2="C15M" />
+   <Bond atomName1="CG5" atomName2="C152" />
+   <Bond atomName1="CG5" atomName2="C153" />
+   <Bond atomName1="CG5" atomName2="C15N" />
+   <Bond atomName1="CG6" atomName2="C153" />
+   <Bond atomName1="CG6" atomName2="C154" />
+   <Bond atomName1="CG6" atomName2="C15O" />
+   <Bond atomName1="CG7" atomName2="C154" />
+   <Bond atomName1="CG7" atomName2="C155" />
+   <Bond atomName1="CG7" atomName2="C15P" />
+   <Bond atomName1="CG8" atomName2="C155" />
+   <Bond atomName1="CG8" atomName2="C156" />
+   <Bond atomName1="CG8" atomName2="C15Q" />
+   <Bond atomName1="CG9" atomName2="C157" />
+   <Bond atomName1="CG9" atomName2="C15R" />
+   <Bond atomName1="CG9" atomName2="C1AA" />
+   <Bond atomName1="CGA" atomName2="C157" />
+   <Bond atomName1="CGA" atomName2="C158" />
+   <Bond atomName1="CGA" atomName2="C15S" />
+   <Bond atomName1="CGB" atomName2="C158" />
+   <Bond atomName1="CGB" atomName2="C159" />
+   <Bond atomName1="CGB" atomName2="C15T" />
+   <Bond atomName1="CGC" atomName2="C159" />
+   <Bond atomName1="CGC" atomName2="C15A" />
+   <Bond atomName1="CGC" atomName2="C15U" />
+   <Bond atomName1="CGD" atomName2="C15A" />
+   <Bond atomName1="CGD" atomName2="C15B" />
+   <Bond atomName1="CGD" atomName2="C15V" />
+   <Bond atomName1="CGE" atomName2="C15B" />
+   <Bond atomName1="CGE" atomName2="C15C" />
+   <Bond atomName1="CGE" atomName2="C160" />
+   <Bond atomName1="CGF" atomName2="C15C" />
+   <Bond atomName1="CGF" atomName2="C15D" />
+   <Bond atomName1="CGF" atomName2="C161" />
+   <Bond atomName1="CGG" atomName2="C15D" />
+   <Bond atomName1="CGG" atomName2="C15E" />
+   <Bond atomName1="CGG" atomName2="C162" />
+   <Bond atomName1="CGH" atomName2="C15E" />
+   <Bond atomName1="CGH" atomName2="C15F" />
+   <Bond atomName1="CGH" atomName2="C163" />
+   <Bond atomName1="CGI" atomName2="C15F" />
+   <Bond atomName1="CGI" atomName2="C15G" />
+   <Bond atomName1="CGI" atomName2="C164" />
+   <Bond atomName1="CGJ" atomName2="C15G" />
+   <Bond atomName1="CGJ" atomName2="C15H" />
+   <Bond atomName1="CGJ" atomName2="C165" />
+   <Bond atomName1="CGK" atomName2="C15H" />
+   <Bond atomName1="CGK" atomName2="C15I" />
+   <Bond atomName1="CGK" atomName2="C166" />
+   <Bond atomName1="CGL" atomName2="C15I" />
+   <Bond atomName1="CGL" atomName2="C15J" />
+   <Bond atomName1="CGL" atomName2="C167" />
+   <Bond atomName1="CGM" atomName2="C15J" />
+   <Bond atomName1="CGM" atomName2="C15K" />
+   <Bond atomName1="CGM" atomName2="C168" />
+   <Bond atomName1="CGN" atomName2="C15K" />
+   <Bond atomName1="CGN" atomName2="C15L" />
+   <Bond atomName1="CGN" atomName2="C169" />
+   <Bond atomName1="CGO" atomName2="C15L" />
+   <Bond atomName1="CGO" atomName2="C15M" />
+   <Bond atomName1="CGO" atomName2="C16A" />
+   <Bond atomName1="CGP" atomName2="C15M" />
+   <Bond atomName1="CGP" atomName2="C15N" />
+   <Bond atomName1="CGP" atomName2="C16B" />
+   <Bond atomName1="CGQ" atomName2="C15N" />
+   <Bond atomName1="CGQ" atomName2="C15O" />
+   <Bond atomName1="CGQ" atomName2="C16C" />
+   <Bond atomName1="CGR" atomName2="C15O" />
+   <Bond atomName1="CGR" atomName2="C15P" />
+   <Bond atomName1="CGR" atomName2="C16D" />
+   <Bond atomName1="CGS" atomName2="C15P" />
+   <Bond atomName1="CGS" atomName2="C15Q" />
+   <Bond atomName1="CGS" atomName2="C16E" />
+   <Bond atomName1="CGT" atomName2="C15R" />
+   <Bond atomName1="CGT" atomName2="C16F" />
+   <Bond atomName1="CGT" atomName2="C1AE" />
+   <Bond atomName1="CGU" atomName2="C15R" />
+   <Bond atomName1="CGU" atomName2="C15S" />
+   <Bond atomName1="CGU" atomName2="C16G" />
+   <Bond atomName1="CGV" atomName2="C15S" />
+   <Bond atomName1="CGV" atomName2="C15T" />
+   <Bond atomName1="CGV" atomName2="C16H" />
+   <Bond atomName1="CH0" atomName2="C15T" />
+   <Bond atomName1="CH0" atomName2="C15U" />
+   <Bond atomName1="CH0" atomName2="C16I" />
+   <Bond atomName1="CH1" atomName2="C15U" />
+   <Bond atomName1="CH1" atomName2="C15V" />
+   <Bond atomName1="CH1" atomName2="C16J" />
+   <Bond atomName1="CH2" atomName2="C15V" />
+   <Bond atomName1="CH2" atomName2="C160" />
+   <Bond atomName1="CH2" atomName2="C16K" />
+   <Bond atomName1="CH3" atomName2="C160" />
+   <Bond atomName1="CH3" atomName2="C161" />
+   <Bond atomName1="CH3" atomName2="C16L" />
+   <Bond atomName1="CH4" atomName2="C161" />
+   <Bond atomName1="CH4" atomName2="C162" />
+   <Bond atomName1="CH4" atomName2="C16M" />
+   <Bond atomName1="CH5" atomName2="C162" />
+   <Bond atomName1="CH5" atomName2="C163" />
+   <Bond atomName1="CH5" atomName2="C16N" />
+   <Bond atomName1="CH6" atomName2="C163" />
+   <Bond atomName1="CH6" atomName2="C164" />
+   <Bond atomName1="CH6" atomName2="C16O" />
+   <Bond atomName1="CH7" atomName2="C164" />
+   <Bond atomName1="CH7" atomName2="C165" />
+   <Bond atomName1="CH7" atomName2="C16P" />
+   <Bond atomName1="CH8" atomName2="C165" />
+   <Bond atomName1="CH8" atomName2="C166" />
+   <Bond atomName1="CH8" atomName2="C16Q" />
+   <Bond atomName1="CH9" atomName2="C166" />
+   <Bond atomName1="CH9" atomName2="C167" />
+   <Bond atomName1="CH9" atomName2="C16R" />
+   <Bond atomName1="CHA" atomName2="C167" />
+   <Bond atomName1="CHA" atomName2="C168" />
+   <Bond atomName1="CHA" atomName2="C16S" />
+   <Bond atomName1="CHB" atomName2="C168" />
+   <Bond atomName1="CHB" atomName2="C169" />
+   <Bond atomName1="CHB" atomName2="C16T" />
+   <Bond atomName1="CHC" atomName2="C169" />
+   <Bond atomName1="CHC" atomName2="C16A" />
+   <Bond atomName1="CHC" atomName2="C16U" />
+   <Bond atomName1="CHD" atomName2="C16A" />
+   <Bond atomName1="CHD" atomName2="C16B" />
+   <Bond atomName1="CHD" atomName2="C16V" />
+   <Bond atomName1="CHE" atomName2="C16B" />
+   <Bond atomName1="CHE" atomName2="C16C" />
+   <Bond atomName1="CHE" atomName2="C170" />
+   <Bond atomName1="CHF" atomName2="C16C" />
+   <Bond atomName1="CHF" atomName2="C16D" />
+   <Bond atomName1="CHF" atomName2="C171" />
+   <Bond atomName1="CHG" atomName2="C16D" />
+   <Bond atomName1="CHG" atomName2="C16E" />
+   <Bond atomName1="CHG" atomName2="C172" />
+   <Bond atomName1="CHH" atomName2="C16F" />
+   <Bond atomName1="CHH" atomName2="C173" />
+   <Bond atomName1="CHH" atomName2="C1AG" />
+   <Bond atomName1="CHI" atomName2="C16F" />
+   <Bond atomName1="CHI" atomName2="C16G" />
+   <Bond atomName1="CHI" atomName2="C174" />
+   <Bond atomName1="CHJ" atomName2="C16G" />
+   <Bond atomName1="CHJ" atomName2="C16H" />
+   <Bond atomName1="CHJ" atomName2="C175" />
+   <Bond atomName1="CHK" atomName2="C16H" />
+   <Bond atomName1="CHK" atomName2="C16I" />
+   <Bond atomName1="CHK" atomName2="C176" />
+   <Bond atomName1="CHL" atomName2="C16I" />
+   <Bond atomName1="CHL" atomName2="C16J" />
+   <Bond atomName1="CHL" atomName2="C177" />
+   <Bond atomName1="CHM" atomName2="C16J" />
+   <Bond atomName1="CHM" atomName2="C16K" />
+   <Bond atomName1="CHM" atomName2="C178" />
+   <Bond atomName1="CHN" atomName2="C16K" />
+   <Bond atomName1="CHN" atomName2="C16L" />
+   <Bond atomName1="CHN" atomName2="C179" />
+   <Bond atomName1="CHO" atomName2="C16L" />
+   <Bond atomName1="CHO" atomName2="C16M" />
+   <Bond atomName1="CHO" atomName2="C17A" />
+   <Bond atomName1="CHP" atomName2="C16M" />
+   <Bond atomName1="CHP" atomName2="C16N" />
+   <Bond atomName1="CHP" atomName2="C17B" />
+   <Bond atomName1="CHQ" atomName2="C16N" />
+   <Bond atomName1="CHQ" atomName2="C16O" />
+   <Bond atomName1="CHQ" atomName2="C17C" />
+   <Bond atomName1="CHR" atomName2="C16O" />
+   <Bond atomName1="CHR" atomName2="C16P" />
+   <Bond atomName1="CHR" atomName2="C17D" />
+   <Bond atomName1="CHS" atomName2="C16P" />
+   <Bond atomName1="CHS" atomName2="C16Q" />
+   <Bond atomName1="CHS" atomName2="C17E" />
+   <Bond atomName1="CHT" atomName2="C16Q" />
+   <Bond atomName1="CHT" atomName2="C16R" />
+   <Bond atomName1="CHT" atomName2="C17F" />
+   <Bond atomName1="CHU" atomName2="C16R" />
+   <Bond atomName1="CHU" atomName2="C16S" />
+   <Bond atomName1="CHU" atomName2="C17G" />
+   <Bond atomName1="CHV" atomName2="C16S" />
+   <Bond atomName1="CHV" atomName2="C16T" />
+   <Bond atomName1="CHV" atomName2="C17H" />
+   <Bond atomName1="CI0" atomName2="C16T" />
+   <Bond atomName1="CI0" atomName2="C16U" />
+   <Bond atomName1="CI0" atomName2="C17I" />
+   <Bond atomName1="CI1" atomName2="C16U" />
+   <Bond atomName1="CI1" atomName2="C16V" />
+   <Bond atomName1="CI1" atomName2="C17J" />
+   <Bond atomName1="CI2" atomName2="C16V" />
+   <Bond atomName1="CI2" atomName2="C170" />
+   <Bond atomName1="CI2" atomName2="C17K" />
+   <Bond atomName1="CI3" atomName2="C170" />
+   <Bond atomName1="CI3" atomName2="C171" />
+   <Bond atomName1="CI3" atomName2="C17L" />
+   <Bond atomName1="CI4" atomName2="C171" />
+   <Bond atomName1="CI4" atomName2="C172" />
+   <Bond atomName1="CI4" atomName2="C17M" />
+   <Bond atomName1="CI5" atomName2="CVU" />
+   <Bond atomName1="CI5" atomName2="C173" />
+   <Bond atomName1="CI5" atomName2="C174" />
+   <Bond atomName1="CI6" atomName2="C174" />
+   <Bond atomName1="CI6" atomName2="C175" />
+   <Bond atomName1="CI6" atomName2="C17N" />
+   <Bond atomName1="CI7" atomName2="C175" />
+   <Bond atomName1="CI7" atomName2="C176" />
+   <Bond atomName1="CI7" atomName2="C17O" />
+   <Bond atomName1="CI8" atomName2="C176" />
+   <Bond atomName1="CI8" atomName2="C177" />
+   <Bond atomName1="CI8" atomName2="C17P" />
+   <Bond atomName1="CI9" atomName2="C177" />
+   <Bond atomName1="CI9" atomName2="C178" />
+   <Bond atomName1="CI9" atomName2="C17Q" />
+   <Bond atomName1="CIA" atomName2="C178" />
+   <Bond atomName1="CIA" atomName2="C179" />
+   <Bond atomName1="CIA" atomName2="C17R" />
+   <Bond atomName1="CIB" atomName2="C179" />
+   <Bond atomName1="CIB" atomName2="C17A" />
+   <Bond atomName1="CIB" atomName2="C17S" />
+   <Bond atomName1="CIC" atomName2="C17A" />
+   <Bond atomName1="CIC" atomName2="C17B" />
+   <Bond atomName1="CIC" atomName2="C17T" />
+   <Bond atomName1="CID" atomName2="C17B" />
+   <Bond atomName1="CID" atomName2="C17C" />
+   <Bond atomName1="CID" atomName2="C17U" />
+   <Bond atomName1="CIE" atomName2="C17C" />
+   <Bond atomName1="CIE" atomName2="C17D" />
+   <Bond atomName1="CIE" atomName2="C17V" />
+   <Bond atomName1="CIF" atomName2="C17D" />
+   <Bond atomName1="CIF" atomName2="C17E" />
+   <Bond atomName1="CIF" atomName2="C180" />
+   <Bond atomName1="CIG" atomName2="C17E" />
+   <Bond atomName1="CIG" atomName2="C17F" />
+   <Bond atomName1="CIG" atomName2="C181" />
+   <Bond atomName1="CIH" atomName2="C17F" />
+   <Bond atomName1="CIH" atomName2="C17G" />
+   <Bond atomName1="CIH" atomName2="C182" />
+   <Bond atomName1="CII" atomName2="C17G" />
+   <Bond atomName1="CII" atomName2="C17H" />
+   <Bond atomName1="CII" atomName2="C183" />
+   <Bond atomName1="CIJ" atomName2="C17H" />
+   <Bond atomName1="CIJ" atomName2="C17I" />
+   <Bond atomName1="CIJ" atomName2="C184" />
+   <Bond atomName1="CIK" atomName2="C17I" />
+   <Bond atomName1="CIK" atomName2="C17J" />
+   <Bond atomName1="CIK" atomName2="C185" />
+   <Bond atomName1="CIL" atomName2="C17J" />
+   <Bond atomName1="CIL" atomName2="C17K" />
+   <Bond atomName1="CIL" atomName2="C186" />
+   <Bond atomName1="CIM" atomName2="C17K" />
+   <Bond atomName1="CIM" atomName2="C17L" />
+   <Bond atomName1="CIM" atomName2="C187" />
+   <Bond atomName1="CIN" atomName2="C17L" />
+   <Bond atomName1="CIN" atomName2="C17M" />
+   <Bond atomName1="CIN" atomName2="C188" />
+   <Bond atomName1="CIO" atomName2="C102" />
+   <Bond atomName1="CIO" atomName2="C17N" />
+   <Bond atomName1="CIO" atomName2="C17O" />
+   <Bond atomName1="CIP" atomName2="C17O" />
+   <Bond atomName1="CIP" atomName2="C17P" />
+   <Bond atomName1="CIP" atomName2="C189" />
+   <Bond atomName1="CIQ" atomName2="C17P" />
+   <Bond atomName1="CIQ" atomName2="C17Q" />
+   <Bond atomName1="CIQ" atomName2="C18A" />
+   <Bond atomName1="CIR" atomName2="C17Q" />
+   <Bond atomName1="CIR" atomName2="C17R" />
+   <Bond atomName1="CIR" atomName2="C18B" />
+   <Bond atomName1="CIS" atomName2="C17R" />
+   <Bond atomName1="CIS" atomName2="C17S" />
+   <Bond atomName1="CIS" atomName2="C18C" />
+   <Bond atomName1="CIT" atomName2="C17S" />
+   <Bond atomName1="CIT" atomName2="C17T" />
+   <Bond atomName1="CIT" atomName2="C18D" />
+   <Bond atomName1="CIU" atomName2="C17T" />
+   <Bond atomName1="CIU" atomName2="C17U" />
+   <Bond atomName1="CIU" atomName2="C18E" />
+   <Bond atomName1="CIV" atomName2="C17U" />
+   <Bond atomName1="CIV" atomName2="C17V" />
+   <Bond atomName1="CIV" atomName2="C18F" />
+   <Bond atomName1="CJ0" atomName2="C17V" />
+   <Bond atomName1="CJ0" atomName2="C180" />
+   <Bond atomName1="CJ0" atomName2="C18G" />
+   <Bond atomName1="CJ1" atomName2="C180" />
+   <Bond atomName1="CJ1" atomName2="C181" />
+   <Bond atomName1="CJ1" atomName2="C18H" />
+   <Bond atomName1="CJ2" atomName2="C181" />
+   <Bond atomName1="CJ2" atomName2="C182" />
+   <Bond atomName1="CJ2" atomName2="C18I" />
+   <Bond atomName1="CJ3" atomName2="C182" />
+   <Bond atomName1="CJ3" atomName2="C183" />
+   <Bond atomName1="CJ3" atomName2="C18J" />
+   <Bond atomName1="CJ4" atomName2="C183" />
+   <Bond atomName1="CJ4" atomName2="C184" />
+   <Bond atomName1="CJ4" atomName2="C18K" />
+   <Bond atomName1="CJ5" atomName2="C184" />
+   <Bond atomName1="CJ5" atomName2="C185" />
+   <Bond atomName1="CJ5" atomName2="C18L" />
+   <Bond atomName1="CJ6" atomName2="C185" />
+   <Bond atomName1="CJ6" atomName2="C186" />
+   <Bond atomName1="CJ6" atomName2="C18M" />
+   <Bond atomName1="CJ7" atomName2="C186" />
+   <Bond atomName1="CJ7" atomName2="C187" />
+   <Bond atomName1="CJ7" atomName2="C18N" />
+   <Bond atomName1="CJ8" atomName2="C187" />
+   <Bond atomName1="CJ8" atomName2="C188" />
+   <Bond atomName1="CJ8" atomName2="C18O" />
+   <Bond atomName1="CJ9" atomName2="C108" />
+   <Bond atomName1="CJ9" atomName2="C189" />
+   <Bond atomName1="CJ9" atomName2="C18A" />
+   <Bond atomName1="CJA" atomName2="C18A" />
+   <Bond atomName1="CJA" atomName2="C18B" />
+   <Bond atomName1="CJA" atomName2="C18P" />
+   <Bond atomName1="CJB" atomName2="C18B" />
+   <Bond atomName1="CJB" atomName2="C18C" />
+   <Bond atomName1="CJB" atomName2="C18Q" />
+   <Bond atomName1="CJC" atomName2="C18C" />
+   <Bond atomName1="CJC" atomName2="C18D" />
+   <Bond atomName1="CJC" atomName2="C18R" />
+   <Bond atomName1="CJD" atomName2="C18D" />
+   <Bond atomName1="CJD" atomName2="C18E" />
+   <Bond atomName1="CJD" atomName2="C18S" />
+   <Bond atomName1="CJE" atomName2="C18E" />
+   <Bond atomName1="CJE" atomName2="C18F" />
+   <Bond atomName1="CJE" atomName2="C18T" />
+   <Bond atomName1="CJF" atomName2="C18F" />
+   <Bond atomName1="CJF" atomName2="C18G" />
+   <Bond atomName1="CJF" atomName2="C18U" />
+   <Bond atomName1="CJG" atomName2="C18G" />
+   <Bond atomName1="CJG" atomName2="C18H" />
+   <Bond atomName1="CJG" atomName2="C18V" />
+   <Bond atomName1="CJH" atomName2="C18H" />
+   <Bond atomName1="CJH" atomName2="C18I" />
+   <Bond atomName1="CJH" atomName2="C190" />
+   <Bond atomName1="CJI" atomName2="C18I" />
+   <Bond atomName1="CJI" atomName2="C18J" />
+   <Bond atomName1="CJI" atomName2="C191" />
+   <Bond atomName1="CJJ" atomName2="C18J" />
+   <Bond atomName1="CJJ" atomName2="C18K" />
+   <Bond atomName1="CJJ" atomName2="C192" />
+   <Bond atomName1="CJK" atomName2="C18K" />
+   <Bond atomName1="CJK" atomName2="C18L" />
+   <Bond atomName1="CJK" atomName2="C193" />
+   <Bond atomName1="CJL" atomName2="C18L" />
+   <Bond atomName1="CJL" atomName2="C18M" />
+   <Bond atomName1="CJL" atomName2="C194" />
+   <Bond atomName1="CJM" atomName2="C18M" />
+   <Bond atomName1="CJM" atomName2="C18N" />
+   <Bond atomName1="CJM" atomName2="C195" />
+   <Bond atomName1="CJN" atomName2="C18N" />
+   <Bond atomName1="CJN" atomName2="C18O" />
+   <Bond atomName1="CJN" atomName2="C196" />
+   <Bond atomName1="CJO" atomName2="C10G" />
+   <Bond atomName1="CJO" atomName2="C18P" />
+   <Bond atomName1="CJO" atomName2="C18Q" />
+   <Bond atomName1="CJP" atomName2="C18Q" />
+   <Bond atomName1="CJP" atomName2="C18R" />
+   <Bond atomName1="CJP" atomName2="C197" />
+   <Bond atomName1="CJQ" atomName2="C18R" />
+   <Bond atomName1="CJQ" atomName2="C18S" />
+   <Bond atomName1="CJQ" atomName2="C198" />
+   <Bond atomName1="CJR" atomName2="C18S" />
+   <Bond atomName1="CJR" atomName2="C18T" />
+   <Bond atomName1="CJR" atomName2="C199" />
+   <Bond atomName1="CJS" atomName2="C18T" />
+   <Bond atomName1="CJS" atomName2="C18U" />
+   <Bond atomName1="CJS" atomName2="C19A" />
+   <Bond atomName1="CJT" atomName2="C18U" />
+   <Bond atomName1="CJT" atomName2="C18V" />
+   <Bond atomName1="CJT" atomName2="C19B" />
+   <Bond atomName1="CJU" atomName2="C18V" />
+   <Bond atomName1="CJU" atomName2="C190" />
+   <Bond atomName1="CJU" atomName2="C19C" />
+   <Bond atomName1="CJV" atomName2="C190" />
+   <Bond atomName1="CJV" atomName2="C191" />
+   <Bond atomName1="CJV" atomName2="C19D" />
+   <Bond atomName1="CK0" atomName2="C191" />
+   <Bond atomName1="CK0" atomName2="C192" />
+   <Bond atomName1="CK0" atomName2="C19E" />
+   <Bond atomName1="CK1" atomName2="C192" />
+   <Bond atomName1="CK1" atomName2="C193" />
+   <Bond atomName1="CK1" atomName2="C19F" />
+   <Bond atomName1="CK2" atomName2="C193" />
+   <Bond atomName1="CK2" atomName2="C194" />
+   <Bond atomName1="CK2" atomName2="C19G" />
+   <Bond atomName1="CK3" atomName2="C194" />
+   <Bond atomName1="CK3" atomName2="C195" />
+   <Bond atomName1="CK3" atomName2="C19H" />
+   <Bond atomName1="CK4" atomName2="C195" />
+   <Bond atomName1="CK4" atomName2="C196" />
+   <Bond atomName1="CK4" atomName2="C19I" />
+   <Bond atomName1="CK5" atomName2="C10Q" />
+   <Bond atomName1="CK5" atomName2="C197" />
+   <Bond atomName1="CK5" atomName2="C198" />
+   <Bond atomName1="CK6" atomName2="C198" />
+   <Bond atomName1="CK6" atomName2="C199" />
+   <Bond atomName1="CK6" atomName2="C19J" />
+   <Bond atomName1="CK7" atomName2="C199" />
+   <Bond atomName1="CK7" atomName2="C19A" />
+   <Bond atomName1="CK7" atomName2="C19K" />
+   <Bond atomName1="CK8" atomName2="C19A" />
+   <Bond atomName1="CK8" atomName2="C19B" />
+   <Bond atomName1="CK8" atomName2="C19L" />
+   <Bond atomName1="CK9" atomName2="C19B" />
+   <Bond atomName1="CK9" atomName2="C19C" />
+   <Bond atomName1="CK9" atomName2="C19M" />
+   <Bond atomName1="CKA" atomName2="C19C" />
+   <Bond atomName1="CKA" atomName2="C19D" />
+   <Bond atomName1="CKA" atomName2="C19N" />
+   <Bond atomName1="CKB" atomName2="C19D" />
+   <Bond atomName1="CKB" atomName2="C19E" />
+   <Bond atomName1="CKB" atomName2="C19O" />
+   <Bond atomName1="CKC" atomName2="C19E" />
+   <Bond atomName1="CKC" atomName2="C19F" />
+   <Bond atomName1="CKC" atomName2="C19P" />
+   <Bond atomName1="CKD" atomName2="C19F" />
+   <Bond atomName1="CKD" atomName2="C19G" />
+   <Bond atomName1="CKD" atomName2="C19Q" />
+   <Bond atomName1="CKE" atomName2="C19G" />
+   <Bond atomName1="CKE" atomName2="C19H" />
+   <Bond atomName1="CKE" atomName2="C19R" />
+   <Bond atomName1="CKF" atomName2="C19H" />
+   <Bond atomName1="CKF" atomName2="C19I" />
+   <Bond atomName1="CKF" atomName2="C19S" />
+   <Bond atomName1="CKG" atomName2="C116" />
+   <Bond atomName1="CKG" atomName2="C19J" />
+   <Bond atomName1="CKG" atomName2="C19K" />
+   <Bond atomName1="CKH" atomName2="C19K" />
+   <Bond atomName1="CKH" atomName2="C19L" />
+   <Bond atomName1="CKH" atomName2="C19T" />
+   <Bond atomName1="CKI" atomName2="C19L" />
+   <Bond atomName1="CKI" atomName2="C19M" />
+   <Bond atomName1="CKI" atomName2="C19U" />
+   <Bond atomName1="CKJ" atomName2="C19M" />
+   <Bond atomName1="CKJ" atomName2="C19N" />
+   <Bond atomName1="CKJ" atomName2="C19V" />
+   <Bond atomName1="CKK" atomName2="C19N" />
+   <Bond atomName1="CKK" atomName2="C19O" />
+   <Bond atomName1="CKK" atomName2="C1A0" />
+   <Bond atomName1="CKL" atomName2="C19O" />
+   <Bond atomName1="CKL" atomName2="C19P" />
+   <Bond atomName1="CKL" atomName2="C1A1" />
+   <Bond atomName1="CKM" atomName2="C19P" />
+   <Bond atomName1="CKM" atomName2="C19Q" />
+   <Bond atomName1="CKM" atomName2="C1A2" />
+   <Bond atomName1="CKN" atomName2="C19Q" />
+   <Bond atomName1="CKN" atomName2="C19R" />
+   <Bond atomName1="CKN" atomName2="C1A3" />
+   <Bond atomName1="CKO" atomName2="C19R" />
+   <Bond atomName1="CKO" atomName2="C19S" />
+   <Bond atomName1="CKO" atomName2="C1A4" />
+   <Bond atomName1="CKP" atomName2="C11K" />
+   <Bond atomName1="CKP" atomName2="C19T" />
+   <Bond atomName1="CKP" atomName2="C19U" />
+   <Bond atomName1="CKQ" atomName2="C19U" />
+   <Bond atomName1="CKQ" atomName2="C19V" />
+   <Bond atomName1="CKQ" atomName2="C1A5" />
+   <Bond atomName1="CKR" atomName2="C19V" />
+   <Bond atomName1="CKR" atomName2="C1A0" />
+   <Bond atomName1="CKR" atomName2="C1A6" />
+   <Bond atomName1="CKS" atomName2="C1A0" />
+   <Bond atomName1="CKS" atomName2="C1A1" />
+   <Bond atomName1="CKS" atomName2="C1A7" />
+   <Bond atomName1="CKT" atomName2="C1A1" />
+   <Bond atomName1="CKT" atomName2="C1A2" />
+   <Bond atomName1="CKT" atomName2="C1A8" />
+   <Bond atomName1="CKU" atomName2="C1A2" />
+   <Bond atomName1="CKU" atomName2="C1A3" />
+   <Bond atomName1="CKU" atomName2="C1A9" />
+   <Bond atomName1="CKV" atomName2="C1A3" />
+   <Bond atomName1="CKV" atomName2="C1A4" />
+   <Bond atomName1="CKV" atomName2="C1AA" />
+   <Bond atomName1="CL0" atomName2="C124" />
+   <Bond atomName1="CL0" atomName2="C1A5" />
+   <Bond atomName1="CL0" atomName2="C1A6" />
+   <Bond atomName1="CL1" atomName2="C1A6" />
+   <Bond atomName1="CL1" atomName2="C1A7" />
+   <Bond atomName1="CL1" atomName2="C1AB" />
+   <Bond atomName1="CL2" atomName2="C1A7" />
+   <Bond atomName1="CL2" atomName2="C1A8" />
+   <Bond atomName1="CL2" atomName2="C1AC" />
+   <Bond atomName1="CL3" atomName2="C1A8" />
+   <Bond atomName1="CL3" atomName2="C1A9" />
+   <Bond atomName1="CL3" atomName2="C1AD" />
+   <Bond atomName1="CL4" atomName2="C1A9" />
+   <Bond atomName1="CL4" atomName2="C1AA" />
+   <Bond atomName1="CL4" atomName2="C1AE" />
+   <Bond atomName1="CL5" atomName2="C12M" />
+   <Bond atomName1="CL5" atomName2="C1AB" />
+   <Bond atomName1="CL5" atomName2="C1AC" />
+   <Bond atomName1="CL6" atomName2="C1AC" />
+   <Bond atomName1="CL6" atomName2="C1AD" />
+   <Bond atomName1="CL6" atomName2="C1AF" />
+   <Bond atomName1="CL7" atomName2="C1AD" />
+   <Bond atomName1="CL7" atomName2="C1AE" />
+   <Bond atomName1="CL7" atomName2="C1AG" />
+   <Bond atomName1="CL8" atomName2="C13A" />
+   <Bond atomName1="CL8" atomName2="C1AF" />
+   <Bond atomName1="CL8" atomName2="C1AG" />
+  </Residue>
+ </Residues>
+ <HarmonicBondForce>
+  <Bond class1="CA" class2="CA" length="0.14300" k="392460.00" />
+ </HarmonicBondForce>
+ <HarmonicAngleForce>
+  <Angle class1="CA" class2="CA" class3="CA" angle="2.09440" k="527.18" />
+ </HarmonicAngleForce>
+ <RBTorsionForce>
+  <Proper class1="CA" class2="CA" class3="CA" class4="CA" c0="30.33400" c1="0.00000" c2="-30.33400" c3="0.00000" c4="0.00000" c5="0.00000" />
+ </RBTorsionForce>
+ <NonbondedForce coulomb14scale="0.5" lj14scale="0.5">
+  <UseAttributeFromResidue name="charge" />
+  <Atom type="CG" sigma="1.0" epsilon="0.0" />
+ </NonbondedForce>
+ <LennardJonesForce lj14scale="0.5">
+  <Atom type="CG" sigma="0.34700" epsilon="0.27640" />
+ </LennardJonesForce>
+</ForceField>
