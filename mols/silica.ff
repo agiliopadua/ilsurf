@@ -1,0 +1,22 @@
+# silica.ff, version 2025/12/01
+# Emami...Varshney...Heinz, Chem Mat 2014
+# 10.1021/cm500365c
+
+ATOMS
+#   type    m/u     q/e    pot   pars
+Si    Si   28.085   1.10   lj    4.15   0.38911
+O     O    15.999  -0.55   lj    3.47   0.22594
+OH    O    15.999  -0.675  lj    3.47   0.51045
+HO    H     1.008   0.40   lj    1.085  0.06276
+#HO    H     1.008   0.40   lj    0.0    0.00000
+
+BONDS
+# i j    pot    re/A    kr/kJmol-1
+Si  O    harm   1.65    2384.88
+O   H    cons   0.945   4142.16
+
+ANGLES
+# i  j  k    pot    th/deg  ka/kjmol-1
+O   Si  O    harm   109.5   836.8
+Si  O   Si   harm   149.0   836.8
+Si  O   H    harm   115.0   418.4

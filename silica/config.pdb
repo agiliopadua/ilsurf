@@ -1,0 +1,84 @@
+TITLE     created by fftool
+REMARK    SIMBOX
+CRYST1    5.030    5.030   40.000  90.00  90.00 120.00 P 1           1
+HETATM    1 Si1  Qua     1      -1.027   1.842  22.438  1.00  0.00          Si
+HETATM    2 Si2  Qua     1       1.477   1.948  20.624  1.00  0.00          Si
+HETATM    3 Si3  Qua     1      -0.071   3.981  18.830  1.00  0.00          Si
+HETATM    4 Si4  Qua     1       3.855   1.727  17.009  1.00  0.00          Si
+HETATM    5 Si5  Qua     1       1.338   1.989  15.212  1.00  0.00          Si
+HETATM    6 Si6  Qua     1      -0.093   4.069  13.409  1.00  0.00          Si
+HETATM    7 Si7  Qua     1       3.896   1.763  11.608  1.00  0.00          Si
+HETATM    8 Si8  Qua     1       1.390   1.913   9.782  1.00  0.00          Si
+HETATM    9 Si9  Qua     1       0.186   4.244   7.974  1.00  0.00          Si
+HETATM   10 Si10 Qua     1      -0.984   1.997   6.149  1.00  0.00          Si
+HETATM   11 O1   Qua     1       3.751   0.449  23.244  1.00  0.00           O
+HETATM   12 O2   Qua     1       0.498   1.668  21.892  1.00  0.00           O
+HETATM   13 O3   Qua     1       2.988   2.124  21.192  1.00  0.00           O
+HETATM   14 O4   Qua     1       0.982   3.299  19.870  1.00  0.00           O
+HETATM   15 O5   Qua     1       1.477   0.689  19.588  1.00  0.00           O
+HETATM   16 O6   Qua     1      -1.038   2.855  18.172  1.00  0.00           O
+HETATM   17 O7   Qua     1       3.319   0.341  17.661  1.00  0.00           O
+HETATM   18 O8   Qua     1       0.270   1.460  16.322  1.00  0.00           O
+HETATM   19 O9   Qua     1       2.789   2.251  15.896  1.00  0.00           O
+HETATM   20 O10  Qua     1       0.822   3.391  14.572  1.00  0.00           O
+HETATM   21 O11  Qua     1       1.467   0.857  14.049  1.00  0.00           O
+HETATM   22 O12  Qua     1      -1.045   2.943  12.725  1.00  0.00           O
+HETATM   23 O13  Qua     1       3.412   0.371  12.297  1.00  0.00           O
+HETATM   24 O14  Qua     1       0.318   1.524  10.935  1.00  0.00           O
+HETATM   25 O15  Qua     1       2.840   2.204  10.457  1.00  0.00           O
+HETATM   26 O16  Qua     1       0.967   3.266   9.000  1.00  0.00           O
+HETATM   27 O17  Qua     1       1.495   0.647   8.756  1.00  0.00           O
+HETATM   28 O18  Qua     1      -0.381   3.402   6.709  1.00  0.00           O
+HETATM   29 O19  Qua     1       3.719   1.010   7.398  1.00  0.00           O
+HETATM   30 O20  Qua     1       0.073   1.236   5.160  1.00  0.00           O
+HETATM   31 O21  Qua     1      -1.039   3.203  23.383  1.00  0.00           O
+HETATM   32 O22  Qua     1       2.638   2.371   5.363  1.00  0.00           O
+HETATM   33 H1   Qua     1       0.362   4.347  23.334  1.00  0.00           H
+HETATM   34 H2   Qua     1      -1.897   3.679  23.434  1.00  0.00           H
+HETATM   35 H3   Qua     1       1.007   1.569   5.170  1.00  0.00           H
+HETATM   36 H4   Qua     1       2.561   3.324   5.138  1.00  0.00           H
+CONECT    1   11
+CONECT    1   12
+CONECT    1   13
+CONECT    1   31
+CONECT    2   12
+CONECT    2   13
+CONECT    2   14
+CONECT    2   15
+CONECT    3   14
+CONECT    3   15
+CONECT    3   16
+CONECT    3   17
+CONECT    4   16
+CONECT    4   17
+CONECT    4   18
+CONECT    4   19
+CONECT    5   18
+CONECT    5   19
+CONECT    5   20
+CONECT    5   21
+CONECT    6   20
+CONECT    6   21
+CONECT    6   22
+CONECT    6   23
+CONECT    7   22
+CONECT    7   23
+CONECT    7   24
+CONECT    7   25
+CONECT    8   24
+CONECT    8   25
+CONECT    8   26
+CONECT    8   27
+CONECT    9   26
+CONECT    9   27
+CONECT    9   28
+CONECT    9   29
+CONECT   10   28
+CONECT   10   29
+CONECT   10   30
+CONECT   10   32
+CONECT   11   33
+CONECT   30   35
+CONECT   31   34
+CONECT   32   36
+END

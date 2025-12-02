@@ -1,0 +1,9 @@
+# created by fftool
+tolerance 2.5
+filetype xyz
+output simbox.xyz
+
+structure silica-881_pack.xyz
+  number 1
+  fixed 0.0 0.0 5.0 0.0 0.0 0.0
+end structure

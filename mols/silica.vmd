@@ -1,0 +1,9 @@
+
+display projection orthographic
+display nearclip set 0.010000
+
+pbc box
+#pbc wrap -all
+#pbc join fragment -bondlist -all
+
+animate goto start
