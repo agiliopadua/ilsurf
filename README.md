@@ -44,7 +44,7 @@ Edit the `graph.xyz` file and add the force field file to the second line, after
     CG   0.000000    0.000000    1.677750
     ...
 
-Build the input files for OpenMM with the two planes of graphene of dimensions 41.888 x 42.678 Å, with 1360 atoms:
+Build the input files for OpenMM with the two planes of graphene of dimensions 41.888 x 42.678 Å (with 1360 atoms); specify periodic bonds on the x and y directions:
 
     cd mols
     fftool 1 graph.xyz -b 41.888,42.678,40 -p xy
@@ -53,7 +53,7 @@ The `gr_pack.inp` file instructs Packmol to place the structure fixed at the ori
 
     packmol < gr_pack.inp
 
-Create the input files:
+Create the input files for OpenMM:
 
     fftool 1 graph.xyz -b 41.888,42.678,40 -p xy -xml -a
 
