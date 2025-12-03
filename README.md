@@ -3,10 +3,11 @@
 ## Requirements
 
 - [clandp](https://github.com/paduagroup/clandp), force field for ionic liquids
-- [fftool](https://github.com/paduagroup/fftool), tool to build initial configurations and force field
+- [fftool](https://github.com/paduagroup/fftool), builds initial configurations and force field for a system
 - Packmol, packs molecules in a box
 - VMD, trajectory visualizer
 - VESTA, visualizer and editor of crystallographic files
+- OpenMM, molecular dynamics code
 
 ## Create graphene planes from crystal structure
 
@@ -16,14 +17,16 @@ Although the unit cell corresponds to an hexagonal lattice, we will create an or
 
 Using VESTA, under \<Edit\>\<Bonds\> choose each bond type on the table (just one type for graphite) and tick "Do not search atoms beyond the boundary", then \<Apply\>.
 
-In Boundary, set ranges of fractional coordinates: x(max) = 26.4, y(max) = 19.9, z(max) = 1.
+Click Boundary... and set ranges of fractional coordinates: x(max) = 26.4, y(max) = 19.9, z(max) = 1.
 
 Add cutoff planes:
 
 - (2 -1 0), distance from origin 33 x d
 - (-2 1 0), distance from origin 0.1 x d
 
-Verify that the boundaries are matching. Then \<Export Data...\> to XYZ format (do not save hidden atoms). Check that you have 680 atoms per plane. You can choose z(max) to control the number of planes.
+Verify that the edges of the graphene planes are matching, with no duplicate atoms (only the bonds across box boundaries missing). Then \<Export Data...\> to XYZ format (do not save hidden atoms).
+
+Check that you have 680 atoms per plane. You can choose z(max) to control the number of planes.
 
 
 ## Simulation box with periodic graphene planes
@@ -116,14 +119,14 @@ Visualize the trajectory with vmd:
     vmd -e silica.vmd dump.lammpstrj
 
 
-## Using LAMMPS for the MD trajectories
+## Using LAMMPS to run MD
 
 Only the 2nd step using fftool is different:
 
     fftool 1 silica-881.xyz -b 40.24,40.24,80,90,90,120 -p xy -l
 
-This creates input files for LAMMPS. Edit `in.lmp` to save one snapshot to the `dump` file every 50 steps and tun 5000 steps. Then run:
+This creates input files for LAMMPS. Edit `in.lmp` to save one snapshot to the `dump` file every 50 steps and run 5000 steps. Then run:
 
-    lmp -in in.lmp
+    mpirun -np 8 lmp -in in.lmp
 
-
+---
