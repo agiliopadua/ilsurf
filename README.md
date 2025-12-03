@@ -98,20 +98,32 @@ Edit the .xyz file to set the force field file (`silica.ff`) as the second token
     grep HO silica-881.xyz | wc -l
     grep OH silica-881.xyz | wc -l
 
-Use fftool to prepare a simulation box for LAMMPS:
+Use fftool to prepare a simulation box:
 
     fftool 1 silica-881.xyz -b 40.24,40.24,80,90,90,120 -p xy
 
 Check the number of bonds.
 
     packmol < pack_fixed.inp
-    fftool 1 silica-881.xyz -b 40.24,40.24,80,90,90,120 -p xy -l
+    fftool 1 silica-881.xyz -b 40.24,40.24,80,90,90,120 -p xy -xml -a
 
-This builds input files for LAMMPS. Edit `in.lmp` to save one snapshot to the `dump` file every 50 steps and tun 5000 steps. Then run:
+This creates input files for OpenMM. Run a short trajectory:
 
-    lmp -in in.lmp
+    ./omm.py
 
 Visualize the trajectory with vmd:
 
     vmd -e silica.vmd dump.lammpstrj
+
+
+## Using LAMMPS for the MD trajectories
+
+Only the 2nd step using fftool is different:
+
+    fftool 1 silica-881.xyz -b 40.24,40.24,80,90,90,120 -p xy -l
+
+This creates input files for LAMMPS. Edit `in.lmp` to save one snapshot to the `dump` file every 50 steps and tun 5000 steps. Then run:
+
+    lmp -in in.lmp
+
 
