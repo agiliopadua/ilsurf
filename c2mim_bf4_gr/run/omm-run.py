@@ -12,7 +12,7 @@ field = 'field.xml'
 config = 'config.pdb'
 statefile = 'state-eq.xml'
 
-temperature = 300.0*unit.kelvin
+temperature = 323.0*unit.kelvin
 pressure = (1.0, 1.0, 0.0)
 
 print('#', datetime.datetime.now())
@@ -48,11 +48,8 @@ properties = {'Precision': 'single'}
 # force settings before creating Simulation
 for i, f in enumerate(system.getForces()):
     f.setForceGroup(i)
-    if f.getName() == 'HarmonicBondForce':
-        f.setUsesPeriodicBoundaryConditions(True)
-    if f.getName() == 'HarmonicAngleForce':
-        f.setUsesPeriodicBoundaryConditions(True)
-    if f.getName() == 'RBTorsionForce':
+    if f.getName() in ('HarmonicBondForce', 'HarmonicAngleForce',
+                       'RBTorsionForce'):
         f.setUsesPeriodicBoundaryConditions(True)
 
 sim = app.Simulation(modeller.topology, system, integrator, platform, properties)
@@ -87,7 +84,7 @@ sim.reporters.append(app.StateDataReporter(sys.stdout, 1000, step=True, speed=Tr
 sim.reporters.append(app.DCDReporter('traj.dcd', 1000))
 #sim.reporters.append(app.CheckpointReporter('restart.chk', 10000))
 
-for i in range(1000):
+for i in range(2000):
     sim.step(1000)
 
 for i, f in enumerate(system.getForces()):

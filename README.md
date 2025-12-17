@@ -11,23 +11,26 @@
 
 ## Create graphene planes from crystal structure
 
-Download a CIF file for graphite from the Crystallography Open Database: 9011577.cif
+Download a CIF file for graphite from the [Crystallography Open Database](https://www.crystallography.net/): 9011577.cif
 
-Although the unit cell corresponds to an hexagonal lattice, we will create an orthorhombic simulation box.
+Although the unit cell corresponds to an hexagonal lattice, we will create an orthorhombic (all angles 90°) simulation box.
 
-Using VESTA, under \<Edit\>\<Bonds\> choose each bond type on the table (just one type for graphite) and tick "Do not search atoms beyond the boundary", then \<Apply\>.
+Using VESTA, under \<Edit\>\<Bonds\> choose each bond type on the table (there is just one type for graphite) and tick \<Do not search atoms beyond the boundary\>, then \<Apply\>.
 
-Click Boundary... and set ranges of fractional coordinates: x(max) = 26.4, y(max) = 19.9, z(max) = 1.
+Click \<Boundary...\> and set ranges of fractional coordinates: x(max) = 26.4, y(max) = 19.9, z(max) = 1.
 
 Add cutoff planes:
 
 - (2 -1 0), distance from origin 33 x d
 - (-2 1 0), distance from origin 0.1 x d
 
-Verify that the edges of the graphene planes are matching, with no duplicate atoms (only the bonds across box boundaries missing). Then \<Export Data...\> to XYZ format (do not save hidden atoms).
+Verify that the edges of the graphene planes are matching, with no duplicate atoms (only the bonds across box boundaries should be missing).
 
-Check that you have 680 atoms per plane. You can choose z(max) to control the number of planes.
+Q. Count the number of unit calls along each perpendicular direction.
 
+Check that you have 680 atoms per plane. You can choose z(max) to control the number of planes. For the following work we will use 4 planes, so set z(max) accordingly.
+
+Then \<Export Data...\> to XYZ format (do not save hidden atoms).
 
 ## Simulation box with periodic graphene planes
 
@@ -35,19 +38,20 @@ In the definition of the atom types within the force field (`nanocarbon.ff`), gr
 
 Copy the `.xyz` file with the coordinates of the graphene planes and replace all `C` atom names with `CG`:
 
-    sed 's/C /CG/' < planes.xyz > graph.xyz
+    sed 's/C /CG/' < graph-4.xyz > graph.xyz
 
 Edit the `graph.xyz` file and add the force field file to the second line, after the name of the molecule:
 
-    1360
-    graph nanocarbon.ff
+    2720
+    graphite nanocarbon.ff
     CG   0.000000    0.000000    1.677750
-    ...
+    [...]
 
-Build the input files for OpenMM with the two planes of graphene of dimensions 41.888 x 42.678 Å (with 1360 atoms); specify periodic bonds on the x and y directions:
+Build the input files for OpenMM with the graphene planes of dimensions 41.888 x 42.678 Å (Q. Find the origin of these lengths); specify periodic bonds on the x and y directions:
 
     cd mols
-    fftool 1 graph.xyz -b 41.888,42.678,40 -p xy
+    fftool 1 graph.xyz -b 41.888,42.678,50 -p xy
+
 
 The `gr_pack.inp` file instructs Packmol to place the structure fixed at the origin:
 
@@ -55,37 +59,44 @@ The `gr_pack.inp` file instructs Packmol to place the structure fixed at the ori
 
 Create the input files for OpenMM:
 
-    fftool 1 graph.xyz -b 41.888,42.678,40 -p xy -xml -a
+    fftool 1 graph.xyz -b 41.888,42.678,50 -p xy -xml -a
 
-With the planes stitched across box boundaries we expect 1.5 * 1360 = 2040 bonds.
+With the planes stitched across box boundaries we expect 1.5 * 2720 = 4080 bonds.
 
-Test a short run with just the graphene layers:
+Test a short run with just the graphene planes:
 
-    cp field.xml config.pdb ../graph
+    mv field.xml config.pdb ../graph
     cd ../graph
     ./omm.py
 
 Check energies and density to see if the box size adapts.
 
-    vmd -e ../mols/pbc.vmd config.pdb traj.dcd
+    vmd -e ../mols/graph.vmd config.pdb traj.dcd
 
 
 ## Add ionic liquid
 
-Put 200 ion pairs above the graphene planes
+Put 300 ion pairs above the graphene planes:
 
     cd mols
-    fftool 1 graph.xyz 200 c2c1im.zmat 200 BF4.zmat -b 41.888,42.678,100
+    fftool 1 graph.xyz 300 c2c1im.zmat 300 BF4.zmat -b 41.888,42.678,100
     packmol < gr_il_pack.inp
-    fftool 1 graph.xyz 200 c2c1im.zmat 200 BF4.zmat -b 41.888,42.678,100 -p xy -xml -a
+    vmd simbox.xyz
 
-    cp field.xml condfig.pdb ../gr_c2mim_bf4
-    cd ../gr_c2mim_bf4
-    ./omm.py
+    fftool 1 graph.xyz 300 c2c1im.zmat 300 BF4.zmat -b 41.888,42.678,100 -p xy -xml -a
+
+Run a short test trajectory to make sure the system is ok:
+
+    mv field.xml condfig.pdb ../c2mim_bf4_gr
+    cd ../c2mim_bf4_gr
+    ./omm-test.py
 
     vmd -e ../mols/graph.vmd config.pdb traj.dcd
 
-Repeat with c8c1im. Edit `gr_il_pack.inp` to allow more space for the larger cation, or use less ion pairs.
+Then run an equilibration of 1 ns at 323 K; visualize it using vmd;
+check values of energy to see if the system is well equilibrated; run a trajectory from its last configuration for 4 ns saving a snapshot every 1000 steps (4000 configurations).
+
+Repeat with c8c1im. Edit `gr_il_pack.inp` to allow more space for the larger cation, or use less ion pairs in order to have similar numbers of atoms for the two ionic liquids.
 
 
 ## Silica surface
@@ -112,7 +123,7 @@ Check the number of bonds.
 
 This creates input files for OpenMM. Run a short trajectory:
 
-    ./omm.py
+    ./omm-test.py
 
 Visualize the trajectory with vmd:
 

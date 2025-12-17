@@ -48,11 +48,8 @@ properties = {'Precision': 'single'}
 # force settings before creating Simulation
 for i, f in enumerate(system.getForces()):
     f.setForceGroup(i)
-    if f.getName() == 'HarmonicBondForce':
-        f.setUsesPeriodicBoundaryConditions(True)
-    if f.getName() == 'HarmonicAngleForce':
-        f.setUsesPeriodicBoundaryConditions(True)
-    if f.getName() == 'RBTorsionForce':
+    if f.getName() in ('HarmonicBondForce', 'HarmonicAngleForce',
+                       'RBTorsionForce'):
         f.setUsesPeriodicBoundaryConditions(True)
 
 sim = app.Simulation(modeller.topology, system, integrator, platform, properties)
