@@ -48,11 +48,8 @@ properties = {'Precision': 'single'}
 # force settings before creating Simulation
 for i, f in enumerate(system.getForces()):
     f.setForceGroup(i)
-    if f.getName() == 'HarmonicBondForce':
-        f.setUsesPeriodicBoundaryConditions(True)
-    if f.getName() == 'HarmonicAngleForce':
-        f.setUsesPeriodicBoundaryConditions(True)
-    if f.getName() == 'RBTorsionForce':
+    if f.getName() in ('HarmonicBondForce', 'HarmonicAngleForce',
+                       'RBTorsionForce'):
         f.setUsesPeriodicBoundaryConditions(True)
 
 sim = app.Simulation(modeller.topology, system, integrator, platform, properties)
@@ -101,10 +98,8 @@ app.PDBFile.writeFile(sim.topology, coords, open('last.pdb', 'w'))
 
 sim.context.setTime(0)
 sim.context.setStepCount(0)
-sim.saveState('state-eq.xml')
-print('# state saved to state-eq.xml')
-#sim.saveState('state-np.xml')
-#print('# state saved to state-np.xml')
+sim.saveState('state.xml')
+print('# state saved to state.xml')
 
 print()
 print('#', datetime.datetime.now())

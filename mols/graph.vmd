@@ -2,6 +2,7 @@
 display projection orthographic
 display nearclip set 0.010000
 
+pbc set {40.24 40.24 110.0 90.0 90.0 120.0} -vmd
 pbc box
 pbc wrap -all
 pbc join fragment -bondlist -all

@@ -1,5 +1,5 @@
 <ForceField>
- <!--created by fftool; mix = l-->
+ <!--created by fftool; mix = g-->
  <AtomTypes>
   <Type name="CG" class="CA" element="C" mass="12.0110" />
   <Type name="NA" class="NA" element="N" mass="14.0070" />

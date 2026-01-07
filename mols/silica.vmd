@@ -2,8 +2,20 @@
 display projection orthographic
 display nearclip set 0.010000
 
+mol addrep 0
+mol addrep 0
+
+mol modselect 0 0 residue 0
+mol modstyle 0 0 VDW 0.200000 8.000000
+
+mol modselect 1 0 residue 0
+mol modstyle 1 0 DynamicBonds 1.800000 0.100000 8.000000
+
+mol modselect 2 0 not residue 0
+
+pbc set {40.24 40.24 110.0 90.0 90.0 120.0} -vmd -all
 pbc box
-#pbc wrap -all
-#pbc join fragment -bondlist -all
+pbc wrap -all
+pbc join fragment -bondlist -all
 
 animate goto start

@@ -50,7 +50,7 @@ Edit the `graph.xyz` file and add the force field file to the second line, after
 Build the input files for OpenMM with the graphene planes of dimensions 41.888 x 42.678 Å (Q. Find the origin of these lengths); specify periodic bonds on the x and y directions:
 
     cd mols
-    fftool 1 graph.xyz -b 41.888,42.678,50 -p xy
+    fftool 1 graph.xyz --box 41.888,42.678,50 --pbc xy
 
 
 The `gr_pack.inp` file instructs Packmol to place the structure fixed at the origin:
@@ -59,7 +59,7 @@ The `gr_pack.inp` file instructs Packmol to place the structure fixed at the ori
 
 Create the input files for OpenMM:
 
-    fftool 1 graph.xyz -b 41.888,42.678,50 -p xy -xml -a
+    fftool 1 graph.xyz --box 41.888,42.678,50 --pbc xy --xml
 
 With the planes stitched across box boundaries we expect 1.5 * 2720 = 4080 bonds.
 
@@ -76,14 +76,14 @@ Check energies and density to see if the box size adapts.
 
 ## Add ionic liquid
 
-Put 300 ion pairs above the graphene planes:
+Put 300 ion pairs of $\mathrm{[C_2C_1im][BF4]}$ above the graphene planes:
 
     cd mols
-    fftool 1 graph.xyz 300 c2c1im.zmat 300 BF4.zmat -b 41.888,42.678,100
-    packmol < gr_il_pack.inp
+    fftool 1 graph.xyz 300 c2c1im.zmat 300 BF4.zmat --box 41.888,42.678,100
+    packmol < gr_c2_pack.inp
     vmd simbox.xyz
 
-    fftool 1 graph.xyz 300 c2c1im.zmat 300 BF4.zmat -b 41.888,42.678,100 -p xy -xml -a
+    fftool 1 graph.xyz 300 c2c1im.zmat 300 BF4.zmat --box 41.888,42.678,100 --pbc xy --xml
 
 Run a short test trajectory to make sure the system is ok:
 
@@ -96,7 +96,10 @@ Run a short test trajectory to make sure the system is ok:
 Then run an equilibration of 1 ns at 323 K; visualize it using vmd;
 check values of energy to see if the system is well equilibrated; run a trajectory from its last configuration for 4 ns saving a snapshot every 1000 steps (4000 configurations).
 
-Repeat with c8c1im. Edit `gr_il_pack.inp` to allow more space for the larger cation, or use less ion pairs in order to have similar numbers of atoms for the two ionic liquids.
+Repeat with $\mathrm{[C_8C_1im][BF_4]}$. Create a copy of `gr_c2_pack.inp` suitable for c8c1im using less ion pairs, in order to have comparable numbers of atoms for the two ionic liquids.
+
+
+----
 
 
 ## Silica surface
@@ -107,19 +110,24 @@ Study the unit cell (lengths, angles, composition). It has 36 atoms and 44 bonds
 
 In Boundary set a 8 x 8 x 1 supercell and export to XYZ format. (You can start with a smaller supercell and attempt a larger one when more familiar with the system.)
 
-Edit the .xyz file to set the force field file (`silica.ff`) as the second token in the second line. Change all H atom names to HO. Identify the O atoms near the surface (by their z values) and set their types to OH. Check that the numbers are identical:
+Edit the .xyz file:
+- Set the force field file (`silica.ff`) as the second token in the second line;
+- Change all H atom names to HO.
+- Identify the O atoms near the surface (by their z values) and set their types to OH.
+
+Verify that their numbers are identical:
 
     grep HO silica-881.xyz | wc -l
     grep OH silica-881.xyz | wc -l
 
 Use fftool to prepare a simulation box:
 
-    fftool 1 silica-881.xyz -b 40.24,40.24,80,90,90,120 -p xy
+    fftool 1 silica-881.xyz --box 40.24,40.24,80,90,90,120 --pbc xy
 
-Check the number of bonds.
+Check that the number of bonds is correct.
 
     packmol < pack_fixed.inp
-    fftool 1 silica-881.xyz -b 40.24,40.24,80,90,90,120 -p xy -xml -a
+    fftool 1 silica-881.xyz --box 40.24,40.24,80,90,90,120 --pbc xy --xml
 
 This creates input files for OpenMM. Run a short trajectory:
 
@@ -127,17 +135,15 @@ This creates input files for OpenMM. Run a short trajectory:
 
 Visualize the trajectory with vmd:
 
-    vmd -e silica.vmd dump.lammpstrj
+    vmd -e ../mols/silica.vmd config.pdb traj.dcd
 
 
-## Using LAMMPS to run MD
+## Add ionic liquid
 
-Only the 2nd step using fftool is different:
+Add ionic liquid above the silica slab, similarly to what was done with the graphene systems.
 
-    fftool 1 silica-881.xyz -b 40.24,40.24,80,90,90,120 -p xy -l
+Use boxes with $L_z = 120\ \AA$. Then use packmol with the input file `si_c2_pack.inp` (study this file for the instructions to pack molecules in a cell which is not orthorhombic).
 
-This creates input files for LAMMPS. Edit `in.lmp` to save one snapshot to the `dump` file every 50 steps and run 5000 steps. Then run:
-
-    mpirun -np 8 lmp -in in.lmp
+Run a short trajectory to see if the system is stable.
 
 ---
