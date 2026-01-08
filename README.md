@@ -142,8 +142,10 @@ Visualize the trajectory with vmd:
 
 Add ionic liquid above the silica slab, similarly to what was done with the graphene systems.
 
-Use boxes with $L_z = 120\ \AA$. Then use packmol with the input file `si_c2_pack.inp` (study this file for the instructions to pack molecules in a cell which is not orthorhombic).
+Use boxes with about $L_z = 120\ \AA$. Then use packmol with the input file `si_c2_pack.inp` (study this file for the instructions to pack molecules in a cell which is not orthorhombic).
 
 Run a short trajectory to see if the system is stable.
+
+Redo with $\mathrm{C_8C_1im][BF_4]}$ allowing for sufficient volume to place the ions in the packmol input file.
 
 ---
