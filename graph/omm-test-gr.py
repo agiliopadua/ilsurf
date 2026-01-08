@@ -49,26 +49,24 @@ properties = {'Precision': 'single'}
 # force settings before creating Simulation
 for i, f in enumerate(system.getForces()):
     f.setForceGroup(i)
-    if f.getName() == 'HarmonicBondForce':
-        f.setUsesPeriodicBoundaryConditions(True)
-    if f.getName() == 'HarmonicAngleForce':
-        f.setUsesPeriodicBoundaryConditions(True)
-    if f.getName() == 'RBTorsionForce':
+    if f.getName() in ('HarmonicBondForce', 'HarmonicAngleForce',
+                       'RBTorsionForce'):
         f.setUsesPeriodicBoundaryConditions(True)
 
 sim = app.Simulation(modeller.topology, system, integrator, platform, properties)
 
 sim.context.setPositions(modeller.positions)
-sim.context.setVelocitiesToTemperature(temperature)
+#sim.context.setVelocitiesToTemperature(temperature)
 
+# loading previous state
 #print('# coordinates and velocities from', statefile)
 #sim.loadState(statefile)
 
 #print('# coordinates and velocities from restart.chk')
 #sim.loadCheckpoint('restart.chk')
 
-state = sim.context.getState()
-sim.topology.setPeriodicBoxVectors(state.getPeriodicBoxVectors())
+#state = sim.context.getState()
+#sim.topology.setPeriodicBoxVectors(state.getPeriodicBoxVectors())
 
 platform = sim.context.getPlatform()
 print('# platform', platform.getName())

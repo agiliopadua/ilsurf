@@ -55,7 +55,7 @@ for i, f in enumerate(system.getForces()):
 sim = app.Simulation(modeller.topology, system, integrator, platform, properties)
 
 sim.context.setPositions(modeller.positions)
-sim.context.setVelocitiesToTemperature(temperature)
+#sim.context.setVelocitiesToTemperature(temperature)
 
 #print('# coordinates and velocities from', statefile)
 #sim.loadState(statefile)
@@ -63,8 +63,8 @@ sim.context.setVelocitiesToTemperature(temperature)
 #print('# coordinates and velocities from restart.chk')
 #sim.loadCheckpoint('restart.chk')
 
-state = sim.context.getState()
-sim.topology.setPeriodicBoxVectors(state.getPeriodicBoxVectors())
+#state = sim.context.getState()
+#sim.topology.setPeriodicBoxVectors(state.getPeriodicBoxVectors())
 
 platform = sim.context.getPlatform()
 print('# platform', platform.getName())
