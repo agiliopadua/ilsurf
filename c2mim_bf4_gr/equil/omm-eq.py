@@ -13,7 +13,8 @@ config = 'config.pdb'
 #statefile = 'state-eq.xml'
 
 temperature = 323.0*unit.kelvin
-pressure = (1.0, 1.0, 0.0)
+#pressure = 1.0*unit.bar
+pressure = (1.0, 1.0, 0.0)*unit.bar
 
 print('#', datetime.datetime.now())
 print()
@@ -26,10 +27,11 @@ modeller = app.Modeller(pdb.topology, pdb.positions)
 
 print('#  ', modeller.topology.getNumResidues(), 'molecules', modeller.topology.getNumAtoms(), 'atoms', modeller.topology.getNumBonds(), 'bonds')
 
-lx = modeller.topology.getUnitCellDimensions().x
-ly = modeller.topology.getUnitCellDimensions().y
-lz = modeller.topology.getUnitCellDimensions().z
-print('#   box', lx, ly, lz, 'nm')
+boxvec = modeller.topology.getPeriodicBoxVectors()
+print('# Box vectors (nm):')
+print('#     x      y      z')
+for vec in boxvec:
+    print(f'#   {vec.x:6.2f} {vec.y:6.2f} {vec.z:6.2f}')
 
 system = forcefield.createSystem(modeller.topology, nonbondedMethod=app.PME, nonbondedCutoff=12.0*unit.angstrom, constraints=app.HBonds, ewaldErrorTolerance=1.0e-5)
 
@@ -37,7 +39,7 @@ print('# Langevin integrator', temperature)
 integrator = openmm.LangevinIntegrator(temperature, 5/unit.picosecond, 1*unit.femtosecond)
 
 print('#   barostat', pressure)
-barostat = openmm.MonteCarloAnisotropicBarostat(pressure, temperature, True, True, False, 5)
+barostat = openmm.MonteCarloAnisotropicBarostat(pressure, temperature, True, True, False, 20)
 system.addForce(barostat)
 
 platform = openmm.Platform.getPlatformByName('CUDA')
@@ -55,7 +57,8 @@ for i, f in enumerate(system.getForces()):
 sim = app.Simulation(modeller.topology, system, integrator, platform, properties)
 
 sim.context.setPositions(modeller.positions)
-sim.context.setVelocitiesToTemperature(temperature)
+# starting with no velocities is often more robust
+#sim.context.setVelocitiesToTemperature(temperature)
 
 #print('# coordinates and velocities from', statefile)
 #sim.loadState(statefile)
@@ -70,6 +73,16 @@ platform = sim.context.getPlatform()
 print('# platform', platform.getName())
 for prop in platform.getPropertyNames():
     print('#  ', prop, platform.getPropertyValue(sim.context, prop))
+
+state = sim.context.getState(getEnergy=True)
+print('# PotentielEnergy', state.getPotentialEnergy())
+
+for i, f in enumerate(system.getForces()):
+    state = sim.context.getState(getEnergy=True, groups={i})
+    print('#  ', f.getName(), state.getPotentialEnergy())
+
+print("# Minimizing energy...")
+sim.minimizeEnergy()
 
 state = sim.context.getState(getEnergy=True)
 print('# PotentielEnergy', state.getPotentialEnergy())

@@ -13,7 +13,7 @@ config = 'config.pdb'
 #statefile = 'state-eq.xml'
 
 temperature = 323.0*unit.kelvin
-pressure = (1.0, 1.0, 0.0)
+pressure = (1.0, 1.0, 0.0)*unit.bar
 
 print('#', datetime.datetime.now())
 print()
@@ -38,7 +38,7 @@ print('# Langevin integrator', temperature)
 integrator = openmm.LangevinIntegrator(temperature, 5/unit.picosecond, 1*unit.femtosecond)
 
 print('#   barostat', pressure)
-barostat = openmm.MonteCarloAnisotropicBarostat(pressure, temperature, True, True, False, 5)
+barostat = openmm.MonteCarloAnisotropicBarostat(pressure, temperature, True, True, False, 20)
 system.addForce(barostat)
 
 #platform = openmm.Platform.getPlatformByName('CUDA')
@@ -59,6 +59,7 @@ for i, f in enumerate(system.getForces()):
 sim = app.Simulation(modeller.topology, system, integrator, platform, properties)
 
 sim.context.setPositions(modeller.positions)
+# starting with no velocities is often more robust
 #sim.context.setVelocitiesToTemperature(temperature)
 
 #print('# coordinates and velocities from', statefile)
@@ -74,6 +75,16 @@ platform = sim.context.getPlatform()
 print('# platform', platform.getName())
 for prop in platform.getPropertyNames():
     print('#  ', prop, platform.getPropertyValue(sim.context, prop))
+
+state = sim.context.getState(getEnergy=True)
+print('# PotentielEnergy', state.getPotentialEnergy())
+
+for i, f in enumerate(system.getForces()):
+    state = sim.context.getState(getEnergy=True, groups={i})
+    print('#  ', f.getName(), state.getPotentialEnergy())
+
+print("# Minimizing energy...")
+sim.minimizeEnergy()
 
 state = sim.context.getState(getEnergy=True)
 print('# PotentielEnergy', state.getPotentialEnergy())
@@ -114,8 +125,6 @@ sim.context.setTime(0)
 sim.context.setStepCount(0)
 sim.saveState('state-eq.xml')
 print('# state saved to state-eq.xml')
-#sim.saveState('state-np.xml')
-#print('# state saved to state-np.xml')
 
 print()
 print('#', datetime.datetime.now())

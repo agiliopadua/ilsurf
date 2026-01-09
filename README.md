@@ -1,13 +1,66 @@
-# Simulation of ILs at interfaces
+# Simulation of ionic liquids at interfaces
 
 ## Requirements
 
 - [clandp](https://github.com/paduagroup/clandp), force field for ionic liquids
-- [fftool](https://github.com/paduagroup/fftool), builds initial configurations and force field for a system
+- [fftool](https://github.com/paduagroup/fftool), builds an initial configuration and the force field for a system
 - Packmol, packs molecules in a box
 - VMD, trajectory visualizer
 - VESTA, visualizer and editor of crystallographic files
 - OpenMM, molecular dynamics code
+
+
+## Simple system with single-phase ionic liquid
+
+As a first simple system, to familiarize yourself with the tools and codes, simulate an ionic liquid in a cubic box.
+
+Learn about the options of fftool:
+
+    fftool -h
+
+Then cd to the `mols` folder and build a box of density 4.0 mol/L (somewhat below the experimental density to give ions room to equilibrate):
+
+    fftool 300 c2c1im.zmat 300 BF4.zmat --rho 4.0
+
+This step creats an input file for Packmol. Familiarize yourself with this file. Use packmol to place the molecules in a box and visualize:
+
+    packmol < pack.inp
+    vmd simbox.xyz    
+    
+In the second step of fftool provide the `--xml` option to produce input fiels for OpenMM:
+
+    fftool 300 c2c1im.zmat 300 BF4.zmat --rho 4.0
+
+Create a new folder and run a short simulation there:
+
+    mkdir ../c2mim_bf4
+    cp field.xml config.pdb omm-test.py ../c2mim_bf4
+    cd ../c2mim_bf4
+
+Check the GPUs on your computer:
+
+    nvidia-smi
+
+Edit `omm.py` to check settings of integrators, long-range interactions, GPU choice, etc.
+
+Run an test trajectory of a just few ps:
+
+    ./omm.py &> omm.out &
+
+Use `cat omm.out` or `tail -f omm.out` to follow the progress of the simulation. 
+
+Visualize:
+
+    vmd ../mols/il.vmd config.pdb traj.dcd
+
+Run a longer equilibration (maybe 500 ps). Adapt the reporters, since there is no need to save configurations to the trajectory or print to screen so often. Check the convergence of the density in the `omm.out` file. 
+
+If not converged, continue the equilibration from the saved state in `state-eq.xml`.
+
+Starting from an equilibrated state, run an acquisition trajectory of 1 ns.
+
+Use analysis notebooks with MDTraj (or a similar library) to compute structural and transport quantities such as radial distribution functions and ion diffusion coefficients.
+
 
 ## Create graphene planes from crystal structure
 
@@ -65,8 +118,15 @@ With the planes stitched across box boundaries we expect 1.5 * 2720 = 4080 bonds
 
 Test a short run with just the graphene planes:
 
-    mv field.xml config.pdb ../graph
+    cp field.xml config.pdb omm.py../graph
     cd ../graph
+
+Graphite atoms have no electrostatic charge, therefore edit the `omm-test.py` file to replace the `createSystem()` line with just:
+
+        system = forcefield.createSystem(modeller.topology, nonbondedCutoff=12.0*unit.angstrom)
+
+Then run
+
     ./omm.py
 
 Check energies and density to see if the box size adapts.
@@ -85,18 +145,18 @@ Put 300 ion pairs of $\mathrm{[C_2C_1im][BF4]}$ above the graphene planes:
 
     fftool 1 graph.xyz 300 c2c1im.zmat 300 BF4.zmat --box 41.888,42.678,100 --pbc xy --xml
 
-Run a short test trajectory to make sure the system is ok:
+Copy the `field.xml`, `config.pdb` and `omm.py` files to a new folder, then run a short test trajectory to make sure the system is ok:
 
-    mv field.xml condfig.pdb ../c2mim_bf4_gr
-    cd ../c2mim_bf4_gr
-    ./omm-test.py
+    ./omm.py &> omm.out &
+
+Visualize:
 
     vmd -e ../mols/graph.vmd config.pdb traj.dcd
 
 Then run an equilibration of 1 ns at 323 K; visualize it using vmd;
 check values of energy to see if the system is well equilibrated; run a trajectory from its last configuration for 4 ns saving a snapshot every 1000 steps (4000 configurations).
 
-Repeat with $\mathrm{[C_8C_1im][BF_4]}$. Create a copy of `gr_c2_pack.inp` suitable for c8c1im using less ion pairs, in order to have comparable numbers of atoms for the two ionic liquids.
+Repeat with $\mathrm{[C_8C_1im][BF_4]}$. Create a copy of `gr_c2_pack.inp` suitable for c8c1im using less ion pairs (200 for example), in order to have comparable numbers of atoms for the two ionic liquids.
 
 
 ----
@@ -131,11 +191,11 @@ Check that the number of bonds is correct.
 
 This creates input files for OpenMM. Run a short trajectory:
 
-    ./omm-test.py
+    ./omm.py
 
 Visualize the trajectory with vmd:
 
-    vmd -e ../mols/silica.vmd config.pdb traj.dcd
+    vmd -e silica.vmd config.pdb traj.dcd
 
 
 ## Add ionic liquid

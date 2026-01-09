@@ -13,7 +13,7 @@ config = 'config.pdb'
 statefile = 'state-eq.xml'
 
 temperature = 323.0*unit.kelvin
-pressure = (1.0, 1.0, 0.0)
+pressure = (1.0, 1.0, 0.0)*unit.bar
 
 print('#', datetime.datetime.now())
 print()
@@ -37,7 +37,7 @@ print('# Langevin integrator', temperature)
 integrator = openmm.LangevinIntegrator(temperature, 5/unit.picosecond, 1*unit.femtosecond)
 
 print('#   barostat', pressure)
-barostat = openmm.MonteCarloAnisotropicBarostat(pressure, temperature, True, True, False, 5)
+barostat = openmm.MonteCarloAnisotropicBarostat(pressure, temperature, True, True, False, 20)
 system.addForce(barostat)
 
 platform = openmm.Platform.getPlatformByName('CUDA')
@@ -55,6 +55,7 @@ for i, f in enumerate(system.getForces()):
 sim = app.Simulation(modeller.topology, system, integrator, platform, properties)
 
 #sim.context.setPositions(modeller.positions)
+# starting with no velocities is often more robust
 #sim.context.setVelocitiesToTemperature(temperature)
 
 print('# coordinates and velocities from', statefile)
