@@ -39,7 +39,7 @@ print('# Langevin integrator', temperature)
 integrator = openmm.LangevinIntegrator(temperature, 5/unit.picosecond, 1*unit.femtosecond)
 
 print('#   barostat', pressure)
-barostat = openmm.MonteCarloBarostat(pressure, temperature, 20)
+barostat = openmm.MonteCarloBarostat(pressure, temperature)
 #barostat = openmm.MonteCarloAnisotropicBarostat(pressure, temperature, True, True, False, 20)
 system.addForce(barostat)
 
@@ -61,7 +61,7 @@ for i, f in enumerate(system.getForces()):
 sim = app.Simulation(modeller.topology, system, integrator, platform, properties)
 
 sim.context.setPositions(modeller.positions)
-# starting with no velocities is often more robust
+# starting with velocities 0 is often more robust
 #sim.context.setVelocitiesToTemperature(temperature)
 
 # if starting from a previous state
