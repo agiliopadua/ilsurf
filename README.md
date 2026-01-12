@@ -18,18 +18,18 @@ Learn about the options of fftool:
 
     fftool -h
 
-Then cd to the `mols` folder and build a box of density 4.0 mol/L (somewhat below the experimental density to give ions room to equilibrate):
+Then cd to the `mols` folder and build a box of density 5.0 mol/L (somewhat below the experimental density to give ions room to equilibrate):
 
-    fftool 300 c2c1im.zmat 300 BF4.zmat --rho 4.0
+    fftool 300 c2c1im.zmat 300 BF4.zmat --rho 5.0
 
-This step creats an input file for Packmol. Familiarize yourself with this file. Use packmol to place the molecules in a box and visualize:
+This step creates an input file for Packmol, `pack.inp`. Familiarize yourself with this file. Use Packmol to place the molecules in a box and visualize:
 
     packmol < pack.inp
-    vmd simbox.xyz    
+    vmd simbox.xyz
     
 In the second step of fftool provide the `--xml` option to produce input fiels for OpenMM:
 
-    fftool 300 c2c1im.zmat 300 BF4.zmat --rho 4.0
+    fftool 300 c2c1im.zmat 300 BF4.zmat --rho 5.0 --xml
 
 Create a new folder and run a short simulation there:
 
