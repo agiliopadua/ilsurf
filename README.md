@@ -27,39 +27,41 @@ This step creates an input file for Packmol, `pack.inp`. Familiarize yourself wi
     packmol < pack.inp
     vmd simbox.xyz
     
-In the second step of fftool provide the `--xml` option to produce input fiels for OpenMM:
+In the second step of fftool provide the `--xml` option to produce input files for OpenMM:
 
     fftool 300 c2c1im.zmat 300 BF4.zmat --rho 5.0 --xml
 
 Create a new folder and run a short simulation there:
 
     mkdir ../c2mim_bf4
-    cp field.xml config.pdb omm-test.py ../c2mim_bf4
+    cp field.xml config.pdb omm.py ../c2mim_bf4
     cd ../c2mim_bf4
 
 Check the GPUs on your computer:
 
     nvidia-smi
 
-Edit `omm.py` to check settings of integrators, long-range interactions, GPU choice, etc.
+Edit `omm.py` to check settings concerning simulation conditions, integrators, long-range interactions, GPU choice, initial minimization, number of steps, etc.
 
-Run an test trajectory of a just few ps:
+Run a test trajectory of a few ps:
 
     ./omm.py &> omm.out &
 
 Use `cat omm.out` or `tail -f omm.out` to follow the progress of the simulation. 
 
-Visualize:
+Once it's done visualize:
 
     vmd ../mols/il.vmd config.pdb traj.dcd
 
-Run a longer equilibration (maybe 500 ps). Adapt the reporters, since there is no need to save configurations to the trajectory or print to screen so often. Check the convergence of the density in the `omm.out` file. 
+Run an equilibration (maybe 1 ns) at 323 K. Adapt the reporters, since there is no need to save configurations to the trajectory or print to screen so often. Check the convergence of the density in the `omm.out` file. 
 
 If not converged, continue the equilibration from the saved state in `state-eq.xml`.
 
-Starting from an equilibrated state, run an acquisition trajectory of 1 ns.
+Starting from an equilibrated state, run an acquisition trajectory of 2 ns.
 
-Use analysis notebooks with MDTraj (or a similar library) to compute structural and transport quantities such as radial distribution functions and ion diffusion coefficients.
+Analysis notebooks (using MDTraj and similar tools) are available to compute some structural or transport quantities, such as radial distribution functions and diffusion coefficients.
+
+In ionic systems, force fields with integer ionic charges often lead to slow dynamics. A fix for that is to scale ionic charges by 0.8 (see the code snippet in `scaleq.py`). You can try this and see the effect on the density and the diffusion coefficients.
 
 
 ## Create graphene planes from crystal structure
