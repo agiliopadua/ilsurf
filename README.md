@@ -1,14 +1,42 @@
 # Simulation of ionic liquids at interfaces
 
+## Objectives
+
+The following examples use molecular dynamics (MD) simulation to study the interfaces between ionic liquids and materials, described with all-atom interaction potentials.
+
+The aims are to develop skills in modelling heterogeneous systems at the atomistic level and in computing some of their properties, for example the structure of the interfacial layers (easy) or the capacitance of a charged interface (more challenging).
+
+Detailed guidelines are given on how to build periodic systems containing a slab of the solid material and a film of liquid. The objective is to learn how to build such systems from scratch, equilibrate them, run a trajectory, and finally compute some properties in post-treatment.
+
+The students are expected to go beyond the provided examples and test novel things (different system sizes, other ions upon request) or compute some other quantities (lifetimes in the interfacial layers). More challenging targets are also suggested, namely studying charged interfaces.
+
+The MD code used here is OpenMM, which is accessed mostly through its Python interface. It is a modern code very efficient on GPU processors. Some trajectory analysis tools provided are also in Python.
+
+Input files for two ionic liquids based on imidazolium cations with different alkyl side-chain lengths, and two materials — graphite and silica — are supplied.
+
+----
+
 ## Requirements
 
-- [clandp](https://github.com/paduagroup/clandp), force field for ionic liquids
+
 - [fftool](https://github.com/paduagroup/fftool), builds an initial configuration and the force field for a system
 - Packmol, packs molecules in a box
 - VMD, trajectory visualizer
 - VESTA, visualizer and editor of crystallographic files
-- OpenMM, molecular dynamics code
+- OpenMM, molecular dynamics code that is mostly used through its Python interface
 
+
+These are installed on the machines of the computing center.
+
+To access OpenMM one needs to activate the conda environment:
+
+    conda activate openmm
+
+If this does not work, you'll  need to include the contents of the `conda.rc` file (found in `/projects/DepartementChimie`) in your `.bashrc`.
+
+To use fftool, add `/projects/DepartementChimie/fftool` to your `PATH` in `.bashrc` or `.profile`.
+
+----
 
 ## Simple system with single-phase ionic liquid
 
@@ -55,7 +83,7 @@ Once it's done visualize:
 
 Run an equilibration (maybe 1 ns) at 323 K. Adapt the reporters, since there is no need to save configurations to the trajectory or print to screen so often. Check the convergence of the density in the `omm.out` file. 
 
-If not converged, continue the equilibration from the saved state in `state-eq.xml`.
+If not converged, continue the equilibration from the state saved in `state-eq.xml`.
 
 Starting from an equilibrated state, run an acquisition trajectory of 2 ns.
 
@@ -208,6 +236,6 @@ Use boxes with about $L_z = 120\ \AA$. Then use packmol with the input file `si_
 
 Run a short trajectory to see if the system is stable.
 
-Redo with $\mathrm{C_8C_1im][BF_4]}$ allowing for sufficient volume to place the ions in the packmol input file.
+Redo with $\mathrm{[C_8C_1im][BF_4]}$ allowing for sufficient volume to place the ions in the packmol input file.
 
 ---
