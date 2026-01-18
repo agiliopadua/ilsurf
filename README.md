@@ -18,8 +18,8 @@ Input files for two ionic liquids based on imidazolium cations with different al
 
 ## Requirements
 
-
 - [fftool](https://github.com/paduagroup/fftool), builds an initial configuration and the force field for a system
+- [clandp](https://github.com/paduagroup/clandp), force field for ionic liquids
 - Packmol, packs molecules in a box
 - VMD, trajectory visualizer
 - VESTA, visualizer and editor of crystallographic files
