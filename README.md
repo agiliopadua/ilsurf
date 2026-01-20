@@ -131,7 +131,7 @@ Add cutoff planes:
 
 Verify that the edges of the graphene planes are matching, with no duplicate atoms (only the bonds across box boundaries should be missing).
 
-Q. Count the number of unit calls along each perpendicular direction.
+Q. Count the number of unit cells along each perpendicular direction.
 
 Check that you have 680 atoms per plane. You can choose z(max) to control the number of planes. For the following work we will use 4 planes, so set z(max) accordingly.
 
@@ -170,7 +170,7 @@ With the planes stitched across box boundaries we expect 1.5 * 2720 = 4080 bonds
 
 Test a short run with just the graphene planes:
 
-    cp field.xml config.pdb omm.py../graph
+    cp field.xml config.pdb omm.py ../graph
     cd ../graph
 
 Graphite atoms have no electrostatic charge, therefore edit the `omm-test.py` file to replace the `createSystem()` line with just:
