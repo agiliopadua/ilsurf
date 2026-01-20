@@ -29,13 +29,31 @@ Input files for two ionic liquids based on imidazolium cations with different al
 
 The codes and tools are installed on the machines of the CBP and PSMN computing centers.
 
-To access OpenMM one needs to activate the following conda environment:
+#### Conda environment with OpenMM
+
+To access OpenMM tou'll need to activate the following conda environment:
 
     conda activate openmm
 
-If this does not work, you'll need to include the contents of the `/projects/DepartementChimie/conda.rc` file in your `.bashrc`.
+If this does not work, include the contents of the `/projects/DepartementChimie/conda.rc` file in your `.bashrc`
+
+    source /projects/DepartementChimie/conda.rc
+
+#### Jupyter notebooks
+
+In order to use Jupyter notebooks, you may need to issue the following command (with the openmm environment active):
+
+    ipython kernel install --user --name=openmm
+
+
+#### fftool
 
 To use fftool, add `/projects/DepartementChimie/fftool` to your `PATH` in `.bashrc` or `.profile`.
+
+    export PATH="/projects/DepartementChimie/fftool:$PATH"
+
+
+#### Additional ions, molecules, force field parameters
 
 If you need to use additional molecule input files with the clandp force field, you can download it from [github.com/paduagroup](https://github.com/paduagroup) 
 
