@@ -88,7 +88,7 @@ Use `cat omm.out` or `tail -f omm.out` to follow the progress of the simulation.
 
 Once it's done visualize:
 
-    vmd ../mols/il.vmd config.pdb traj.dcd
+    vmd -e ../mols/il.vmd config.pdb traj.dcd
 
 Run an equilibration (maybe 1 ns) at 323 K. Adapt the reporters, since there is no need to save configurations to the trajectory or print to screen so often. Check the convergence of the density in the `omm.out` file. 
 
